@@ -1,0 +1,473 @@
+@media screen and (max-width: 1510px) {
+    .contents {
+        width: 94%;
+    }
+    .logo a span {
+    	font-size: 35px;
+    }
+    .post .post_cont {
+    	width: 76%;
+    }
+    .search_box form button i {
+    	font-size: 20px;
+    }
+    .search_box form input {
+    	padding: 18px;
+    	font-size: 20px;
+    }
+    .search {
+    	width: 16%;
+    	margin-right: 2%;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .contents {
+    	width: 96%;
+    	padding: 0;
+    }
+    .header_menu {
+    	width: 80%;
+    }
+    .logo a span {
+    	font-size: 28px;
+    }
+    .header_menu nav ul li {
+    	width: 30%;
+    }
+    .introduction_main {
+    	width: 60%;
+    }
+    .card {
+    	width: 100%;
+    }
+    .post .post_cont li {
+    	width: 48%;
+    }
+    .post .post_cont li a {
+    	padding: 26px;
+    }
+}
+@media screen and (max-width: 1024px) {
+	.header {
+		height: 60px;
+	}
+	.logo a {
+		height: 60px;
+		line-height: 60px;
+	}
+	.logo a span {
+		font-size: 22px;
+	}
+	.header_menu nav ul li {
+		height: 60px;
+		line-height: 60px;
+	}
+	.header_menu nav ul li a i {
+		display: none;
+	}
+	.header_menu nav ul li a span {
+		margin-top: 0;
+	}
+	.introduction_main .main_center h1 {
+		margin-bottom: 20px;
+		font-size: 40px;
+	}
+	.introduction_main .main_center .profile {
+		margin-bottom: 20px;
+	}
+	.introduction_main .main_center p {
+		font-size: 18px;
+	}
+	.introduction_main .main_center p span {
+		font-size: 18px;
+	}
+	.introduction_sub {
+		height: 410px;
+	}
+	.main_card {
+		flex: 0 0 140px;
+	}
+	.main_card h1 {
+		font-size: 24px;
+	}
+	.post .post_title h2 {
+		font-size: 24px;
+	}
+	.codepen_title {
+		font-size: 30px;
+		padding-bottom: 16px;
+	}
+	.codepen {
+		justify-content: flex-start;
+	}
+	.codepen .item {
+		width: 31%;
+	}
+	.codepen .item .top_img:hover {
+		transform: unset;
+	}
+	.codepen .item a {
+		padding: 12px 0;
+	}
+	.mysite h1 {
+		margin-bottom: 10px;
+		font-size: 30px;
+	}
+	.mysite p {
+		margin-bottom: 20px;
+		font-size: 18px;
+	}
+}
+@media screen and (max-width: 900px) {
+	.logo a span {
+		font-size: 17px;
+	}
+	.introduction {
+		margin: 10px 0;
+	}
+	.introduction_main .main_center h1 {
+		margin-bottom: 10px;
+		font-size: 30px;
+	}
+	.introduction_main .main_center .profile {
+		margin-bottom: 10px;
+	}
+	.introduction_sub {
+		width: 270px;
+	}
+	.card {
+		overflow-x: scroll;
+	}
+	.sub_card_wrap {
+		overflow-x: unset;
+	}
+	.sub_card_wrap:after {
+		display: none;
+	}
+	.main_card:before {
+		top: -3px;
+	    left: 0px;
+	    width: calc(100% + 6px);
+	    height: calc(100% + 6px);
+	}
+	.main_card:after {
+		top: 0px;
+    	left: 3px;
+	}
+	.post {
+		margin: 40px 0;
+	}
+	.post .post_cont {
+		width: 100%;
+	}
+	.post .post_cont li {
+		width: 48%;
+		height: auto;
+	}
+	.post .post_cont li:hover {
+		transform: unset;
+    	transition: unset;
+	}
+	.post .post_cont li a {
+		padding: 15px;
+	}
+	.post .post_cont li a span {
+		font-size: 14px;
+	}
+	.post .post_title {
+		display: flex;
+		flex-wrap: wrap;
+		float: none;
+	}
+	.post .post_title h2 {
+		width: 100%;
+		margin-bottom: 0;
+	}
+	.post .post_title p {
+		margin-bottom: 20px;
+	}
+	.post .post_title .title_button {
+		width: 100%;
+	}
+	.post .post_title .title_button button {
+		padding: 11px 0;
+		border-radius: 12px;
+	}
+	.post .post_title .title_button button:last-child {
+		margin-bottom: 0;
+	}
+}
+@media screen and (max-width: 768px) {
+	.scroll_top  {
+		display: block;
+		bottom: 1.2rem;
+    	right: .8rem;
+	}
+
+	.logo a span {
+		font-size: 15px;
+	}
+	.introduction {
+		flex-wrap: wrap-reverse;
+	}
+	.introduction_main {
+		width: 100%;
+	}
+	.introduction_sub {
+		width: 94%;
+		margin-top: 40px;
+		margin-left: 8%;
+	}
+	.introduction_sub {
+		max-height: 550px;
+		margin-bottom: 20px;
+	}
+	.introduction_sub p {
+		left: 100px;
+    	bottom: 33px;
+    	width: 80%;
+		transform: unset;
+		font-size: 15.4px;
+	}
+	.introduction_sub img.big {
+		left: -8%;
+		top: -32px;
+		bottom: auto;
+		transform: unset;
+		width: 96%;
+		height: auto;
+		max-height: 350px;
+	}
+	.introduction_sub img.mini {
+		left: 20px;
+		bottom: 15px;
+		transform: unset;
+	}
+	.post {
+		flex-wrap: wrap;
+		margin: 70px 0;
+	}
+	.post .post_title {
+		width: 100%;
+		justify-content: center;
+	}
+	.post .post_title h2 {
+		width: 50%;
+		text-align: center;
+	}
+	.post .post_title p {
+		width: 50%;
+		line-height: 31px;
+		margin-bottom: 0 !important;
+		text-align: center;
+		vertical-align:bottom
+	}
+	.title_button {
+		margin-top: 10px;
+		margin-bottom: 40px;
+	}
+	.codepen .item {
+		width: 48%;
+	}
+	.m_sns {
+		display: flex;
+	}
+}
+@media screen and (max-width: 600px) {
+	.contents {
+		position: absolute;
+		left: 2%;
+    	top: 36px;
+	}
+	#toggle_theme {
+		top: 12px;
+		bottom: auto;
+    	right: 10px;
+	}
+	#toggle_theme i {
+		display: none !important;
+	}
+	.side_menu {
+		display: block;
+	}
+	.side_menu.active {
+		transition: all .5s ease;
+	}
+	.header {
+		z-index: 10;
+		position: fixed;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 44px;
+		background-color: #262626;
+	}
+	.logo a {
+		height: 44px;
+    	line-height: 44px;
+	}
+	.logo a span {
+		display: inline-block;
+		font-size: 22px;
+		margin-top: 2px;
+	}
+	.logo {
+		width: auto;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%,-50%);
+	}
+	.logo:before {
+		display: none;
+	}
+	.header_menu {
+		display: none;
+	}
+	.m_header_menu {
+		display: block;
+	}
+	.main_top {
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	.introduction {
+		margin-bottom: 40px;
+	}
+	.introduction_main .main_center {
+		text-align: center;
+	}
+	.profile {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		margin-bottom: 20px !important;
+	}
+	.introduction_main .main_center .profile .photo,
+	.introduction_main .main_center .profile .name,
+	.introduction_main .main_center .profile .birth {
+		float: none;
+	}
+	.introduction_main .main_center .profile .photo {
+		width: 100%;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	.introduction_main .main_center .profile .name,
+	.introduction_main .main_center .profile .birth {
+		width: 50%;
+		margin: 0;
+	}
+	.introduction_sub p {
+		width: 62%;
+		bottom: 17px;
+	}
+	.introduction_sub:hover {
+	    background-color: #201c29;
+	    transition: unset;
+	}
+	.introduction_sub:hover p {
+	    color: #a1a1af;
+	    transition: unset;
+	}
+	.introduction_sub:hover img.mini {
+	    border-color: #201c29;
+	    transition: unset;
+	}
+	.sub_card article h2:hover {
+	    color: #fff;
+	}
+	.post .post_title .title_button button:nth-child(2):hover {
+		border-color: #312d3c; 
+	}
+/*	.sub_card:focus-within, .sub_card:hover {
+	    -webkit-transform: unset;
+	    transform: unset;
+	    transition: unset;
+	}
+	.sub_card:focus-within~.sub_card, .sub_card:hover~.sub_card {
+	    -webkit-transform: unset;
+	    transform: unset;
+	    transition: unset;
+	}*/
+	.codepen_title {
+		text-align: center;
+		padding-bottom: 22px;
+	}
+	.codepen .item a {
+		padding: 9px 0;
+		font-size: 14px;
+	}
+	.mysite .sns {
+		display: none;
+	}
+}
+@media screen and (max-width: 420px) {
+	.side_menu.active {
+		transition: all .2s ease;
+	}
+	.main_top {
+		font-size: 16px;
+	}
+	.introduction_sub p {
+		bottom: 22px;
+		width: 60%;
+		font-size: 14px;
+	}
+	.introduction_main .main_center h1 {
+		font-size: 22px;
+	}
+	.introduction_main .main_center p {
+		font-size: 16px;
+	}
+	.introduction_main .main_center p span {
+		font-size: 16px;
+	}
+	.main_card h1 {
+		font-size: 22px;
+	}
+	.post .post_title h2 {
+		font-size: 22px;
+	}
+	.post .post_title .title_button button {
+		font-size: 16px;
+	}
+	.post .post_cont li {
+		width: 100%;
+	}
+	.post .post_cont li a span {
+		font-size: 16px;
+	}
+	.mysite h1 {
+		font-size: 22px;
+	}
+	.mysite p {
+		font-size: 16px;
+	}
+	.codepen .item {
+		width: 98%;
+		padding: 3%;
+		margin: 0 0 8% 0;
+	}
+	.codepen .item:last-child {
+		margin: 0 0 0 0;
+	}
+	.codepen .item p {
+		font-size: 13px;
+	}
+	.codepen .item a {
+		padding: 14px 0;
+    	font-size: 16px;
+	}
+}
+@media screen and (max-width: 378px) {
+	.logo a span {
+		font-size: 22px;
+	}
+	.introduction_sub {
+		max-height: 385px;
+	}
+	.introduction_sub img.mini {
+		bottom: 18px;
+	}
+} 

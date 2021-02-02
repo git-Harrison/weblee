@@ -1,0 +1,54 @@
+/* reset */
+body{direction:ltr;}
+body,div,ul,li,ol,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,fieldset,legend,textarea,p,select,button,figure{margin:0;padding:0;}
+em,address{font-style:normal;}
+ul,li,ol{list-style:none;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+a {color: #fff; text-decoration: none;}
+img,fieldset{border:0;}
+video, img {width: 100%;}
+table{width:100%; border-spacing:0; border-collapse: collapse;}
+button,select {cursor: pointer;}
+::before, ::after {box-sizing: border-box;}
+label, input, button, select, img {vertical-align: middle;border: none;max-width: 100%;}
+/*input:-internal-autofill-selected {
+    background-color: rgb(16,14,23) !important;
+    background-image: initial !important;
+    color: rgb(255,255,255) !important;
+}*/
+button {outline: none;}
+input:-webkit-autofill,input:-webkit-autofill:hover,input:-webkit-autofill:focus,input:-webkit-autofill:active {
+	transition: background-color 5000s ease-in-out 0s;
+	-webkit-transition: background-color 9999s ease-out;
+    -webkit-box-shadow: 0 0 0px 1000px #201c29 inset !important;
+    -webkit-text-fill-color: #fff !important;
+}
+body::-webkit-scrollbar { width: 10px; height: 8px; }
+body::-webkit-scrollbar-track { background-color:#000; }
+body::-webkit-scrollbar-thumb { background: #434343; }
+body::-webkit-scrollbar-thumb:hover { background: #404040; }
+body::-webkit-scrollbar-thumb:active { background: #808080; }
+body::-webkit-scrollbar-button { display: none; }
+
+.sub_card_wrap::-webkit-scrollbar {height: 8px; }
+.sub_card_wrap::-webkit-scrollbar-track { background-color:#000; }
+.sub_card_wrap::-webkit-scrollbar-thumb { background: #434343; }
+.sub_card_wrap::-webkit-scrollbar-thumb:hover { background: #404040; }
+.sub_card_wrap::-webkit-scrollbar-thumb:active { background: #808080; }
+.sub_card_wrap::-webkit-scrollbar-button { display: none; }
+
+.card::-webkit-scrollbar {height: 8px;}
+.card::-webkit-scrollbar-track { background-color:#000; }
+.card::-webkit-scrollbar-thumb { background: #434343; }
+.card::-webkit-scrollbar-thumb:hover { background: #404040; }
+.card::-webkit-scrollbar-thumb:active { background: #808080; }
+.card::-webkit-scrollbar-button { display: none; }
+
+html.white body::-webkit-scrollbar-track { background-color:#ececec; }
+html.white body::-webkit-scrollbar-thumb { background: #fbe7cf; }
+
+html.white .sub_card_wrap::-webkit-scrollbar-track { background-color:#ececec; }
+html.white .sub_card_wrap::-webkit-scrollbar-thumb { background: #fbe7cf; }
+
+html.white .card::-webkit-scrollbar-track { background-color:#ececec; }
+html.white .card::-webkit-scrollbar-thumb { background: #fbe7cf; }

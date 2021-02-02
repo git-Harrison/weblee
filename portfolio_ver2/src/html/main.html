@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width"/>
+	<title>Hun</title>
+
+	<!-- favicon -->
+	<link rel="shortcut icon" type="image/x-icon" href="../resources/images/hun_favicon.ico" />
+
+	<!-- css -->
+	<link rel="stylesheet" href="../resources/css/reset.css">
+	<link rel="stylesheet" href="../resources/css/common.css">
+	<link rel="stylesheet" href="../resources/css/main.css">
+	<link rel="stylesheet" href="../resources/css/mediaquery.css">
+	<link rel="stylesheet" href="../resources/css/font-awesome.min.css">
+
+	<!-- font -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<!-- 스크롤 탑 버튼 -->
+	<div class="scroll_top">
+		<svg width="32" height="32" viewBox="0 0 100 100">
+			<path fill="white" d="m50 0c-13.262 0-25.98 5.2695-35.355 14.645s-14.645 22.094-14.645 35.355 5.2695 25.98 14.645 35.355 22.094 14.645 35.355 14.645 25.98-5.2695 35.355-14.645 14.645-22.094 14.645-35.355-5.2695-25.98-14.645-35.355-22.094-14.645-35.355-14.645zm20.832 62.5-20.832-22.457-20.625 22.457c-1.207 0.74219-2.7656 0.57812-3.7891-0.39844-1.0273-0.98047-1.2695-2.5273-0.58594-3.7695l22.918-25c0.60156-0.61328 1.4297-0.96094 2.2891-0.96094 0.86328 0 1.6914 0.34766 2.293 0.96094l22.918 25c0.88672 1.2891 0.6875 3.0352-0.47266 4.0898-1.1562 1.0508-2.9141 1.0859-4.1133 0.078125z"></path>
+		</svg>
+	</div>
+	<!-- //스크롤 탑 버튼 -->
+
+	<!-- 화이트 모드 -->
+	<button id="toggle_theme" class="dark-mode-button" role="switch" aria-checked="false"><i class="fas fa-moon dark-mode-icon"></i><i class="fas fa-sun dark-mode-icon"></i></button>
+	<!-- //화이트 모드 -->
+
+	<!-- wrap -->
+	<div class="wrap">
+
+		<!-- 모바일 사이드 메뉴 -->
+		<div class="side_menu">
+			<div class="side_menu_wrap">
+				<div class="top_img">
+					<img src="http://leehun.dothome.co.kr/assets/ico/icon6.jpg" class="big" alt="">
+				</div>
+				<ul>
+					<li title="테스트1">
+						<a href="">
+							<i class="fa fa-user-o" aria-hidden="true"></i>
+							<span>Home</span>
+						</a>
+					</li>
+					<li title="테스트2" class="active">
+						<a href="">
+							<i class="fa fa-user-o" aria-hidden="true"></i>
+							<span>Sub page</span>
+						</a>
+					</li>
+					<li title="테스트3">
+						<a href="">
+							<i class="fa fa-user-o" aria-hidden="true"></i>
+							<span>test</span>
+						</a>
+					</li>
+					<li title="테스트4">
+						<a href="">
+							<i class="fa fa-user-o" aria-hidden="true"></i>
+							<span>test</span>
+						</a>
+					</li>
+					<li title="테스트5">
+						<a href="">
+							<i class="fa fa-user-o" aria-hidden="true"></i>
+							<span>test</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- //모바일 사이드 메뉴 -->
+
+		<!-- 모바일 헤더 메뉴 -->
+		<div class="m_header_menu">
+			<div class="icon-wrap">
+			   <div class="icon"></div>
+			</div> 
+		</div>
+		<!-- //모바일 헤더 메뉴 -->
+
+		<!-- PC 헤더 메뉴 -->
+		<header class="header">
+			<!-- logo -->
+			<div class="logo">
+				<a href="main.html" title="메인화면">
+					<span>Developers</span>
+				</a>
+			</div>
+			<!-- //logo -->
+			<!-- header_menu -->
+			<div class="header_menu">
+				<nav class="main-nav">
+					<ul>
+						<li title="테스트1">
+							<a href="">
+								
+								<span>test</span>
+							</a>
+						</li>
+						<li title="테스트2">
+							<a href="">
+								
+								<span>test</span>
+							</a>
+						</li>
+						<li title="테스트3">
+							<a href="">
+								
+								<span>test</span>
+							</a>
+						</li>
+						<li title="테스트4">
+							<a href="">
+								
+								<span>test</span>
+							</a>
+						</li>
+						<li title="테스트5">
+							<a href="">
+								
+								<span>test</span>
+							</a>
+						</li>
+						<li title="테스트6">
+							<a href="">
+								
+								<span>test</span>
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<!-- //header_menu -->
+			<!-- search -->
+			<!-- <div class="search">
+				<div class="search_box">
+					<form role="search" title="이 입력란을 입력해주세요." name="search" method="get" action="https://github.com/wognsl305/Portfolio" onsubmit="return check()">
+						<label for="search_input"></label>
+						<input type="search" placeholder="search" name="keyWord">
+						<button type="submit" value="찾기" title="클릭"><i class="fa fa-search" aria-hidden="true"></i></button>
+					</form>
+				</div>
+			</div> -->
+			<!-- //search -->
+		</header>
+		<!-- //PC 헤더 메뉴 -->
+
+		<!-- 컨텐츠 -->
+		<div class="contents">
+
+			<!-- container -->
+			<div class="container">
+
+				<!-- 첫소개 -->
+				<div class="introduction">
+					<div class="introduction_main">
+						<div class="main_top">
+							<span class="strong">웹 퍼블리셔 & 프런트엔드</span>
+							<span>2021.02</span>
+						</div>
+						<div class="main_center">
+							<h1>No, Absolutely Not</h1>
+							<div class="profile">
+								<div class="photo">
+									<img src="http://leehun.dothome.co.kr/assets/ico/icon6.jpg" alt="">
+								</div>
+								<div class="name">
+									<span class="nb prefix">Name</span>
+									<span class="nb">Jaehun LEE</span>
+								</div>
+								<div class="birth">
+									<span class="nb prefix">Birth</span>
+									<span class="nb">1994.12.28</span>
+								</div>
+							</div>
+							<p>I think the difference between a junior and senior front-end developer isn't in their understanding or familiarity with a particular tech stack, toolchain, or whether they can write flawless code. Instead, it all comes down to this: how they push back against bad ideas.<br><br>What I've learned this year is that web performance will suffer if you don't say no to the marketing department because you'll suddenly find yourself with eighteen different analytics scripts on your website. If you don't … 
+								<a href="">
+									<span>More details</span>
+								</a>
+							</p>
+						</div>
+					</div>
+					<div class="introduction_sub">
+						<img src="http://leehun.dothome.co.kr/assets/ico/icon6.jpg" class="big" alt="">
+						<img src="http://leehun.dothome.co.kr/assets/ico/icon6.jpg" class="mini" alt="">
+						<p>Your website is up and running! Now what? Connect it to your marketing tools. That’s what.</p>
+					</div>
+				</div>
+				<!-- //첫소개 -->
+
+				<!-- 작업물 리스트 -->
+				<div class="card">
+					<div class="main_card">
+						<h1>My<br>Production<br>Site</h1>
+						<p>Participation<br><span>100%</span></p>
+					</div>
+					<div class="sub_card_wrap">
+
+
+						<div class="sub_card">
+							<article>
+								<div class="sub_top">
+									<span>
+										<span class="strong">Work</span> Dec., 2020
+									</span>
+								</div>
+								<div class="link">
+									<a href="http://fittrix.co.kr/" target="_blank">
+										<h2>Fittrix Site production</h2>
+									</a>
+								</div>
+								<div class="sub_profile">
+									<div class="sub_profile_img">
+										<img src="../resources/images/fittrix.jpg" alt="fittrix_img">
+									</div>
+									<div class="sub_card_profile">
+										<span>Name</span>
+										<span class="strong">Fittrix</span>
+									</div>
+								</div>
+								<div class="card_button">
+									<button type="button">웹 표준</button>
+									<button type="button">하드코딩</button>
+									<button type="button">반응형</button>
+									<button type="button">마크업</button>
+									<button type="button">jQuery</button>
+									<button type="button">javascript</button>
+									<button type="button">HTML5</button>
+									<button type="button">CSS3</button>
+								</div>
+							</article>
+						</div>
+
+						<!-- 뮬라 -->
+						<div class="sub_card">
+							<article>
+								<div class="sub_top">
+									<span>
+										<span class="strong">Work</span> Nov., 2019
+									</span>
+								</div>
+								<div class="link">
+									<a href="http://leehun.dothome.co.kr/mulawear/index.html" target="_blank">
+										<h2>Mulawear Web Site Markup</h2>
+									</a>
+								</div>
+								<div class="sub_profile">
+									<div class="sub_profile_img">
+										<img src="../resources/images/mulawear.png" alt="mulawear_img">
+									</div>
+									<div class="sub_card_profile">
+										<span>Name</span>
+										<span class="strong">Mulawear</span>
+									</div>
+								</div>
+								<div class="card_button">
+									<button type="button">웹 표준</button>
+									<button type="button">하드코딩</button>
+									<button type="button">마크업</button>
+									<button type="button">jQuery</button>
+									<button type="button">javascript</button>
+									<button type="button">HTML5</button>
+									<button type="button">CSS3</button>
+								</div>
+							</article>
+						</div>
+						<!-- //뮬라 -->
+
+						<!-- 포트폴리오1	 -->
+						<div class="sub_card">
+							<article>
+								<div class="sub_top">
+									<span>
+										<span class="strong">Portfolio</span> Oct., 2019
+									</span>
+								</div>
+								<div class="link">
+									<a href="http://leehun.dothome.co.kr/portfolio/indexs/main.html" target="_blank">
+										<h2>Batman Concept Portfolio</h2>
+									</a>
+								</div>
+								<div class="sub_profile">
+									<div class="sub_profile_img">
+										<img src="../resources/images/portfolio_img.png" alt="portfolio_img">
+									</div>
+									<div class="sub_card_profile">
+										<span>Name</span>
+										<span class="strong">Portfolio</span>
+									</div>
+								</div>
+								<div class="card_button">
+									<button type="button">웹 표준</button>
+									<button type="button">하드코딩</button>
+									<button type="button">반응형</button>
+									<button type="button">마크업</button>
+									<button type="button">jQuery</button>
+									<button type="button">javascript</button>
+									<button type="button">HTML5</button>
+									<button type="button">CSS3</button>
+								</div>
+							</article>
+						</div>
+						<!-- //포트폴리오1 -->
+
+						<!-- 가비아 메인 -->
+						<div class="sub_card">
+							<article>
+								<div class="sub_top">
+									<span>
+										<span class="strong">Work</span> May, 2018
+									</span>
+								</div>
+								<div class="link">
+									<a href="http://leehun.dothome.co.kr/gabia/gabia/index.html" target="_blank">
+										<h2>Gabia Site Main Page</h2>
+									</a>
+								</div>
+								<div class="sub_profile">
+									<div class="sub_profile_img">
+										<img src="../resources/images/gabia_logo.png" alt="gabia_logo">
+									</div>
+									<div class="sub_card_profile">
+										<span>Name</span>
+										<span class="strong">Gabia Main</span>
+									</div>
+								</div>
+								<div class="card_button">
+									<button type="button">웹 표준</button>
+									<button type="button">하드코딩</button>
+									<button type="button">반응형</button>
+									<button type="button">마크업</button>
+									<button type="button">크로스브라우징</button>
+									<button type="button">HTML5</button>
+									<button type="button">CSS3</button>
+								</div>
+							</article>
+						</div>
+						<!-- //가비아 메인 -->
+
+						<!-- 가비아 서브 -->
+						<div class="sub_card">
+							<article>
+								<div class="sub_top">
+									<span>
+										<span class="strong">Work</span> May, 2018
+									</span>
+								</div>
+								<div class="link">
+									<a href="http://leehun.dothome.co.kr/gabia/gabia/idc/hosting.html" target="_blank">
+										<h2>Gabia Site Sub Page1</h2>
+									</a>
+									<a href="http://leehun.dothome.co.kr/gabia/gabia/cloud/service.html" target="_blank">
+										<h2>Gabia Site Sub Page2</h2>
+									</a>
+									<a href="http://leehun.dothome.co.kr/gabia/gabia/mail/mail.html" target="_blank">
+										<h2>Gabia Site Sub Page3</h2>
+									</a>
+								</div>
+								<div class="sub_profile">
+									<div class="sub_profile_img">
+										<img src="../resources/images/gabia_logo.png" alt="gabia_logo">
+									</div>
+									<div class="sub_card_profile">
+										<span>Name</span>
+										<span class="strong">Gabia Sub</span>
+									</div>
+								</div>
+								<div class="card_button">
+									<button type="button">웹 표준</button>
+									<button type="button">하드코딩</button>
+									<button type="button">반응형</button>
+									<button type="button">마크업</button>
+									<button type="button">크로스브라우징</button>
+									<button type="button">HTML5</button>
+									<button type="button">CSS3</button>
+								</div>
+							</article>
+						</div>
+						<!-- 가비아 서브 -->
+
+						<div class="sub_card">
+							<article>
+								<div class="sub_top">
+									<span>
+										<span class="strong">Work</span> Jul., 2018
+									</span>
+								</div>
+								<div class="link">
+									<a href="http://leehun.dothome.co.kr/javascript/sample01.html" target="_blank">
+										<h2>Image Slide Pull Page Sample</h2>
+									</a>
+								</div>
+								<div class="sub_profile">
+									<div class="sub_profile_img">
+										<img src="../resources/images/image_slide_page.png" alt="image_slide_page">
+									</div>
+									<div class="sub_card_profile">
+										<span>Name</span>
+										<span class="strong">Image Slide</span>
+									</div>
+								</div>
+								<div class="card_button">
+									<button type="button">하드코딩</button>
+									<button type="button">Web Version</button>
+									<button type="button">마크업</button>
+									<button type="button">jQuery</button>
+									<button type="button">javascript</button>
+									<button type="button">HTML5</button>
+									<button type="button">CSS3</button>
+								</div>
+							</article>
+						</div>
+
+						<div class="sub_card">
+							<article>
+								<div class="sub_top">
+									<span>
+										<span class="strong">Work</span> Aug., 2018
+									</span>
+								</div>
+								<div class="link">
+									<a href="http://leehun.dothome.co.kr/javascript/sample02.html" target="_blank">
+										<h2>Parallax Scrolling Site Sample</h2>
+									</a>
+								</div>
+								<div class="sub_profile">
+									<div class="sub_profile_img">
+										<img src="../resources/images/parallax_img.png" alt="parallax_img">
+									</div>
+									<div class="sub_card_profile">
+										<span>Name</span>
+										<span class="strong">Parallax Scrolling</span>
+									</div>
+								</div>
+								<div class="card_button">
+									<button type="button">하드코딩</button>
+									<button type="button">Web Version</button>
+									<button type="button">마크업</button>
+									<button type="button">Parallax</button>
+									<button type="button">Pull Page</button>
+									<button type="button">jQuery</button>
+									<button type="button">javascript</button>
+									<button type="button">HTML5</button>
+									<button type="button">CSS3</button>
+								</div>
+							</article>
+						</div>
+
+					</div>
+				</div>
+				<!-- //작업물 리스트 -->
+
+				<!-- 경력사항 -->
+				<div class="post">
+					<div class="post_title">
+						<h2>Career<br>history</h2>
+						<p>
+							<span>Powered by</span>
+							<a href="">CodePen Jobs</a>
+						</p>
+						<div class="title_button">
+							<button>Post a Job</button>
+							<button>See more Jobs</button>
+						</div>
+					</div>
+					<div class="post_cont">
+						<ul>
+							<li>
+								<a href="">
+									<span>
+										<strong>대학교 졸업</strong>
+										<br>2013.02 ~ 2018.02 (3년제)
+										<br>보건행정학과 
+									</span>
+									<div class="location">
+										<i class="fa fa-map-marker" aria-hidden="true"></i>
+										<p>충청남도 당진시</p>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<span>
+										<strong>웹 퍼블리셔 교육</strong>
+										<br>2018.03 ~ 2018.09 (6개월)
+										<br>강남 하이미디어 아카데미 
+									</span>
+									<div class="location">
+										<i class="fa fa-map-marker" aria-hidden="true"></i>
+										<p>서울특별시 서초구 강남</p>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<span>
+										<strong>웹 퍼블리셔 재직</strong>
+										<br>2018.12 ~ 2019.08 (8개월)
+										<br>럽디(주) - 웹&앱 퍼블리싱 / 커뮤니티사이트 개설
+									</span>
+									<div class="location">
+										<i class="fa fa-map-marker" aria-hidden="true"></i>
+										<p>서울특별시 동작구 사당</p>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<span>
+										<strong>웹 퍼블리셔 / 프런트 엔드 재직</strong>
+										<br>2019.11 ~ (재직중)
+										<br>실리콘투 - 웹&모바일 UX/UI 퍼블리싱 / 자사 쇼핑몰 사이트 
+									</span>
+									<div class="location">
+										<i class="fa fa-map-marker" aria-hidden="true"></i>
+										<p>경기도 성남시 분당구 판교역</p>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- 경력사항 -->
+
+				<!-- 코드펜 작업물 -->
+				<h1 class="codepen_title">My Codepen Work</h1>
+				<div class="codepen">
+					<div class="item">
+						<div class="top_img">
+							<img src="../resources/images/codepen_img1.png" alt="codepen_img">
+						</div>
+						<p>3D Cubu Animation</p>
+						<a href="https://codepen.io/wognsl305/pen/jKLgVQ">View the codepen</a>
+					</div>
+					<div class="item">
+						<div class="top_img">
+							<img src="../resources/images/codepen_img2.png" alt="codepen_img">
+						</div>
+						<p>TweenMax - Rocket Animation</p>
+						<a href="https://codepen.io/wognsl305/pen/EpNQZm">View the codepen</a>
+					</div>
+					<div class="item">
+						<div class="top_img">
+							<img src="../resources/images/codepen_img3.png" alt="codepen_img">
+						</div>
+						<p>CSS - Rocket Animation</p>
+						<a href="https://codepen.io/wognsl305/pen/MXOBwb">View the codepen</a>
+					</div>
+					<div class="item">
+						<div class="top_img">
+							<img src="../resources/images/codepen_img4.png" alt="codepen_img">
+						</div>
+						<p>Parllax - Text Animation Letter</p>
+						<a href="https://codepen.io/wognsl305/pen/NzVdeo">View the codepen</a>
+					</div>
+					<div class="item">
+						<div class="top_img">
+							<img src="../resources/images/codepen_img5.png" alt="codepen_img">
+						</div>
+						<p>Parllax - Sricky Menu</p>
+						<a href="https://codepen.io/wognsl305/pen/oMbdzy">View the codepen</a>
+					</div>
+					<div class="item">
+						<div class="top_img">
+							<img src="../resources/images/codepen_img6.png" alt="codepen_img">
+						</div>
+						<p>Script - Font-Size</p>
+						<a href="https://codepen.io/wognsl305/pen/MByGww">View the codepen</a>
+					</div>
+					<div class="item">
+						<div class="top_img">
+							<img src="../resources/images/codepen_img7.png" alt="codepen_img">
+						</div>
+						<p>SVG - Animation</p>
+						<a href="https://codepen.io/wognsl305/pen/YjWjYG">View the codepen</a>
+					</div>
+					<div class="item">
+						<div class="top_img">
+							<img src="../resources/images/codepen_img8.png" alt="codepen_img">
+						</div>
+						<p>CSS - Spinning Loader</p>
+						<a href="https://codepen.io/wognsl305/pen/eKJrzw">View the codepen</a>
+					</div>
+				</div>
+				<!-- //코드펜 작업물 -->
+
+				<!-- 푸터 -->
+				<div class="mysite">
+					<h1>How do you stay up to date in this fast⁠-⁠moving industry?</h1>
+					<p>A good start is to sign up for our weekly hand-written newsletter. We bring you the best articles and ideas from around the web, and what we think about them.</p>
+					<div class="sns">
+						<a href="http://leehun.dothome.co.kr/" target="_blank" title="포트폴리오사이트">My Site
+							<span>@leehun.dothome.co.kr</span>
+							<span class="none">View</span>
+						</a>
+						<a href="https://github.com/wognsl305/Portfolio" target="_blank" title="깃허브">GitHub
+							<span>@https://github.com/wognsl305/Portfolio</span>
+							<span class="none">Get url</span>
+						</a>
+						<a href="https://publ-reference.tistory.com/" target="_blank" title="레퍼런스">Reference(진행중)
+							<span>@https://publ-reference.tistory.com/</span>
+							<span class="none">Get url</span>
+						</a>
+						<a href="https://www.instagram.com/lj_hun/" target="_blank" title="인스타그램">Instagram
+							<span>@lj_hun</span>
+							<span class="none">Follow</span>
+						</a>
+					</div>
+					<div class="m_sns">
+						<a href="https://open.kakao.com/me/Pub_harrison" target="_blank" title="오픈카카오톡">
+							<img src="../resources/images/kakao_icon.jpg" alt="kakao_icon">
+						</a>
+						<a href="https://github.com/wognsl305/Portfolio" target="_blank" title="깃허브">
+							<svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+						</a>
+						<a href="https://www.instagram.com/lj_hun/" target="_blank" title="인스타그램">
+							<img src="../resources/images/instra_icon.png" alt="instra_icon">
+						</a>
+						<a href="https://publ-reference.tistory.com/" target="_blank" title="레퍼런스">
+							<img src="../resources/images/tistory_icon.png" alt="tistory_icon">
+						</a>
+					</div>
+				</div>
+				<!-- 푸터 -->
+				
+			</div>
+			<!-- //container -->
+
+		</div>
+		<!-- //컨텐츠 -->
+
+	</div>
+	<!-- //wrap -->
+	
+	<!-- script -->
+	<script src="../resources/js/jquery-3.4.1.js"></script>
+	<script src="../resources/js/main.js"></script>
+	<script src="../resources/js/common.js"></script>
+	<script src="../resources/js/fontawesome.js"></script>
+	<script>
+		$('document').ready(function () {
+
+			// function check(){
+			// 	if(document.search.keyWord.value==''){
+			// 	alert('검색어를 입력하세요'); 
+			// 	document.search.keyWord.focus();
+			// 	return false;
+			// 	}
+			// }
+
+			$(function(){
+			   $('.post_cont a').on("click",function(e){
+			       e.preventDefault();
+			   });
+			});
+
+		});
+		
+		
+		
+	</script>
+</body>
+</html>
