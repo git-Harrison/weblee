@@ -1,5 +1,5 @@
 /* reset */
-body{direction:ltr;}
+body{background-color: #d0d0d0;}
 body,div,ul,li,ol,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,fieldset,legend,textarea,p,select,button,figure{margin:0;padding:0;}
 em,address{font-style:normal;}
 ul,li,ol{list-style:none;}
@@ -23,4 +23,17 @@ input:-webkit-autofill,input:-webkit-autofill:hover,input:-webkit-autofill:focus
     -webkit-box-shadow: 0 0 0px 1000px #201c29 inset !important;
     -webkit-text-fill-color: #fff !important;
 }
+
+.container {
+	width: 1440px;
+	margin: 0 auto;
+}
+.weblee_sec1 {
+	
+}
+.sec1_contents {
+	position: relative;
+	
+}
+
 

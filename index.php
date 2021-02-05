@@ -1,3 +1,5 @@
+<? include_once('head.php'); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,16 +19,22 @@
 	<link rel="stylesheet" href="assets/css/index.css">
 </head>
 <body>
-	<header>
-		헤더d
-	</header>
-d
+
 	<main>
-		메인
+		
+		<div class="container">
+			
+			<section class="weblee_sec1">
+				<div class="sec1_contents">
+
+				</div>
+			</section>
+
+		</div>
+
 	</main>
-	
-	<footer>
-		푸터
-	</footer>
+
 </body>
 </html>
+
+<? include_once('footer.php'); ?>
