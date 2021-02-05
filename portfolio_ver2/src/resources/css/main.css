@@ -89,6 +89,7 @@ html.white .post .post_cont li a {
 /* contents */
 .introduction {
     display: flex;
+    display: -webkit-flex;
     justify-content: space-between;
     margin-bottom: 100px;
 }
@@ -211,6 +212,7 @@ html.white .post .post_cont li a {
 .card {
     box-sizing: content-box;
     display: flex;
+    display: -webkit-flex;
     position: relative;
     margin-bottom: 100px;
 }
@@ -220,6 +222,7 @@ html.white .post .post_cont li a {
     margin-right: 1rem;
     position: relative;
     display: flex;
+    display: -webkit-flex;
     flex-direction: column;
     justify-content: flex-end;
     padding: 1.5rem;
@@ -257,6 +260,7 @@ html.white .post .post_cont li a {
 }
 .main_card p {
     display: flex;
+    display: -webkit-flex;
     flex-direction: column;
     color: #fff;
 }
@@ -268,6 +272,7 @@ html.white .post .post_cont li a {
     margin: 0;
     padding: 30px 30px 30px 0;
     display: flex;
+    display: -webkit-flex;
     overflow-x: scroll;
 }
 .sub_card_wrap:after {
@@ -306,6 +311,7 @@ html.white .post .post_cont li a {
 }
 .sub_card article {
     display: flex;
+    display: -webkit-flex;
     flex-direction: column;
     min-width: 320px;
     min-height: 350px;
@@ -398,6 +404,7 @@ html.white .post .post_cont li a {
 .post {
     overflow: hidden;
     display: flex;
+    display: -webkit-flex;
     justify-content: space-between;
     margin-bottom: 100px;
 }
@@ -447,6 +454,7 @@ html.white .post .post_cont li a {
 }
 .post .post_cont ul {
     display: flex;
+    display: -webkit-flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
@@ -507,6 +515,7 @@ html.white .post .post_cont li a {
 }
 .codepen {
     display: flex;
+    display: -webkit-flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 100px;
