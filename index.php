@@ -14,6 +14,7 @@
 	<link href='http://fonts.googleapis.com/earlyaccess/nanumgothic.css' rel='stylesheet' type='text/css'>
 
 	<!-- 스타일시트 -->
+	<link rel="stylesheet" href="assets/css/jquery.fullPage.css">
 	<link rel="stylesheet" href="assets/css/index.css">
 </head>
 <body>
@@ -22,36 +23,39 @@
 
 			<!-- 컨텐츠 1 -->
 			<section class="section" id="section1">
-				
+				ㅇ
 			</section>
 			<!-- 컨텐츠 1 -->
 
 			<!-- //컨텐츠 2 -->
 			<section class="section" id="section2">
-			    
+			    ㅇ
 			</section>
 			<!-- //컨텐츠 2 -->
 
 			<!-- //컨텐츠 3 -->
 			<section class="section" id="section3">
-			    
+			    ㅇ
 			</section>
 			<!-- //컨텐츠 3 -->
+
 		</main>
 
 </body>
 </html>
 
-<script src="assets/js/jquery-3.4.1.js"></script>
-<script src="assets/js/fullpage.js"></script>
+<script src="assets/js/jquery-1.12.4.js"></script>
+<script src="assets/js/jquery.fullPage.js"></script>
 <script>
-     var myFullpage = new fullpage('#main', {
-     	licenseKey: 'YOUR_KEY_HERE',
-        anchors: ['firstPage', 'secondPage', '3rdPage'],
-        sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C'],
-        navigation: true,
-        navigationPosition: 'right',
-        navigationTooltips: ['First page', 'Second page', 'Third and last page']
-    });
+
+
+		$('#main').fullpage({
+			anchors: ['firstPage', 'secondPage', '3rdPage'],
+			navigation: true,
+			navigationPosition: 'right',
+			navigationTooltips: ['First page', 'Second page', 'Third and last page']
+		});
+
+
 </script>
 <? include_once('footer.php'); ?>

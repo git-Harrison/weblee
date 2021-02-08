@@ -24,16 +24,21 @@ input:-webkit-autofill,input:-webkit-autofill:hover,input:-webkit-autofill:focus
     -webkit-text-fill-color: #fff !important;
 }
 
-#section0{
-	background: -webkit-gradient(linear, top left, bottom left, from(#4bbfc3), to(#7baabe));
-	background: -webkit-linear-gradient(#d0d0d0, #d0d0d0);
-	background: linear-gradient(#d0d0d0,#d0d0d0);
+#section1{
+	background: -webkit-gradient(linear, top left, bottom left, from(#eaeaea), to(#dcdcdc));
+	background: -webkit-linear-gradient(#eaeaea,#dcdcdc);
+	background: linear-gradient(#eaeaea,#dcdcdc);
 }
 
-#section1{
-	background: -webkit-gradient(linear, top left, bottom left, from(#969ac6), to(#636F8F));
-	background: -webkit-linear-gradient(#d0d0d0, #d0d0d0);
-	background: linear-gradient(#d0d0d0,#d0d0d0);
+#section2{
+	background: -webkit-gradient(linear, top left, bottom left, from(#dcdcdc), to(#d0d0d0));
+	background: -webkit-linear-gradient(#dcdcdc,#d0d0d0);
+	background: linear-gradient(#dcdcdc,#d0d0d0);
+}
+#section3{
+	background: -webkit-gradient(linear, top left, bottom left, from(#d4d4d4), to(#d0d0d0));
+	background: -webkit-linear-gradient(#d0d0d0,#c3c3c3);
+	background: linear-gradient(#d0d0d0,#c3c3c3);
 }
 
 
