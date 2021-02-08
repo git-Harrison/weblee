@@ -1,5 +1,3 @@
-<? include_once('head.php'); ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,21 +18,40 @@
 </head>
 <body>
 
-	<main>
-		
-		<div class="container">
-			
-			<section class="weblee_sec1">
-				<div class="sec1_contents">
+		<main id="main">
 
-				</div>
+			<!-- 컨텐츠 1 -->
+			<section class="section" id="section1">
+				
 			</section>
+			<!-- 컨텐츠 1 -->
 
-		</div>
+			<!-- //컨텐츠 2 -->
+			<section class="section" id="section2">
+			    
+			</section>
+			<!-- //컨텐츠 2 -->
 
-	</main>
+			<!-- //컨텐츠 3 -->
+			<section class="section" id="section3">
+			    
+			</section>
+			<!-- //컨텐츠 3 -->
+		</main>
 
 </body>
 </html>
 
+<script src="assets/js/jquery-3.4.1.js"></script>
+<script src="assets/js/fullpage.js"></script>
+<script>
+     var myFullpage = new fullpage('#main', {
+     	licenseKey: 'YOUR_KEY_HERE',
+        anchors: ['firstPage', 'secondPage', '3rdPage'],
+        sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C'],
+        navigation: true,
+        navigationPosition: 'right',
+        navigationTooltips: ['First page', 'Second page', 'Third and last page']
+    });
+</script>
 <? include_once('footer.php'); ?>

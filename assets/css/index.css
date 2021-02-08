@@ -24,16 +24,16 @@ input:-webkit-autofill,input:-webkit-autofill:hover,input:-webkit-autofill:focus
     -webkit-text-fill-color: #fff !important;
 }
 
-.container {
-	width: 1440px;
-	margin: 0 auto;
+#section0{
+	background: -webkit-gradient(linear, top left, bottom left, from(#4bbfc3), to(#7baabe));
+	background: -webkit-linear-gradient(#d0d0d0, #d0d0d0);
+	background: linear-gradient(#d0d0d0,#d0d0d0);
 }
-.weblee_sec1 {
-	
-}
-.sec1_contents {
-	position: relative;
-	
+
+#section1{
+	background: -webkit-gradient(linear, top left, bottom left, from(#969ac6), to(#636F8F));
+	background: -webkit-linear-gradient(#d0d0d0, #d0d0d0);
+	background: linear-gradient(#d0d0d0,#d0d0d0);
 }
 
 
