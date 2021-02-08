@@ -23,7 +23,20 @@
 
 			<!-- 컨텐츠 1 -->
 			<section class="section" id="section1">
-				ㅇ
+				<div class="sec1_bg_L">
+					<div class="cont_L">
+						<h1>WEB | LEE</h1>
+						<div class="lee_img">
+							<img src="assets/images/weblee.jpg" alt="weblee">
+						</div>
+					</div>
+				</div>
+
+				<div class="sec1_bg_R">
+					<div class="cont_R">
+						
+					</div>
+				</div>
 			</section>
 			<!-- 컨텐츠 1 -->
 
@@ -53,7 +66,7 @@
 			anchors: ['firstPage', 'secondPage', '3rdPage'],
 			navigation: true,
 			navigationPosition: 'right',
-			navigationTooltips: ['First page', 'Second page', 'Third and last page']
+			navigationTooltips: ['컨텐츠1', '컨텐츠2', '컨텐츠3']
 		});
 
 
