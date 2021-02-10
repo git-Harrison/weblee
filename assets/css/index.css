@@ -178,18 +178,21 @@ main {
 	transition: all .4s cubic-bezier(0.33, 1, 0.68, 1);
 }
 .cont_R {
+	position: relative;
 	float: left;
 	overflow: hidden;
 	width: 922px;
 	height: 100%;
 	background-color: #fafafa;
 	transition: all .4s cubic-bezier(0.33, 1, 0.68, 1);
+	background: url(../images/contr_bg.jpg) no-repeat;
+	background-size: 930px 770px;
+    background-position: -5px -2px;
 }
-
 .marker {
 	z-index: 9;
 	position: absolute;
-	left: 0;
+	left: -56%;
 	top: 0;
 	transform: rotate(270deg);
 	white-space: nowrap;
@@ -202,7 +205,22 @@ main {
 	cursor: default;
 	transition: all .4s cubic-bezier(0.33, 1, 0.68, 1);
 }
-
+.center_title {
+	position: absolute;
+	left: 56%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+.center_title h2 {
+	font-size: 46px;
+	font-weight: bold;
+	color: #343434;
+}
+.center_title p {
+	font-size: 26px;
+	margin-top: 6px;
+	color: #343434;
+}
 .color_mode {
 	position: absolute;
 	right: 10px;
@@ -246,6 +264,9 @@ main {
 	.cont_R {
 		width: 842px;
 	}
+	.marker {
+		left: -61%;
+	}
 }
 @media screen and (max-width: 1360px) {
 	#section1 {
@@ -267,7 +288,7 @@ main {
 		width: 920px;
 	}
 	.marker {
-		left: -140px;
+		left: -56%;
 	}
 }
 @media screen and (max-width: 1280px) {
@@ -289,5 +310,7 @@ main {
 	.cont_R {
 		width: 840px;
 	}
-
+	.marker {
+		left: -61%;
+	}
 }
