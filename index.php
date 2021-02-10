@@ -23,20 +23,47 @@
 
 			<!-- 컨텐츠 1 -->
 			<section class="section" id="section1">
-				<div class="sec1_bg_L">
-					<div class="cont_L">
-						<h1>WEB | LEE</h1>
-						<div class="lee_img">
-							<img src="assets/images/weblee.jpg" alt="weblee">
+					<div class="sec1_bg_L"></div>
+					<div class="sec1">
+						<div class="cont_L">
+							<h1>WEB | LEE</h1>
+							<div class="lee_img">
+								<img src="assets/images/weblee.jpg" alt="weblee" class="black">
+								<img src="assets/images/weblee_white.jpg" alt="weblee" class="white">
+							</div>
+							<div class="title">Web Publisher<br>and<br>Fornt-End Developer</div>
+							<div class="sub_title">free worldwide shipping is available for every order.</div>
+						</div>
+						<div class="cont_R">
+							<div class="marker">
+								<span>WEBLEE</span>
+								<span>WEBLEE</span>
+								<span>WEBLEE</span>
+								<span>WEBLEE</span>
+								<span>WEBLEE</span>
+								<span>WEBLEE</span>
+								<span>WEBLEE</span>
+								<span>WEBLEE</span>
+								<span>WEBLEE</span>
+								<span>WEBLEE</span>
+								<span>WEBLEE</span>
+								<span>WEBLEE</span>
+								<span>WEBLEE</span>
+								<span>WEBLEE</span>
+								<span>WEBLEE</span>
+								<span>WEBLEE</span>
+								<span>WEBLEE</span>
+							</div>
+							<div id="toggle_theme" class="color_mode">
+								<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none" role="img" class="icon color-palette-icon">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M22 11C22 17.05 17.05 22 11 22C4.95 22 0 17.05 0 11C0 4.95 4.95 0 11 0C17.05 0 22 4.95 22 11ZM11 19C15.411 19 19 15.411 19 11C19 6.589 15.411 3 11 3V19Z" fill="#3D3D4E"></path>
+								</svg>
+							</div>
 						</div>
 					</div>
-				</div>
-
-				<div class="sec1_bg_R">
-					<div class="cont_R">
+					<div class="sec1_bg_R">
 						
 					</div>
-				</div>
 			</section>
 			<!-- 컨텐츠 1 -->
 
@@ -59,16 +86,6 @@
 
 <script src="assets/js/jquery-1.12.4.js"></script>
 <script src="assets/js/jquery.fullPage.js"></script>
-<script>
+<script src="assets/js/index.js"></script>
 
-
-		$('#main').fullpage({
-			anchors: ['firstPage', 'secondPage', '3rdPage'],
-			navigation: true,
-			navigationPosition: 'right',
-			navigationTooltips: ['컨텐츠1', '컨텐츠2', '컨텐츠3']
-		});
-
-
-</script>
 <? include_once('footer.php'); ?>
