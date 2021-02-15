@@ -1,74 +1,9 @@
-/* reset */
-body{background-color: #d0d0d0;}
-body,div,ul,li,ol,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,fieldset,legend,textarea,p,select,button,figure{margin:0;padding:0;}
-em,address{font-style:normal;}
-ul,li,ol{list-style:none;}
-h1,h2,h3,h4,h5,h6{font-weight:normal;}
-a {color: #fff; text-decoration: none;}
-img,fieldset{border:0;}
-video, img {width: 100%;}
-table{width:100%; border-spacing:0; border-collapse: collapse;}
-button,select {cursor: pointer;}
-::before, ::after {box-sizing: border-box;}
-label, input, button, select, img {vertical-align: middle;border: none;max-width: 100%;}
-/*input:-internal-autofill-selected {
-    background-color: rgb(16,14,23) !important;
-    background-image: initial !important;
-    color: rgb(255,255,255) !important;
-}*/
-button {outline: none;}
-input:-webkit-autofill,input:-webkit-autofill:hover,input:-webkit-autofill:focus,input:-webkit-autofill:active {
-	transition: background-color 5000s ease-in-out 0s;
-	-webkit-transition: background-color 9999s ease-out;
-    -webkit-box-shadow: 0 0 0px 1000px #201c29 inset !important;
-    -webkit-text-fill-color: #fff !important;
-}
-html {
-	transition: all .4s cubic-bezier(0.33, 1, 0.68, 1);
-}
-html.white {
-	transition: all .4s cubic-bezier(0.33, 1, 0.68, 1);
-}
-html.white .cont_L .lee_img .black {
-	display: none;
-}
-html.white .cont_L .lee_img .white {
-	display: inline-block;
-}
-html.white .sec1_bg_R,
-html.white .cont_L {
-	background-color: #fafafa;
-	transition: all .4s cubic-bezier(0.33, 1, 0.68, 1);
-}
-html.white .sec1_bg_L,
-html.white .cont_R {
-	background-color: #343434;
-	transition: all .4s cubic-bezier(0.33, 1, 0.68, 1);
-}
-html.white .cont_L h1,
-html.white .cont_L div {
-	color: #343434;
-	transition: all .4s cubic-bezier(0.33, 1, 0.68, 1);
-}
-html.white .marker span {
-	color: #fafafa;
-	transition: all .4s cubic-bezier(0.33, 1, 0.68, 1);
-}
-html.white .color_mode path {
-	fill: #fafafa;
-	transition: all .4s cubic-bezier(0.33, 1, 0.68, 1);
-}
-
 main {
 
 }
+
 #section1{
 	position: relative;
-	display: flex;
-	flex-wrap: nowrap;
-	max-width: 1920px;
-	width: 1920px;
-	margin: 0 auto;
 	overflow: hidden;
 }
 
@@ -82,32 +17,33 @@ main {
 	background: -webkit-linear-gradient(#d0d0d0,#c3c3c3);
 	background: linear-gradient(#d0d0d0,#c3c3c3);
 }
-.sec1 {
-	overflow: hidden;
+.sec_container {
 	z-index: 1;
+	overflow: hidden;
 	position: absolute;
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%,-50%);
-	width: 1440px;
-	height: 80vh;
+	width: 1520px;
+	height: 86vh;
 	box-shadow: 0 0 3rem rgb(17 17 17 / 70%);
+	border-radius: 18px;
 }
-.sec1_bg_L {
+/*.sec1_bg_L {
 	z-index: 0;
 	float: left;
 	width: 758px;
 	height: 100vh;
 	background-color: #fafafa;
-}
-.sec1_bg_R {
+}*/
+/*.sec1_bg_R {
 	z-index: 0;
 	position: relative;
 	float: left;
 	width: 1162px;
 	height: 100vh;
 	background-color: #343434;
-}
+}*/
 .cont_L {
 	position: relative;
 	float: left;
@@ -117,7 +53,7 @@ main {
 	transition: all .4s cubic-bezier(0.33, 1, 0.68, 1);
 }
 .cont_L h1 {
-	padding: 30px;
+	padding: 72px 30px 30px 30px;
 	font-size: 40px;
 	font-weight: bold;
 	color: #fff;
@@ -159,7 +95,7 @@ main {
 	z-index: 2;
 	position: absolute;
 	left: 0;
-	top: 18%;
+	top: 24%;
 	padding: 30px;
 	font-size: 45px;
 	font-weight: bold;
@@ -170,7 +106,7 @@ main {
 	z-index: 2;
 	position: absolute;
 	left: 0;
-	bottom: 14%;
+	bottom: 10%;
 	max-width: 300px;
 	padding: 30px;
 	font-size: 26px;
@@ -181,19 +117,19 @@ main {
 	position: relative;
 	float: left;
 	overflow: hidden;
-	width: 922px;
+	width: 1002px;
 	height: 100%;
 	background-color: #fafafa;
 	transition: all .4s cubic-bezier(0.33, 1, 0.68, 1);
-	background: url(../images/contr_bg.jpg) no-repeat;
-	background-size: 930px 770px;
-    background-position: -5px -2px;
+	background: url(../images/contr_bg_white.png) no-repeat;
+	background-size: 1020px 860px;
+    background-position: 0px -17px;
 }
 .marker {
 	z-index: 9;
 	position: absolute;
-	left: -56%;
-	top: 0;
+	left: -495px;
+	top: 75px;
 	transform: rotate(270deg);
 	white-space: nowrap;
 }
@@ -234,83 +170,90 @@ main {
 	transition: transform .4s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
+/* contact_us */
+.contact_us {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-color: #343434;
+}
+.contact_us h1 {
+	z-index: 1;
+	position: absolute;
+	left: 200px;
+	top: 52%;
+	font-size: 60px;
+	font-weight: bold;
+	color: #fff;
+}
+.map {
+	position: relative;
+	background-color: #fff;
+	height: 56vh;
+}
+.map iframe {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.map img {
+	width: 100%;
+	height: 100%;
+}
+.mail_send_form {
+	position: absolute;
+	right: 100px;
+	top: 0;
+	width: 400px;
+	min-height: 590px;
+	padding: 20px 36px;
+	border-radius: 0 0 12px 12px;
+	background-color: #fafafa;
+}
+
+.mail_send_form h2 {
+	padding: 10px 0 50px 0;
+	font-size: 13px;
+	font-weight: bold;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+.mail_send_form fieldset {
+	margin-bottom: 40px;
+}
+.mail_send_form .button-xlarge {
+	position: absolute;
+	right: 0;
+	bottom: 130px;
+	padding: 17px 72px 17px 17px;
+	color: #fff;
+	background-color: #1c1c1c;
+	font-size: 14px;
+	border-radius: 8px 0px 0px 8px;
+	font-family: 'Roboto', sans-serif;
+}
+.mail_send_form .button-xlarge:before {
+	content: '';
+	position: absolute;
+	right: 27px;
+	top: 49%;
+	transform: translate(-50%,-50%);
+	width: 20px;
+	height: 1px;
+	background-color: #fafafa;
+}
+
+
+
 @media screen and (max-width: 1520px) {
-	#section1 {
-		width: 1520px;
-	}
-	.sec1 {
-		width: 1440px;
-	}
-	.sec1_bg_L {
-		width: 558px;
-	}
-	.sec1_bg_R {
-		width: 962px;
-	}
+
 }
 @media screen and (max-width: 1440px) {
-	#section1 {
-		width: 1440px;
-	}
-	.sec1 {
-		width: 1360px;
-	}
-	.sec1_bg_L {
-		width: 558px;
-	}
-	.sec1_bg_R {
-		width: 882px;
-	}
-	.cont_R {
-		width: 842px;
-	}
-	.marker {
-		left: -61%;
-	}
+
 }
 @media screen and (max-width: 1360px) {
-	#section1 {
-		width: 1360px;
-	}
-	.sec1 {
-		width: 1280px;
-	}
-	.sec1_bg_L {
-		width: 400px;
-	}
-	.sec1_bg_R {
-		width: 960px;
-	}
-	.cont_L {
-		width: 360px;
-	}
-	.cont_R {
-		width: 920px;
-	}
-	.marker {
-		left: -56%;
-	}
+
 }
 @media screen and (max-width: 1280px) {
-	#section1 {
-		width: 1280px;
-	}
-	.sec1 {
-		width: 1200px;
-	}
-	.sec1_bg_L {
-		width: 400px;
-	}
-	.sec1_bg_R {
-		width: 880px;
-	}
-	.cont_L {
-		width: 360px;
-	}
-	.cont_R {
-		width: 840px;
-	}
-	.marker {
-		left: -61%;
-	}
+
 }
