@@ -112,9 +112,9 @@
 								<h2><em>Thanks</em> for contacting us! We will get back to you soon!
 								</h2>
 							</div>
-							<p style="display:none" class="ps">
-								보내기 버튼을 누른 후 5초 정도의 시간이 소요됩니다.<br><br>
-								It will take about 5 seconds after pressing the Send button.
+							<p class="ps">
+								보내기 버튼을 누른 후 3초 정도의 시간이 소요됩니다.<br><br>
+								It will take about 3 seconds after pressing the Send button.
 							</p>
 						</form>
 					</div>

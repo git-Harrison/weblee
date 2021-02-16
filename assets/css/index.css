@@ -210,8 +210,8 @@ main {
 	border-radius: 0 0 12px 12px;
 	background-color: #fafafa;
 }
-.mail_send_form p {
-	padding-top: 80px;
+.mail_send_form .ps {
+	padding-top: 60px;
 	font-size: 12px;
 }
 .mail_send_form h2 {
@@ -295,14 +295,81 @@ main {
 }
 
 @media screen and (max-width: 1520px) {
-
+	.sec_container {
+		width: 1440px;
+	}
+	.cont_R {
+		width: 922px;
+		background-size: 944px 860px;
+	}
+	html.white .cont_R {
+		background-size: 944px 860px;
+	}
+	.marker {
+		left: -510px;
+	}
 }
 @media screen and (max-width: 1440px) {
-
+	.sec_container {
+		width: 1360px;
+	}
+	.cont_L {
+		width: 450px;
+	}
+	.cont_R {
+		width: 910px;
+	}
+	.marker {
+		left: -511px;
+	}
 }
 @media screen and (max-width: 1360px) {
-
+	.sec_container {
+		width: 1280px;
+	}
+	.cont_L {
+		width: 450px;
+	}
+	.cont_R {
+		width: 830px;
+		background-size: 860px 860px;
+	}
+	html.white .cont_R {
+		background-size: 860px 860px;
+	}
 }
 @media screen and (max-width: 1280px) {
-
+	.sec_container {
+		width: 1110px;
+	}
+	.cont_L {
+		width: 400px;
+	}
+	.cont_L .title {
+		font-size: 36px;
+	}
+	.cont_L .lee_img {
+		right: -362px;
+		width: 362px;
+	}
+	.cont_L .lee_img:before {
+		top: -120px;
+	}
+	.cont_L .lee_img:after {
+		bottom: -120px;
+	}
+	.cont_L .sub_title {
+		bottom: 14%;
+		font-size: 22px;
+	}
+	.cont_R {
+		width: 710px;
+    	background-size: 740px 860px;
+	}
+	html.white .cont_R {
+		background-size: 740px 860px;
+	}
+	.marker {
+		left: -544px;
+	}
 }
