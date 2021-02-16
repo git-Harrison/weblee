@@ -9,10 +9,16 @@ $('document').ready(function () {
 
 	if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
 	    document.documentElement.classList.add("white");
+	    document.documentElement.classList.add("color");
 	}
 
-	document.getElementById("toggle_theme").addEventListener("click",() => {
+	document.getElementById("section1_theme").addEventListener("click",() => {
 	  document.documentElement.classList.toggle("white");
 	})
+	document.getElementById("section2_theme").addEventListener("click",() => {
+	  document.documentElement.classList.toggle("color");
+	})
+
 	
 });
+

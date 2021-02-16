@@ -22,14 +22,58 @@
 <body>
 	<main id="main">
 
+		<!-- 컨텐츠 1 -->
+		<section class="section" id="section1">
+			<div class="sec_container">
+				<div class="cont_L">
+					<h1>WEB | LEE</h1>
+					<div class="lee_img">
+						<img src="assets/images/weblee.jpg" alt="weblee" class="black">
+						<img src="assets/images/weblee_white.jpg" alt="weblee" class="white">
+					</div>
+					<div class="title">Web Publisher<br>and<br>Fornt-End Developer</div>
+					<div class="sub_title">free worldwide shipping is available for every order.</div>
+				</div>
+				<div class="cont_R">
+					<div class="marker">
+						<span>WEBLEE</span>
+						<span>WEBLEE</span>
+						<span>WEBLEE</span>
+						<span>WEBLEE</span>
+						<span>WEBLEE</span>
+						<span>WEBLEE</span>
+						<span>WEBLEE</span>
+						<span>WEBLEE</span>
+						<span>WEBLEE</span>
+						<span>WEBLEE</span>
+						<span>WEBLEE</span>
+						<span>WEBLEE</span>
+						<span>WEBLEE</span>
+						<span>WEBLEE</span>
+						<span>WEBLEE</span>
+						<span>WEBLEE</span>
+						<span>WEBLEE</span>
+					</div>
+					<div class="center_title">
+						<h2>SWEATSHIRT</h2>
+						<p>PRODUCT CODE 059608</p>
+					</div>
+					<div id="section1_theme" class="color_mode">
+						<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none" role="img" class="icon color-palette-icon">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M22 11C22 17.05 17.05 22 11 22C4.95 22 0 17.05 0 11C0 4.95 4.95 0 11 0C17.05 0 22 4.95 22 11ZM11 19C15.411 19 19 15.411 19 11C19 6.589 15.411 3 11 3V19Z" fill="#3D3D4E"></path>
+						</svg>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- 컨텐츠 1 -->
+
 		<!-- //컨텐츠 2 -->
 		<section class="section" id="section2">
 			<div class="sec_container">
 				<div class="contact_us">
 					<h1>Contact us</h1>
-					<div class="map">
-						<img src="assets/images/map_bg_black.jpg" alt="map">
-					</div>
+					<div class="map"></div>
 					<div class="mail_send_form">
 						<h2>피드백 문의</h2>
 					    <form class="gform" method="POST" data-email="wognsl305@naver.com" action="https://script.google.com/macros/s/AKfycbxZl4zj1MIOahRvkI3GIFg05S9ziv4pmB_aeSA1/exec">
@@ -68,6 +112,10 @@
 								<h2><em>Thanks</em> for contacting us! We will get back to you soon!
 								</h2>
 							</div>
+							<p style="display:none" class="ps">
+								보내기 버튼을 누른 후 5초 정도의 시간이 소요됩니다.<br><br>
+								It will take about 5 seconds after pressing the Send button.
+							</p>
 						</form>
 					</div>
 					<div class="our">
@@ -82,7 +130,6 @@
 						<div class="our_box">
 							<h4>이메일</h4>
 							<div>
-<!-- 								kakaoTalk ID - LHunnik<br> -->
 								wognsl305@naver.com<br>
 								wognsl95@gmail.com<br>
 							</div>
@@ -98,48 +145,7 @@
 							</li>
 						</ul>
 					</div>
-				</div>
-			</div>
-		</section>
-		<!-- //컨텐츠 2 -->
-
-		<!-- 컨텐츠 1 -->
-		<section class="section" id="section1">
-			<div class="sec_container">
-				<div class="cont_L">
-					<h1>WEB | LEE</h1>
-					<div class="lee_img">
-						<img src="assets/images/weblee.jpg" alt="weblee" class="black">
-						<img src="assets/images/weblee_white.jpg" alt="weblee" class="white">
-					</div>
-					<div class="title">Web Publisher<br>and<br>Fornt-End Developer</div>
-					<div class="sub_title">free worldwide shipping is available for every order.</div>
-				</div>
-				<div class="cont_R">
-					<div class="marker">
-						<span>WEBLEE</span>
-						<span>WEBLEE</span>
-						<span>WEBLEE</span>
-						<span>WEBLEE</span>
-						<span>WEBLEE</span>
-						<span>WEBLEE</span>
-						<span>WEBLEE</span>
-						<span>WEBLEE</span>
-						<span>WEBLEE</span>
-						<span>WEBLEE</span>
-						<span>WEBLEE</span>
-						<span>WEBLEE</span>
-						<span>WEBLEE</span>
-						<span>WEBLEE</span>
-						<span>WEBLEE</span>
-						<span>WEBLEE</span>
-						<span>WEBLEE</span>
-					</div>
-					<div class="center_title">
-						<h2>SWEATSHIRT</h2>
-						<p>PRODUCT CODE 059608</p>
-					</div>
-					<div id="toggle_theme" class="color_mode">
+					<div id="section2_theme" class="color_mode">
 						<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none" role="img" class="icon color-palette-icon">
 							<path fill-rule="evenodd" clip-rule="evenodd" d="M22 11C22 17.05 17.05 22 11 22C4.95 22 0 17.05 0 11C0 4.95 4.95 0 11 0C17.05 0 22 4.95 22 11ZM11 19C15.411 19 19 15.411 19 11C19 6.589 15.411 3 11 3V19Z" fill="#3D3D4E"></path>
 						</svg>
@@ -147,8 +153,7 @@
 				</div>
 			</div>
 		</section>
-		<!-- 컨텐츠 1 -->
-
+		<!-- //컨텐츠 2 -->
 		
 
 		<!-- //컨텐츠 3 -->
@@ -158,6 +163,7 @@
 		<!-- //컨텐츠 3 -->
 
 	</main>
+
 
 	<script data-cfasync="false" type="text/javascript"
 	src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
