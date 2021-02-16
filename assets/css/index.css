@@ -243,7 +243,51 @@ main {
 	background-color: #fafafa;
 }
 
-
+.our {
+	display: flex;
+	position: absolute;
+	left: 167px;
+	bottom: 83px;
+}
+.our_box {
+	padding: 0 40px;
+	color: #fff;
+}
+.our_box > h4 {
+	font-family: 'Roboto', sans-serif;
+	padding: 20px 0;
+	font-size: 13px;
+}
+.our_box > div {
+	font-family: 'Roboto', sans-serif;
+	line-height: 26px;
+	font-size: 14px;
+}
+.sns {
+	position: absolute;
+	right: 490px;
+	bottom: 83px;
+}
+.sns ul {
+	display: flex;
+}
+.sns li {
+	padding: 0 6px;
+}
+.sns li a {
+	display: block;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+.sns li.kakao a {
+	background: url(../images/katalk_icon_black.jpg) no-repeat top center;
+	background-size: cover;
+}
+.sns li.insta a {
+	background: url(../images/insta_icon_black.jpg) no-repeat top center;
+	background-size: cover;
+}
 
 @media screen and (max-width: 1520px) {
 

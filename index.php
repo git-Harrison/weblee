@@ -74,9 +74,29 @@
 						<div class="our_box">
 							<h4>주소</h4>
 							<div>
-								경기도 수원시
+								경기도 수원시<br>
+								경수대로 302번길<br>
+								인근역 - 수원시청역,수원역
 							</div>
 						</div>
+						<div class="our_box">
+							<h4>이메일</h4>
+							<div>
+<!-- 								kakaoTalk ID - LHunnik<br> -->
+								wognsl305@naver.com<br>
+								wognsl95@gmail.com<br>
+							</div>
+						</div>
+					</div>
+					<div class="sns">
+						<ul>
+							<li class="kakao">
+								<a href="https://open.kakao.com/me/Pub_harrison"></a>
+							</li>
+							<li class="insta">
+								<a href="https://www.instagram.com/lj_hun/"></a>
+							</li>
+						</ul>
 					</div>
 				</div>
 			</div>
