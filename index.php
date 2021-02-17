@@ -137,12 +137,12 @@
 					</div>
 					<div class="sns">
 						<ul>
-							<!-- <li class="kakao">
-								<a href=""></a>
+							<li class="opentalk">
+								<a href="https://open.kakao.com/me/Pub_harrison"></a>
 							</li>
 							<li class="insta">
 								<a href="https://www.instagram.com/lj_hun/"></a>
-							</li> -->
+							</li>
 						</ul>
 					</div>
 					<div id="section2_theme" class="color_mode">

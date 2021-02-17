@@ -178,7 +178,7 @@ html.color .map {
 	background-size: cover;
 	transition: all .4s cubic-bezier(0.33, 1, 0.68, 1);
 }
-html.color .sns li.kakao a {
+html.color .sns li.opentalk a {
 	background: url(../images/katalk_icon.jpg) no-repeat top center;
 	background-size: cover;
 	transition: all .4s cubic-bezier(0.33, 1, 0.68, 1);
