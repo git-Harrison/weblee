@@ -17,10 +17,11 @@
 
 	<!-- 스타일시트 -->
 	<link rel="stylesheet" href="assets/css/jquery.fullPage.css">
+	<link rel="stylesheet" href="assets/css/slider.css">
 	<link rel="stylesheet" href="assets/css/common.css">
 	<link rel="stylesheet" href="assets/css/index.css">
-	<link rel="stylesheet" href="assets/css/slider.css">
 	<link rel="stylesheet" href="assets/css/mail.css">
+	<link rel="stylesheet" href="assets/css/mideaquery.css">
 
 </head>
 <body>
@@ -29,43 +30,45 @@
 		<!-- 컨텐츠 1 -->
 		<section class="section" id="section1">
 			<div class="sec_container">
-				<div class="cont_L">
-					<h1>WEB | LEE</h1>
-					<div class="lee_img">
-						<img src="assets/images/weblee.jpg" alt="weblee" class="black">
-						<img src="assets/images/weblee_white.jpg" alt="weblee" class="white">
+				<div class="cont_wrap">
+					<div class="cont_L">
+						<h1>WEB | LEE</h1>
+						<div class="lee_img">
+							<img src="assets/images/weblee.jpg" alt="weblee" class="black">
+							<img src="assets/images/weblee_white.jpg" alt="weblee" class="white">
+						</div>
+						<div class="title">Web Publisher<br>and<br>Fornt-End Developer</div>
+						<div class="sub_title">free worldwide shipping is available for every order.</div>
 					</div>
-					<div class="title">Web Publisher<br>and<br>Fornt-End Developer</div>
-					<div class="sub_title">free worldwide shipping is available for every order.</div>
-				</div>
-				<div class="cont_R">
-					<div class="marker">
-						<span>WEBLEE</span>
-						<span>WEBLEE</span>
-						<span>WEBLEE</span>
-						<span>WEBLEE</span>
-						<span>WEBLEE</span>
-						<span>WEBLEE</span>
-						<span>WEBLEE</span>
-						<span>WEBLEE</span>
-						<span>WEBLEE</span>
-						<span>WEBLEE</span>
-						<span>WEBLEE</span>
-						<span>WEBLEE</span>
-						<span>WEBLEE</span>
-						<span>WEBLEE</span>
-						<span>WEBLEE</span>
-						<span>WEBLEE</span>
-						<span>WEBLEE</span>
-					</div>
-					<div class="center_title">
-						<h2>SWEATSHIRT</h2>
-						<p>PRODUCT CODE 059608</p>
-					</div>
-					<div id="section1_theme" class="color_mode">
-						<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none" role="img" class="icon color-palette-icon">
-							<path fill-rule="evenodd" clip-rule="evenodd" d="M22 11C22 17.05 17.05 22 11 22C4.95 22 0 17.05 0 11C0 4.95 4.95 0 11 0C17.05 0 22 4.95 22 11ZM11 19C15.411 19 19 15.411 19 11C19 6.589 15.411 3 11 3V19Z" fill="#3D3D4E"></path>
-						</svg>
+					<div class="cont_R">
+						<div class="marker">
+							<span>WEBLEE</span>
+							<span>WEBLEE</span>
+							<span>WEBLEE</span>
+							<span>WEBLEE</span>
+							<span>WEBLEE</span>
+							<span>WEBLEE</span>
+							<span>WEBLEE</span>
+							<span>WEBLEE</span>
+							<span>WEBLEE</span>
+							<span>WEBLEE</span>
+							<span>WEBLEE</span>
+							<span>WEBLEE</span>
+							<span>WEBLEE</span>
+							<span>WEBLEE</span>
+							<span>WEBLEE</span>
+							<span>WEBLEE</span>
+							<span>WEBLEE</span>
+						</div>
+						<div class="center_title">
+							<h2>SWEATSHIRT</h2>
+							<p>PRODUCT CODE 059608</p>
+						</div>
+						<div id="section1_theme" class="color_mode">
+							<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none" role="img" class="icon color-palette-icon">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M22 11C22 17.05 17.05 22 11 22C4.95 22 0 17.05 0 11C0 4.95 4.95 0 11 0C17.05 0 22 4.95 22 11ZM11 19C15.411 19 19 15.411 19 11C19 6.589 15.411 3 11 3V19Z" fill="#3D3D4E"></path>
+							</svg>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -81,12 +84,13 @@
 							<div class="txt">
 								<h2 data-name="portfolio"><span>F</span><span>I</span><span>T</span><span>T</span><span>R</span><span>I</span><span>X</span></h2>
 							</div>
-							<div class="img_bg"></div>
+							<div class="img_bg">
+								<div class="site_ps">이미지에 마우스를 올려보세요<br>Put your mouse over the image</div>
+							</div>
 							<div class="img pc">
 								<div class="pc_img_wrap fittrix">
 									<img src="assets/images/site/pc_site_fittrix.png" alt="pc_site">
 								</div>
-								<div class="site_ps">이미지에 마우스를 올려보세요<br>Put your mouse on the image</div>
 							</div>
 							<div class="img pad">
 								<div class="tablet_img_wrap">
@@ -110,7 +114,12 @@
 									<img src="assets/images/icon/whale.png" alt="whale">
 								</div>
 								<div class="view_site">
-									<a href="">VIEW</a>
+									<a class="view_btn" href="" target="_blank">
+										<svg height="100%" width="100%" xmlns="http://www.w3.org/2000/svg">
+											<rect class="outline" height="100%" width="100%" />
+											<div class="text">VIEW WEB SITE</div>
+										</svg>
+									</a>
 								</div>
 							</div>
 						</div>
