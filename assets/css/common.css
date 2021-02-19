@@ -1,10 +1,3 @@
-	...
-
-				.d
-				.d
-
-
-
 /* reset */
 body {background-color: #d0d0d0; font-family: 'Roboto', sans-serif;}
 body,div,ul,li,ol,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,fieldset,legend,textarea,p,select,button,figure {margin:0;padding:0;}
@@ -69,60 +62,19 @@ textarea:valid::-webkit-input-placeholder {
 	opacity: 1;
 }
 
-input[type=email] {
-	background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #343434 4%);
-	background-position: -400px 0;
-	background-repeat: no-repeat;
-	transition: border-bottom 0.3s ease, background 0.3s ease;
-}
-input[type=email] ~ span.validation-text {
+.sec_container {
+	z-index: 1;
+	overflow: hidden;
 	position: absolute;
-	visibility: hidden;
-	font-family: "roboto", sans-serif;
-	font-size: 12px;
-	width: 400px;
-	color: white;
-	transition: color 0.3s ease-in-out;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	width: 1520px;
+	height: 86vh;
+	box-shadow: 0 0 3rem rgb(17 17 17 / 70%);
+/*	border-radius: 18px;*/
 }
-input[type=email]:not([value=""])::-webkit-input-placeholder {
-	font-size: 0.8em;
-	transform: translateY(-20px);
-	visibility: visible !important;
-	opacity: 1;
-}
-input[type=email]:not([value=""]):focus::-webkit-input-placeholder {
-	color: #343434;
-}
-input[type=email]:not([value=""]):focus:not(:valid)::-webkit-input-placeholder {
-	color: #ff0000;
-}
-input[type=email]:focus {
-	background-position: 0 0;
-}
-input[type=email]:focus:not(:valid):not([value=""]) {
-	border-bottom: solid 1px #ff0000;
-	background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #ff0000 4%);
-}
-input[type=email]:not(:focus):not(:valid):not([value=""]) {
-	border-bottom: solid 1px #ff0000;
-	background-position: 0 0;
-	background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #ff0000 4%);
-}
-input[type=email]:not(:focus):not(:valid):not([value=""])::-webkit-input-placeholder {
-	color: #ff0000;
-}
-input[type=email]:not(:focus):not(:valid):not([value=""]) ~ span.validation-text {
-	visibility: visible;
-	color: #ff0000;
-}
-input:-webkit-autofill,
-input:-webkit-autofill:hover,
-input:-webkit-autofill:focus,
-input:-webkit-autofill:active {
-	transition: background-color 5000s ease-in-out 0s;
-	-webkit-transition: background-color 9999s ease-out;
-	-webkit-box-shadow: 0 0 0px 1000px white inset !important;
-}
+
 html {
 	transition: all .4s cubic-bezier(0.33, 1, 0.68, 1);
 }
@@ -191,4 +143,87 @@ html.color .sns li.insta a {
 html.color .color_mode path {
 	fill: rgb(61, 61, 78) !important;
 	transition: all .4s cubic-bezier(0.33, 1, 0.68, 1);
+}
+
+@media screen and (max-width: 1520px) {
+	.sec_container {
+		width: 1440px;
+	}
+	.cont_R {
+		width: 922px;
+		background-size: 944px 860px;
+	}
+	html.white .cont_R {
+		background-size: 944px 860px;
+	}
+	.marker {
+		left: -510px;
+	}
+	.site_slider .site .txt {
+		font-size: 9vw;
+	}
+}
+@media screen and (max-width: 1440px) {
+	.sec_container {
+		width: 1360px;
+	}
+	.cont_L {
+		width: 450px;
+	}
+	.cont_R {
+		width: 910px;
+	}
+	.marker {
+		left: -511px;
+	}
+}
+@media screen and (max-width: 1360px) {
+	.sec_container {
+		width: 1280px;
+	}
+	.cont_L {
+		width: 450px;
+	}
+	.cont_R {
+		width: 830px;
+		background-size: 860px 860px;
+	}
+	html.white .cont_R {
+		background-size: 860px 860px;
+	}
+}
+@media screen and (max-width: 1280px) {
+	.sec_container {
+		width: 1110px;
+	}
+	.cont_L {
+		width: 400px;
+	}
+	.cont_L .title {
+		font-size: 36px;
+	}
+	.cont_L .lee_img {
+		right: -362px;
+		width: 362px;
+	}
+	.cont_L .lee_img:before {
+		top: -120px;
+	}
+	.cont_L .lee_img:after {
+		bottom: -120px;
+	}
+	.cont_L .sub_title {
+		bottom: 14%;
+		font-size: 22px;
+	}
+	.cont_R {
+		width: 710px;
+    	background-size: 740px 860px;
+	}
+	html.white .cont_R {
+		background-size: 740px 860px;
+	}
+	.marker {
+		left: -544px;
+	}
 }

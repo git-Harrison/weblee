@@ -13,11 +13,15 @@
 	<!-- 웹 폰트 -->
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
 
 	<!-- 스타일시트 -->
 	<link rel="stylesheet" href="assets/css/jquery.fullPage.css">
 	<link rel="stylesheet" href="assets/css/common.css">
 	<link rel="stylesheet" href="assets/css/index.css">
+	<link rel="stylesheet" href="assets/css/slider.css">
+	<link rel="stylesheet" href="assets/css/mail.css">
+
 </head>
 <body>
 	<main id="main">
@@ -70,6 +74,62 @@
 
 		<!-- //컨텐츠 2 -->
 		<section class="section" id="section2">
+		    <div class="sec_container">
+		    	<div class="site_slider">
+					<div class="slider_wrap">
+						<div class="site s1">
+							<div class="txt">
+								<h2 data-name="portfolio"><span>F</span><span>I</span><span>T</span><span>T</span><span>R</span><span>I</span><span>X</span></h2>
+							</div>
+							<div class="img_bg"></div>
+							<div class="img pc">
+								<div class="pc_img_wrap fittrix">
+									<img src="assets/images/site/pc_site_fittrix.png" alt="pc_site">
+								</div>
+								<div class="site_ps">이미지에 마우스를 올려보세요</div>
+							</div>
+							<div class="img pad">
+								<div class="tablet_img_wrap">
+									<img src="assets/images/site/d_site_fittrix.png" alt="pc_site">
+								</div>
+							</div>
+							<div class="img mobile">
+								<div class="mobile_img_wrap">
+									<img src="assets/images/site/m_site_fittrix.png" alt="pc_site">
+								</div>
+							</div>
+							<div class="site_introduction">
+								<div class="tag">
+									<span>HTML5,</span>
+									<span>CC3</span>
+								</div>
+								<div class="browser">
+									<img src="assets/images/icon/IE.png" alt="IE">
+									<img src="assets/images/icon/crome.png" alt="crome">
+									<img src="assets/images/icon/firefox.png" alt="firefox">
+									<img src="assets/images/icon/whale.png" alt="whale">
+								</div>
+								<div class="view_site">
+									<a href=""><span>VIEW WEB SITE</span></a>
+								</div>
+							</div>
+						</div>
+						<div class="site s2">
+							<div class="txt">
+								<h2 data-name="webstand"><span>w</span><span>e</span><span>b</span><span>s</span><span>t</span><span>a</span><span>n</span><span>d</span></h2>
+							</div>
+							<div class="img">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+		    </div>
+		</section>
+		<!-- //컨텐츠 2 -->
+
+		<!-- //컨텐츠 3 -->
+		<section class="section" id="section3">
 			<div class="sec_container">
 				<div class="contact_us">
 					<h1>Contact us</h1>
@@ -109,8 +169,10 @@
 						    </div>
 							<div style="display:none" class="thankyou_message">
 								<!-- You can customize the thankyou message by editing the code below -->
-								<h2><em>Thanks</em> for contacting us! We will get back to you soon!
-								</h2>
+								<h2>메일을 성공적으로 보냈습니다.<br>
+									감사합니다.<br><br>
+									The mail was sent successfully.<br>
+									Thank you.</h2>
 							</div>
 							<p class="ps">
 								보내기 버튼을 누른 후 3초 정도의 시간이 소요됩니다.<br><br>
@@ -153,23 +215,18 @@
 				</div>
 			</div>
 		</section>
-		<!-- //컨텐츠 2 -->
+		<!-- //컨텐츠 3 -->
 		
-
-		<!-- //컨텐츠 3 -->
-		<section class="section" id="section3">
-		    ㅇ
-		</section>
-		<!-- //컨텐츠 3 -->
-
 	</main>
 
-
+	<!-- 스크립트 -->
 	<script data-cfasync="false" type="text/javascript"
 	src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
 	<script src="assets/js/jquery-1.12.4.js"></script>
+	<script src="assets/js/jquery-ui-1.12.1.min.js"></script>
 	<script src="assets/js/jquery.fullPage.js"></script>
 	<script src="assets/js/index.js"></script>
+	<script src="assets/js/slider.js"></script>
 
 </body>
 </html>

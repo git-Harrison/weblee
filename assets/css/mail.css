@@ -1,0 +1,177 @@
+input[type=email] {
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #343434 4%);
+	background-position: -400px 0;
+	background-repeat: no-repeat;
+	transition: border-bottom 0.3s ease, background 0.3s ease;
+}
+input[type=email] ~ span.validation-text {
+	position: absolute;
+	visibility: hidden;
+	font-family: "roboto", sans-serif;
+	font-size: 12px;
+	width: 400px;
+	color: white;
+	transition: color 0.3s ease-in-out;
+}
+input[type=email]:not([value=""])::-webkit-input-placeholder {
+	font-size: 0.8em;
+	transform: translateY(-20px);
+	visibility: visible !important;
+	opacity: 1;
+}
+input[type=email]:not([value=""]):focus::-webkit-input-placeholder {
+	color: #343434;
+}
+input[type=email]:not([value=""]):focus:not(:valid)::-webkit-input-placeholder {
+	color: #ff0000;
+}
+input[type=email]:focus {
+	background-position: 0 0;
+}
+input[type=email]:focus:not(:valid):not([value=""]) {
+	border-bottom: solid 1px #ff0000;
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #ff0000 4%);
+}
+input[type=email]:not(:focus):not(:valid):not([value=""]) {
+	border-bottom: solid 1px #ff0000;
+	background-position: 0 0;
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #ff0000 4%);
+}
+input[type=email]:not(:focus):not(:valid):not([value=""])::-webkit-input-placeholder {
+	color: #ff0000;
+}
+input[type=email]:not(:focus):not(:valid):not([value=""]) ~ span.validation-text {
+	visibility: visible;
+	color: #ff0000;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+	transition: background-color 5000s ease-in-out 0s;
+	-webkit-transition: background-color 9999s ease-out;
+	-webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+/* 메일 보내기 */
+.contact_us {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-color: #343434;
+	transition: background .4s cubic-bezier(0.25, 1, 0.5, 1);
+}
+.contact_us h1 {
+	z-index: 1;
+	position: absolute;
+	left: 200px;
+	top: 52%;
+	font-size: 60px;
+	font-weight: bold;
+	color: #fff;
+}
+.map {
+	position: relative;
+	background: url(../images/map_bg_black.jpg) no-repeat top center;
+	background-size: cover;	
+	width: 100%;
+	height: 56vh;
+	transition: all .4s cubic-bezier(0.33, 1, 0.68, 1);
+}
+.mail_send_form {
+	position: absolute;
+	right: 100px;
+	top: 0;
+	width: 400px;
+	min-height: 590px;
+	padding: 20px 36px;
+	border-radius: 0 0 12px 12px;
+	background-color: #fafafa;
+}
+.mail_send_form .ps {
+	padding-top: 60px;
+	font-size: 12px;
+}
+.mail_send_form h2 {
+	padding: 10px 0 50px 0;
+	font-size: 13px;
+	font-weight: bold;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+.mail_send_form fieldset {
+	margin-bottom: 40px;
+}
+.mail_send_form .button-xlarge {
+	position: absolute;
+	right: 0;
+	bottom: 130px;
+	padding: 17px 72px 17px 17px;
+	color: #fff;
+	background-color: #343434;
+	font-size: 14px;
+	border-radius: 8px 0px 0px 8px;
+	font-family: 'Roboto', sans-serif;
+	transition: background .4s cubic-bezier(0.33, 1, 0.68, 1);
+}
+.mail_send_form .button-xlarge:before {
+	content: '';
+	position: absolute;
+	right: 27px;
+	top: 49%;
+	transform: translate(-50%,-50%);
+	width: 20px;
+	height: 1px;
+	background-color: #fafafa;
+}
+#section2_theme path {
+	fill: #fafafa;
+	transition: all .4s cubic-bezier(0.33, 1, 0.68, 1);
+}
+.our {
+	display: flex;
+	position: absolute;
+	left: 167px;
+	bottom: 83px;
+}
+.our_box {
+	padding: 0 40px;
+	color: #fff;
+}
+.our_box > h4 {
+	font-family: 'Roboto', sans-serif;
+	padding: 20px 0;
+	font-size: 13px;
+}
+.our_box > div {
+	font-family: 'Roboto', sans-serif;
+	line-height: 26px;
+	font-size: 14px;
+}
+.sns {
+	position: absolute;
+	right: 490px;
+	bottom: 83px;
+}
+.sns ul {
+	display: flex;
+}
+.sns li {
+	padding: 0 6px;
+}
+.sns li a {
+	display: block;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+.sns li.opentalk a {
+	background: url(../images/icon/katalk_icon_black.jpg) no-repeat top center;
+	background-size: cover;
+	transition: all .4s cubic-bezier(0.33, 1, 0.68, 1);
+}
+.sns li.insta a {
+	background: url(../images/icon/insta_icon_black.jpg) no-repeat top center;
+	background-size: cover;
+	transition: all .4s cubic-bezier(0.33, 1, 0.68, 1);
+}
