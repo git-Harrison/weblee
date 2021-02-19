@@ -31,9 +31,12 @@
 	height: 100vh;
 	background-color: #343434;
 }*/
+.cont_wrap {
+	display: flex;
+	height: 100%;
+}
 .cont_L {
 	position: relative;
-	float: left;
 	width: 518px;
 	height: 100%;
 	background-color: #343434;
@@ -102,7 +105,6 @@
 }
 .cont_R {
 	position: relative;
-	float: left;
 	overflow: hidden;
 	width: 1002px;
 	height: 100%;

@@ -86,7 +86,7 @@
 								<div class="pc_img_wrap fittrix">
 									<img src="assets/images/site/pc_site_fittrix.png" alt="pc_site">
 								</div>
-								<div class="site_ps">이미지에 마우스를 올려보세요</div>
+								<div class="site_ps">이미지에 마우스를 올려보세요<br>Put your mouse on the image</div>
 							</div>
 							<div class="img pad">
 								<div class="tablet_img_wrap">
@@ -110,7 +110,7 @@
 									<img src="assets/images/icon/whale.png" alt="whale">
 								</div>
 								<div class="view_site">
-									<a href=""><span>VIEW WEB SITE</span></a>
+									<a href="">VIEW</a>
 								</div>
 							</div>
 						</div>
