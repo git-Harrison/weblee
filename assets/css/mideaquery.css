@@ -1,73 +1,93 @@
 @media screen and (max-width: 1520px) {
-	.sec_container {
-		width: 1440px;
-	}
-	.cont_R {
-		background-size: 950px 860px;
-	}
-	html.white .cont_R {
-		background-size: 950px 860px;
-	}
-	.marker {
-		left: -510px;
-	}
-	.site_slider .site .txt {
-		font-size: 9vw;
-	}
+    .sec_container {
+        width: 1440px;
+    }
+
+    .cont_R {
+        background-size: 950px 860px;
+    }
+
+    html.white .cont_R {
+        background-size: 950px 860px;
+    }
+
+    .marker {
+        left: -510px;
+    }
+
+    .site_slider .site .txt {
+        font-size: 9vw;
+    }
 }
+
 @media screen and (max-width: 1440px) {
-	.sec_container {
-		width: 1360px;
-	}
-	.cont_R {
-		background-size: 920px 860px;
-	}
-	html.white .cont_R {
-		background-size: 920px 860px;
-	}
-	.marker {
-		left: -511px;
-	}
+    .sec_container {
+        width: 1360px;
+    }
+
+    .cont_R {
+        background-size: 920px 860px;
+    }
+
+    html.white .cont_R {
+        background-size: 920px 860px;
+    }
+
+    .marker {
+        left: -511px;
+    }
 }
+
 @media screen and (max-width: 1360px) {
-	.sec_container {
-		width: 1280px;
-	}
-	.cont_R {
-		background-size: 880px 860px;
-	}
-	html.white .cont_R {
-		background-size: 880px 860px;
-	}
+    .sec_container {
+        width: 1280px;
+    }
+
+    .cont_R {
+        background-size: 880px 860px;
+    }
+
+    html.white .cont_R {
+        background-size: 880px 860px;
+    }
 }
+
 @media screen and (max-width: 1280px) {
-	.sec_container {
-		width: 1110px;
-	}
-	.cont_L .title {
-		font-size: 36px;
-	}
-	.cont_L .lee_img {
-		right: -362px;
-		width: 362px;
-	}
-	.cont_L .lee_img:before {
-		top: -120px;
-	}
-	.cont_L .lee_img:after {
-		bottom: -120px;
-	}
-	.cont_L .sub_title {
-		bottom: 14%;
-		font-size: 22px;
-	}
-	.cont_R {
-		background-size: 770px 860px;
-	}
-	html.white .cont_R {
-		background-size: 770px 860px;
-	}
-	.marker {
-		left: -530px;
-	}
+    .sec_container {
+        width: 1110px;
+    }
+
+    .cont_L .title {
+        font-size: 36px;
+    }
+
+    .cont_L .lee_img {
+        right: -362px;
+        width: 362px;
+    }
+
+    .cont_L .lee_img:before {
+        top: -120px;
+    }
+
+    .cont_L .lee_img:after {
+        bottom: -120px;
+    }
+
+    .cont_L .sub_title {
+        bottom: 14%;
+        font-size: 22px;
+    }
+
+    .cont_R {
+        background-size: 770px 860px;
+    }
+
+    html.white .cont_R {
+        background-size: 770px 860px;
+    }
+
+    .marker {
+        left: -530px;
+    }
 }
