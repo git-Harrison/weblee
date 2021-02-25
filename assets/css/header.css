@@ -1,9 +1,15 @@
 header {
+	z-index: 1;
 	position: fixed;
-	left: 0;
+	right: 0;
 	top: 0;
 	width: 100%;
-	font-size: 34px;
-	text-align: center;
+	font-size: 50px;
+	text-align: right;
 	font-family: 'Caveat', cursive;
+}
+header > div {
+	width: 1520px;
+	margin: 0 auto;
+	text-align: right;
 }

@@ -11,6 +11,10 @@
 	<link rel="stylesheet" href="assets/css/header.css">
 </head>
 <body>
-	<header>Weblee</header>
+	<header>
+		<div>
+			<a href="/">Weblee</a>
+		</div>
+	</header>
 </body>
 </html>

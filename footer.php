@@ -5,12 +5,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>WebLee</title>
 
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap" rel="stylesheet">
-
 	<link rel="stylesheet" href="assets/css/footer.css">
+
 </head>
 <body>
-	<footer>Weblee</footer>
+	<footer>
+		<div class="chevron"></div>
+		<div class="chevron"></div>
+		<div class="chevron"></div>
+	</footer>
 </body>
 </html>

@@ -107,7 +107,9 @@
 							<div class="site_introduction">
 								<div class="tag">
 									<span>HTML5,</span>
-									<span>CC3</span>
+									<span>CC3,</span>
+									<span>jQuery,</span>
+									<span>javascript</span>
 								</div>
 								<div class="browser">
 									<img src="assets/images/icon/IE.png" alt="IE">
@@ -273,7 +275,7 @@
 	<script src="assets/js/jquery.fullPage.js"></script>
 	<script src="assets/js/index.js"></script>
 	<script src="assets/js/slider.js"></script>
-
+	
 </body>
 </html>
 

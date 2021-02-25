@@ -1,10 +1,22 @@
 $('document').ready(function () {
 
+
 	$('#main').fullpage({
 		anchors: ['firstPage', 'secondPage', '3rdPage'],
 		navigation: true,
 		navigationPosition: 'right',
-		navigationTooltips: ['컨텐츠1', '컨텐츠2', '컨텐츠3']
+		navigationTooltips: ['컨텐츠1', '컨텐츠2', '컨텐츠3'],
+
+		afterLoad: function(anchorLink, index){
+
+            if(index === $('#main .section').length){
+                $('body').addClass('end');
+            }else {
+            	$('body').removeClass('end');
+            }
+            
+        }
+
 	});
 
 	if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
