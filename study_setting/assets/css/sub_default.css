@@ -1,0 +1,69 @@
+body.html {
+	background-color: #ffd6c5;
+}
+body.css {
+	background-color: #ffe8c3;
+}
+body.css .list p {
+	background-color: #fff5e4;
+}
+body.info {
+	background-color: #e7d9ff;
+}
+body.info .list p {
+	background-color: #f4edff;
+}
+
+.tag {
+	color: #e32472;
+}
+.list {
+	margin-bottom: 50px;
+	color: #343434;
+}
+.list h2 {
+	margin: 20px 0;
+	font-size: 32px;
+}
+.list p {
+	padding: 16px;
+	background-color: #ffe8df;
+}
+.list ul {
+	margin: 20px 0 11px 25px;
+}
+.list li {
+	font-size: 16px;
+	margin-bottom: 4px;
+	list-style: disc;
+	line-height: 28px;
+}
+.list li ul {
+	margin: 0 0 11px 25px;
+}
+.list li ul li {
+	list-style: circle;
+}
+.list table {
+	margin-top: 20px;
+	background-color: #fff5e4;
+}
+.list table thead {
+	border-bottom: 1px solid #e3b0ad;
+}
+.list table th {
+	padding: 16px 0;
+	font-weight: normal;
+}
+.list table tbody tr:hover {
+	background-color: rgba(255,255,255,0.6);
+}
+.list table td {
+	padding: 20px 0;
+	text-align: center;
+}
+.list a {
+	font-size: 16px;
+	color: #1155cc;
+	text-decoration: underline;
+}

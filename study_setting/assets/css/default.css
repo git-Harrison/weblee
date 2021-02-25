@@ -1,0 +1,100 @@
+/* 메인 리스트 필터 */
+main .filter_button {
+	display: flex;
+	justify-content: flex-start;
+}
+main .filter_button button {
+	display: block;
+	padding: 12px;
+	background: none;
+	color: #343434;
+	transition: background 0.2s ease;
+}
+main .filter_button button:hover {
+	transition: background 0.4s ease;
+	background: rgba(0,0,0,0.8);
+}
+main .filter_button button:hover:nth-child(1) {color: #fff;}
+main .filter_button button:nth-child(1) {color: #343434;}
+main .filter_button button:nth-child(2) {color: #ff9b73;}
+main .filter_button button:nth-child(3) {color: #ffc972;}
+main .filter_button button:nth-child(4) {color: #b692f2;}
+main .filter_button button:nth-child(5) {color: #e4ee90;}
+main .list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 26px;
+}
+main .list .list_item {
+	width: 269px;
+	min-height: 269px;
+	margin: 1%;
+	border-radius: 24px;
+	transition: box-shadow 0.1s ease;
+}
+main .list .list_item:hover {
+	transition: box-shadow 0.2s ease;
+	box-shadow: 0 0 2rem rgb(12 12 12 / 70%);
+}
+main .list .list_item.color1 {background-color: #ff9b73;}
+main .list .list_item.color2 {background-color: #ffc972;}
+main .list .list_item.color3 {background-color: #b692f2;}
+main .list .list_item.color4 {background-color: #01d4ff;}
+main .list .list_item.color4 {background-color: #e4ee90;}
+main .list .list_item a {
+	display: block;
+	padding: 8%;
+	color: #343434;
+}
+main .list .list_item a h2 {
+	padding: 4px 0;
+	font-size: 20px;
+    font-weight: bold;
+	text-align: left;
+}
+main .list .list_item a p {
+	min-height: 108px;
+	padding-top: 40px;
+	text-align: left;
+}
+main .list .list_item a .tag {
+	font-size: 12px;
+	text-align: right;
+}
+main .list .list_item a .tag span {
+	display: inline-block;
+	margin-right: 6px;
+}
+main .list .list_item a .tag span:last-child {
+	margin-right: 0;
+}
+main .list .list_item a .day {
+	text-align: left;
+}
+
+@media screen and (max-width: 1190px) {
+	main .list .list_item {
+		width: 22.5%;
+	}
+}
+@media screen and (max-width: 900px) {
+	main .list .list_item {
+		width: 48%;
+	}
+}
+@media screen and (max-width: 414px) {
+	main .filter_button button:hover {
+		background: none;
+	}
+	main .filter_button button:hover:nth-child(1) {
+		color: #343434;
+	}
+	main .list .list_item {
+		width: 100%;
+		margin: 0 0 30px 0;
+	}
+	main .list .list_item:hover {
+		box-shadow: none;
+	}
+}

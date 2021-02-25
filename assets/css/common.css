@@ -130,16 +130,6 @@ html.color .map {
 	background-size: cover;
 	transition: all .4s cubic-bezier(0.33, 1, 0.68, 1);
 }
-html.color .sns li.opentalk a {
-	background: url(../images/katalk_icon.jpg) no-repeat top center;
-	background-size: cover;
-	transition: all .4s cubic-bezier(0.33, 1, 0.68, 1);
-}
-html.color .sns li.insta a {
-	background: url(../images/insta_icon.jpg) no-repeat top center;
-	background-size: cover;
-	transition: all .4s cubic-bezier(0.33, 1, 0.68, 1);
-}
 html.color .color_mode path {
 	fill: rgb(61, 61, 78) !important;
 	transition: all .4s cubic-bezier(0.33, 1, 0.68, 1);

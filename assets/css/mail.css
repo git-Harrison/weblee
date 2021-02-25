@@ -166,12 +166,12 @@ input:-webkit-autofill:active {
 	border-radius: 50%;
 }
 .sns li.opentalk a {
-	background: url(../images/icon/katalk_icon_black.jpg) no-repeat top center;
+	background: url(../images/icon/katalk_icon.jpg) no-repeat top center;
 	background-size: cover;
 	transition: all .4s cubic-bezier(0.33, 1, 0.68, 1);
 }
 .sns li.insta a {
-	background: url(../images/icon/insta_icon_black.jpg) no-repeat top center;
+	background: url(../images/icon/insta_icon.jpg) no-repeat top center;
 	background-size: cover;
 	transition: all .4s cubic-bezier(0.33, 1, 0.68, 1);
 }

@@ -1,0 +1,120 @@
+body{font-family: 'Noto Sans KR', sans-serif; background-color: #faf5e5;}
+body,div,ul,li,ol,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,fieldset,legend,textarea,p,select,button,figure {margin:0;padding:0;}
+em,address {font-style:normal;}
+ul,li,ol {list-style:none;}
+h1,h2,h3,h4,h5,h6 {font-weight:normal;}
+a {text-decoration: none;}
+img,fieldset {border:0;}
+video, img {width: 100%;}
+table {width:100%; border-spacing:0; border-collapse: collapse;}
+button,select {cursor: pointer;}
+::before, ::after {box-sizing: border-box;}
+label, input, button, select, img {vertical-align: middle;border: none;max-width: 100%;}
+button {outline: none;}
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+	font: inherit;
+	-webkit-transition: transform 0.3s ease-in-out, font-size 0.3s ease-in-out, visibility 0.3s ease-in-out;
+	transition: transform 0.3s ease-in-out, font-size 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+.wrap {
+	padding-bottom: 60px;
+}
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+/* 상단 고정 네비 */
+.nav {
+	z-index: 99999999;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	padding: 12px 0;
+	border-bottom: 1px solid #efefef;
+	background-color: #9f9f9f;
+}
+.nav ul {
+	display: flex;
+	justify-content: flex-end;
+}
+.nav ul li {
+	padding: 0 10px;
+}
+.nav ul li a {
+	display: block;
+	font-size: 16px;
+	color: #fafafa;
+	transition: color 0.2s ease;
+}
+.nav ul li a:hover {
+	color: #343434;
+	transition: color 0.2s ease;
+}
+
+/* 메인 타이틀 */
+header {
+	position: relative;
+	height: 300px;
+	margin-top: 46px;
+}
+header .title {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+header .title h1 {
+	font-size: 26px;
+}
+header .title p {
+	font-size: 18px;
+}
+
+@media screen and (max-width: 1190px) {
+	.container {
+		width: 98%;
+	}
+}
+@media screen and (max-width: 768px) {
+	.nav {display: none;}
+}
+@media screen and (max-width: 414px) {
+	.container {
+		width: 96%;
+	}
+	.nav {
+		padding: 7px 0;
+	}
+	.nav ul li a:hover {
+		color: #fafafa;
+	}
+	body.sub header {
+		height: 180px;
+	}
+	body.sub .list {
+		font-size: 14px;
+		margin-bottom: 26px;
+	}
+	body.sub .list h2 {
+		margin: 10px 0;
+    	font-size: 25px;
+	}
+	body.sub .list p {
+		padding: 11px;
+	}
+	body.sub .list ul {
+		margin: 12px 0 12px 22px;
+	}
+	body.sub .list li {
+		font-size: 14px;
+		line-height: 22px;
+	}
+	body.sub .list table {
+		margin-top: 6px;
+		margin-bottom: 12px;
+	}
+}
