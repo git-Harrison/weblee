@@ -1,0 +1,9 @@
+header {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	font-size: 34px;
+	text-align: center;
+	font-family: 'Caveat', cursive;
+}
