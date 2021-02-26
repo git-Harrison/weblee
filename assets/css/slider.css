@@ -158,6 +158,21 @@
     transition: top 5.2s ease;
 }
 
+.s3 .pc_img_wrap:hover img {
+    top: -468px;
+    transition: top 5.2s ease;
+}
+
+.s3 .tablet_img_wrap:hover img {
+    top: -365px;
+    transition: top 4.2s ease;
+}
+
+.s3 .mobile_img_wrap:hover img {
+    top: -1206px;
+    transition: top 5.2s ease;
+}
+
 
 
 

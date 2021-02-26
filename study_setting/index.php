@@ -24,6 +24,15 @@
 		
 		<div class="nav">
 			<div class="container">
+				<?
+					$filename = 'index.php';
+
+					if (file_exists($filename)) {
+
+					    echo "<div class='update'>페이지 최종 수정일 : " . date ("Y년 m월  d일  H시 i분 ", filemtime($filename));
+					    echo "</div>";
+					}
+				?> 
 				<ul>
 					<li>
 						<a href="https://weblee.kr/" target="_blank">WEBLEE</a>
@@ -165,6 +174,8 @@
 	<script src="assets/js/jquery-1.12.4.js"></script>
 	<script src="assets/js/isotope.pkgd.min.js"></script>
 	<script src="assets/js/index.js"></script>
-	
+	<script>
+		
+	</script>	
 </body>
 </html>

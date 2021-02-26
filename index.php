@@ -16,6 +16,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
 
 	<!-- 스타일시트 -->
 	<link rel="stylesheet" href="assets/css/jquery.fullPage.css">
@@ -40,7 +41,7 @@
 							<img src="assets/images/weblee_white.jpg" alt="weblee" class="white">
 						</div>
 						<div class="title">Web Publisher<br>and<br>Fornt-End Developer</div>
-						<div class="sub_title">free worldwide shipping is available for every order.</div>
+						<div class="sub_title">My delicate and free UI&UX development space</div>
 					</div>
 					<div class="cont_R">
 						<div class="marker">
@@ -63,8 +64,7 @@
 							<span>WEBLEE</span>
 						</div>
 						<div class="center_title">
-							<h2>SWEATSHIRT</h2>
-							<p>PRODUCT CODE 059608</p>
+							<h2>PERSONAL SITE</h2>
 						</div>
 						<div id="section1_theme" class="color_mode">
 							<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none" role="img" class="icon color-palette-icon">
@@ -84,7 +84,7 @@
 					<div class="slider_wrap">
 						<div class="site s1">
 							<div class="txt">
-								<h2 data-name="portfolio"><span>S</span><span>T</span><span>U</span><span>D</span><span>Y</span><span>I</span><span>N</span><span>G</span></h2>
+								<h2><span>S</span><span>T</span><span>U</span><span>D</span><span>Y</span><span>I</span><span>N</span><span>G</span></h2>
 							</div>
 							<div class="img_bg">
 								<div class="site_ps">이미지에 마우스를 올려보세요<br>Put your mouse over the image</div>
@@ -118,7 +118,7 @@
 									<img src="assets/images/icon/whale.png" alt="whale">
 								</div>
 								<div class="view_site">
-									<a class="view_btn" href="https://weblee.kr/study_setting/index.html" target="_blank">
+									<a class="view_btn" href="https://weblee.kr/study_setting/index.php" target="_blank">
 										<svg height="100%" width="100%" xmlns="http://www.w3.org/2000/svg">
 											<rect class="outline" height="100%" width="100%" />
 											<div class="text">VIEW WEB SITE</div>
@@ -129,7 +129,7 @@
 						</div>
 						<div class="site s2">
 							<div class="txt">
-								<h2 data-name="portfolio"><span>F</span><span>I</span><span>T</span><span>T</span><span>R</span><span>I</span><span>X</span></h2>
+								<h2><span>F</span><span>I</span><span>T</span><span>T</span><span>R</span><span>I</span><span>X</span></h2>
 							</div>
 							<div class="img_bg">
 								<div class="site_ps">이미지에 마우스를 올려보세요<br>Put your mouse over the image</div>
@@ -162,6 +162,51 @@
 								</div>
 								<div class="view_site">
 									<a class="view_btn" href="http://fittrix.co.kr/" target="_blank">
+										<svg height="100%" width="100%" xmlns="http://www.w3.org/2000/svg">
+											<rect class="outline" height="100%" width="100%" />
+											<div class="text">VIEW WEB SITE</div>
+										</svg>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="site s3">
+							<div class="txt">
+								<h2><span>P</span><span>O</span><span>R</span><span>T</span><span>F</span><span>O</span><span>L</span><span>I</span><span>O</span></h2>
+							</div>
+							<div class="img_bg">
+								<div class="site_ps">이미지에 마우스를 올려보세요<br>Put your mouse over the image</div>
+							</div>
+							<div class="img pc">
+								<div class="pc_img_wrap">
+									<img src="assets/images/site/pc_site_portfolio.png" alt="site">
+								</div>
+							</div>
+							<div class="img pad">
+								<div class="tablet_img_wrap">
+									<img src="assets/images/site/d_site_portfolio.png" alt="site">
+								</div>
+							</div>
+							<div class="img mobile">
+								<div class="mobile_img_wrap">
+									<img src="assets/images/site/m_site_portfolio.png" alt="site">
+								</div>
+							</div>
+							<div class="site_introduction">
+								<div class="tag">
+									<span>HTML5,</span>
+									<span>CC3,</span>
+									<span>jQuery,</span>
+									<span>javascript</span>
+								</div>
+								<div class="browser">
+									<img src="assets/images/icon/IE.png" alt="IE">
+									<img src="assets/images/icon/crome.png" alt="crome">
+									<img src="assets/images/icon/firefox.png" alt="firefox">
+									<img src="assets/images/icon/whale.png" alt="whale">
+								</div>
+								<div class="view_site">
+									<a class="view_btn" href="http://weblee.kr/portfolio_ver2/src/html/main.html" target="_blank">
 										<svg height="100%" width="100%" xmlns="http://www.w3.org/2000/svg">
 											<rect class="outline" height="100%" width="100%" />
 											<div class="text">VIEW WEB SITE</div>

@@ -3,7 +3,6 @@ body {
     background-color: #d0d0d0;
     font-family: 'Roboto', sans-serif;
 }
-
 body,
 div,
 ul,
@@ -234,4 +233,8 @@ html.color .map {
 html.color .color_mode path {
     fill: rgb(61, 61, 78) !important;
     transition: all .4s cubic-bezier(0.33, 1, 0.68, 1);
+}
+
+.update {
+    position: absolute;
 }

@@ -72,6 +72,14 @@ main .list .list_item a .tag span:last-child {
 main .list .list_item a .day {
 	text-align: left;
 }
+.filter_button button.is-checked {
+	color: #fff;
+	background: rgba(0,0,0,0.8);
+	transition: background 0.4s ease;
+}
+.filter_button button.is-checked:nth-child(1) {
+	color: #fff;
+}
 
 @media screen and (max-width: 1190px) {
 	main .list .list_item {

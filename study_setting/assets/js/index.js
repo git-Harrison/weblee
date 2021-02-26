@@ -1,5 +1,5 @@
 $('document').ready(function () {
-
+	
 	// Isotope
 	var $grid = $('.list').isotope({
 		itemSelector: '.list_item',
