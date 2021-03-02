@@ -77,7 +77,7 @@
 		</section>
 		<!-- 컨텐츠 1 -->
 
-		<!-- //컨텐츠 2 -->
+		<!-- 컨텐츠 2 -->
 		<section class="section" id="section2">
 		    <div class="sec_container">
 		    	<div class="site_slider">
@@ -221,8 +221,16 @@
 		</section>
 		<!-- //컨텐츠 2 -->
 
-		<!-- //컨텐츠 3 -->
+		<!-- 컨텐츠 3 -->
 		<section class="section" id="section3">
+		    <div class="sec_container">
+		    	
+		    </div>
+		</section>
+		<!-- //컨텐츠 3 -->
+
+		<!-- //컨텐츠 4 -->
+		<section class="section" id="section4">
 			<div class="sec_container">
 				<div class="contact_us">
 					<h1>Contact us</h1>
@@ -308,7 +316,7 @@
 				</div>
 			</div>
 		</section>
-		<!-- //컨텐츠 3 -->
+		<!-- //컨텐츠 4 -->
 		
 	</main>
 
