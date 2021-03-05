@@ -106,7 +106,7 @@
 						</a>
 					</div>
 					<div class="list_item color4 timetable" data-category="test">
-						<a href="">
+						<a href="timetable/timetable.html">
 							<h2>TIME TABLE</h2>
 							<p>시간표</p>
 							<div class="tag">
