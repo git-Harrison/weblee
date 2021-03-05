@@ -13,6 +13,9 @@ body.info {
 body.info .list p {
 	background-color: #f4edff;
 }
+body.timetable {
+	background-color: #e4ee90;
+}
 
 .tag {
 	color: #e32472;
@@ -61,6 +64,78 @@ body.info .list p {
 .list table td {
 	padding: 20px 0;
 	text-align: center;
+}
+.list.bold h2 {
+	font-weight: bold;
+}
+.timetable .list table .none {
+	width: 5%;
+	text-align: center;
+}
+.timetable .list table tbody tr {
+	border-bottom: 1px solid #e3b0ad;
+}
+.timetable .list table td {
+	border-right: 1px solid #e3b0ad;
+}
+.timetable .list table tbody tr:last-child,
+.timetable .list table th:last-child,
+.timetable .list table td:last-child {
+	border: 0;
+}
+.timetable .list table td.none {
+	width: 5%;
+	background-color: #fff5e4;
+}
+.timetable .list table th {
+	width: 18%;
+	max-width: 18%;
+	font-size: 18px;
+	background-color: #FACD87;
+	border-right: 1px solid #e3b0ad;
+}
+.timetable .list table td {
+	position: relative;
+	width: 18%;
+	max-width: 18%;
+	height: 300px;
+	padding: 10px;
+	margin: 0 2px;
+	text-align: left; 
+}
+.timetable .list table td:hover {
+	background-color: #f7ffb3;
+}
+.timetable .list table td.none:hover {
+	background-color: #fff5e4;
+}
+.timetable .list table td h3 {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	font-size: 32px;
+	font-weight: bold;
+}
+.timetable .list table td h4 {
+	position: absolute;
+	left: 10px;
+	top: 60px;
+}
+.timetable .list table td h4 span {
+	display: inline-block;
+	margin-right: 4px;
+	padding: 0 10px;
+	background-color: #ffe3b7;
+	text-align: center;
+}
+.timetable .list table td ul {
+	position: absolute;
+    left: 10px;
+    top: 70px;
+}
+.timetable .list table td li {
+	word-break: break-all;
+	font-size: 14px;
 }
 .list a {
 	font-size: 16px;
