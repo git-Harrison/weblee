@@ -65,14 +65,14 @@
 					<button class="button" data-filter=".html">HTML</button>
 					<button class="button" data-filter=".css">CSS</button>
 					<button class="button" data-filter=".info">INFO</button>
-					<button class="button" data-filter=".test">TEST</button>
+					<button class="button" data-filter=".timetable">TIME TABLE</button>
 				</div>
 
 				<div class="list">
 					<div class="list_item color1 html" data-category="html">
 						<a href="html/html.html">
 							<h2>HTML</h2>
-							<p>HTML 관련 자료</p>
+							<p>HTML 레퍼런스</p>
 							<div class="tag">
 								<span>#html</span>
 							</div>
@@ -84,7 +84,7 @@
 					<div class="list_item color2 css" data-category="css">
 						<a href="css/css.html">
 							<h2>CSS</h2>
-							<p>CSS 관련 자료</p>
+							<p>CSS 레퍼런스</p>
 							<div class="tag">
 								<span>#css</span>
 							</div>
@@ -96,7 +96,7 @@
 					<div class="list_item color3 info" data-category="info">
 						<a href="info/info.html">
 							<h2>INFO</h2>
-							<p>INFO 관련 자료</p>
+							<p>필요 정보 사이트 링크</p>
 							<div class="tag">
 								<span>#html</span>
 							</div>
@@ -105,63 +105,15 @@
 							</div>
 						</a>
 					</div>
-					<div class="list_item color4 test" data-category="test">
+					<div class="list_item color4 timetable" data-category="test">
 						<a href="">
-							<h2>테스트</h2>
-							<p>테스트</p>
+							<h2>TIME TABLE</h2>
+							<p>시간표</p>
 							<div class="tag">
-								<span>#teg</span><span>#html</span>
+								<span>#timetable</span><span>#study</span><span>#html</span><span>#css</span>
 							</div>
 							<div class="day">
-								<span>2021</span>.<span>03</span>.<span>02</span>
-							</div>
-						</a>
-					</div>
-					<div class="list_item color3 info" data-category="info">
-						<a href="">
-							<h2>INFO</h2>
-							<p>INFO 관련 자료</p>
-							<div class="tag">
-								<span>#html</span>
-							</div>
-							<div class="day">
-								<span>2021</span>.<span>03</span>.<span>02</span>
-							</div>
-						</a>
-					</div>
-					<div class="list_item color4 test" data-category="test">
-						<a href="">
-							<h2>테스트</h2>
-							<p>테스트</p>
-							<div class="tag">
-								<span>#teg</span><span>#html</span>
-							</div>
-							<div class="day">
-								<span>2021</span>.<span>03</span>.<span>02</span>
-							</div>
-						</a>
-					</div>
-					<div class="list_item color1 html" data-category="html">
-						<a href="">
-							<h2>HTML</h2>
-							<p>HTML 관련 자료</p>
-							<div class="tag">
-								<span>#html</span>
-							</div>
-							<div class="day">
-								<span>2021</span>.<span>03</span>.<span>02</span>
-							</div>
-						</a>
-					</div>
-					<div class="list_item color2 css" data-category="css">
-						<a href="">
-							<h2>CSS</h2>
-							<p>CSS 관련 자료</p>
-							<div class="tag">
-								<span>#css</span>
-							</div>
-							<div class="day">
-								<span>2021</span>.<span>03</span>.<span>02</span>
+								<span>2021</span>.<span>03</span>.<span>05</span>
 							</div>
 						</a>
 					</div>
