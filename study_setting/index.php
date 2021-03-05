@@ -69,42 +69,7 @@
 				</div>
 
 				<div class="list">
-					<div class="list_item color1 html" data-category="html">
-						<a href="html/html.html">
-							<h2>HTML</h2>
-							<p>HTML 레퍼런스</p>
-							<div class="tag">
-								<span>#html</span>
-							</div>
-							<div class="day">
-								<span>2021</span>.<span>03</span>.<span>02</span>
-							</div>
-						</a>
-					</div>
-					<div class="list_item color2 css" data-category="css">
-						<a href="css/css.html">
-							<h2>CSS</h2>
-							<p>CSS 레퍼런스</p>
-							<div class="tag">
-								<span>#css</span>
-							</div>
-							<div class="day">
-								<span>2021</span>.<span>03</span>.<span>02</span>
-							</div>
-						</a>
-					</div>
-					<div class="list_item color3 info" data-category="info">
-						<a href="info/info.html">
-							<h2>INFO</h2>
-							<p>필요 정보 사이트 링크</p>
-							<div class="tag">
-								<span>#html</span>
-							</div>
-							<div class="day">
-								<span>2021</span>.<span>03</span>.<span>02</span>
-							</div>
-						</a>
-					</div>
+
 					<div class="list_item color4 timetable" data-category="test">
 						<a href="timetable/timetable.html">
 							<h2>TIME TABLE</h2>
@@ -117,7 +82,48 @@
 							</div>
 						</a>
 					</div>
-				</ul>
+
+					<div class="list_item color1 html" data-category="html">
+						<a href="html/html.html">
+							<h2>HTML</h2>
+							<p>HTML 레퍼런스</p>
+							<div class="tag">
+								<span>#html</span>
+							</div>
+							<div class="day">
+								<span>2021</span>.<span>03</span>.<span>02</span>
+							</div>
+						</a>
+					</div>
+
+					<div class="list_item color2 css" data-category="css">
+						<a href="css/css.html">
+							<h2>CSS</h2>
+							<p>CSS 레퍼런스</p>
+							<div class="tag">
+								<span>#css</span>
+							</div>
+							<div class="day">
+								<span>2021</span>.<span>03</span>.<span>02</span>
+							</div>
+						</a>
+					</div>
+
+					<div class="list_item color3 info" data-category="info">
+						<a href="info/info.html">
+							<h2>INFO</h2>
+							<p>필요 정보 사이트 링크</p>
+							<div class="tag">
+								<span>#html</span>
+							</div>
+							<div class="day">
+								<span>2021</span>.<span>03</span>.<span>02</span>
+							</div>
+						</a>
+					</div>
+
+				</div>
+				
 			</div>
 		</main>
 
