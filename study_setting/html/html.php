@@ -1,3 +1,5 @@
+<? include_once('../header.php'); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,6 +14,8 @@
 
 	<!-- 폰트 -->
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;900&display=swap" rel="stylesheet">
+
+	<!-- CSS -->
 	<link rel="stylesheet" href="../assets/css/common.css">
 	<link rel="stylesheet" href="../assets/css/sub_default.css">
 
@@ -19,25 +23,6 @@
 <body class="sub html">
 
 	<div class="wrap">
-		
-		<div class="nav">
-			<div class="container">
-				<ul>
-					<li>
-						<a href="https://weblee.kr/" target="_blank">WEBLEE</a>
-					</li>
-					<li>
-						<a href="" target="_blank">CODPEN</a>
-					</li>
-					<li>
-						<a href="https://publ-reference.tistory.com" target="_blank">TISTORY</a>
-					</li>
-					<li>
-						<a href="https://github.com/wognsl305/weblee" target="_blank">GITHUB</a>
-					</li>
-				</ul>
-			</div>
-		</div>
 
 		<header>
 			<div class="title">

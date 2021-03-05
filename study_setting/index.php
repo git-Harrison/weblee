@@ -1,54 +1,19 @@
+<? include_once('header.php'); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width"/>
-	<meta name="author" content="weblee">
-	<meta name="keywords" content="웹 퍼블리셔,퍼블리셔,웹 표준,웹 접근성,크로스브라우징,프런트엔드,Front-end,leehun,web developer,publisher,html5,css3,markup,javascript,jquery,php,jsp">
 	<title>WebLee</title>
-	
+
 	<!-- 파비콘 -->
 	<link rel=" shortcut icon" href="../assets/images/favicon.png">
-
-	<!-- 폰트 -->
-	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;900&display=swap" rel="stylesheet">
-
-	<!-- 메인페이지 레이아웃 기본 CSS 설정 -->
-	<link rel="stylesheet" href="assets/css/common.css">
-	<link rel="stylesheet" href="assets/css/default.css">
 
 </head>
 <body>
 
 	<div class="wrap">
-		
-		<div class="nav">
-			<div class="container">
-				<?
-					$filename = 'index.php';
-
-					if (file_exists($filename)) {
-
-					    echo "<div class='update'>페이지 최종 수정일 : " . date ("Y년 m월  d일  H시 i분 ", filemtime($filename));
-					    echo "</div>";
-					}
-				?> 
-				<ul>
-					<li>
-						<a href="https://weblee.kr/" target="_blank">WEBLEE</a>
-					</li>
-					<li>
-						<a href="" target="_blank">CODPEN</a>
-					</li>
-					<li>
-						<a href="https://publ-reference.tistory.com" target="_blank">TISTORY</a>
-					</li>
-					<li>
-						<a href="https://github.com/wognsl305/weblee" target="_blank">GITHUB</a>
-					</li>
-				</ul>
-			</div>
-		</div>
 
 		<header>
 			<div class="title">
@@ -71,7 +36,7 @@
 				<div class="list">
 
 					<div class="list_item color4 timetable" data-category="test">
-						<a href="timetable/timetable.html">
+						<a href="timetable/timetable.php">
 							<h2>TIME TABLE</h2>
 							<p>시간표</p>
 							<div class="tag">
@@ -84,7 +49,7 @@
 					</div>
 
 					<div class="list_item color1 html" data-category="html">
-						<a href="html/html.html">
+						<a href="html/html.php">
 							<h2>HTML</h2>
 							<p>HTML 레퍼런스</p>
 							<div class="tag">
@@ -97,7 +62,7 @@
 					</div>
 
 					<div class="list_item color2 css" data-category="css">
-						<a href="css/css.html">
+						<a href="css/css.php">
 							<h2>CSS</h2>
 							<p>CSS 레퍼런스</p>
 							<div class="tag">
@@ -110,7 +75,7 @@
 					</div>
 
 					<div class="list_item color3 info" data-category="info">
-						<a href="info/info.html">
+						<a href="info/info.php">
 							<h2>INFO</h2>
 							<p>필요 정보 사이트 링크</p>
 							<div class="tag">
@@ -123,7 +88,7 @@
 					</div>
 
 				</div>
-				
+
 			</div>
 		</main>
 
