@@ -1,7 +1,7 @@
 body.end .chevron {
     position: absolute;
     left: 49%;
-    top: -44%;
+    top: -22%;
     width: 28px;
     height: 8px;
     opacity: 0;
@@ -35,7 +35,7 @@ footer {
 .chevron {
     position: absolute;
     left: 49%;
-    top: -44%;
+    top: -22%;
     width: 28px;
     height: 8px;
     opacity: 0;

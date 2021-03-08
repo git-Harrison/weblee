@@ -53,6 +53,28 @@
     html.white .cont_R {
         background-size: 880px 860px;
     }
+    .mail_send_form {
+        right: 48px;
+        width: 320px;
+    }
+    .mail_send_form h2 {
+        padding: 10px 0 20px 0;
+    }
+    .mail_send_form {
+        min-height: 428px;
+    }
+    .mail_send_form fieldset {
+        margin-bottom: 30px;    
+    }
+    .mail_send_form .button-xlarge {
+        bottom: 80px;   
+    }
+    .mail_send_form .ps {
+        padding-top: 60px;
+    }
+    .sns {
+        right: 362px;
+    }
 }
 
 @media screen and (max-width: 1280px) {
@@ -104,13 +126,6 @@
     .our {
         left: 48px;
     }
-    .mail_send_form {
-        right: 48px;
-        width: 320px;
-    }
-    .mail_send_form h2 {
-        padding: 10px 0 20px 0;
-    }
     input, textarea {
         font-size: 13px;
         padding: 8px 0 6px 0;
@@ -120,15 +135,6 @@
     textarea:focus::-webkit-input-placeholder,
     textarea:valid::-webkit-input-placeholder {
         transform: translateY(0);
-    }
-    .mail_send_form {
-        min-height: 428px;
-    }
-    .mail_send_form .ps {
-        padding-top: 33px;
-    }
-    .sns {
-        right: 362px;
     }
     .site_slider {
         height: 100%;
