@@ -17,8 +17,8 @@
 
 		<header>
 			<div class="title">
-				<h1>STUDY MAIN SITE</h1> <!-- 제목 -->
-				<p>강의</p> <!-- 부제목 -->
+				<h1>STUDY MAIN SITE</h1>
+				<p>강의</p>
 			</div>
 		</header>
 

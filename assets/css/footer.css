@@ -120,3 +120,20 @@ footer {
         opacity: 1;
     }
 }
+
+@media screen and (max-width: 1360px) {
+    .chevron:before {
+        left: 3px;
+        width: 33%;
+    }
+    .chevron:after {
+        right: 7px;
+        width: 33%;
+    }
+    .chevron {
+        top: -18%;
+    }
+    body.end .chevron {
+        top: -18%;
+    }
+}
