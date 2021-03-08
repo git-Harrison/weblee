@@ -91,6 +91,9 @@ header .title p {
 }
 @media screen and (max-width: 768px) {
 	.nav {display: none;}
+	header .title h1 {
+		font-size: 23px;
+	}
 }
 @media screen and (max-width: 414px) {
 	.container {

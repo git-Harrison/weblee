@@ -26,6 +26,18 @@
 	<link rel="stylesheet" href="assets/css/mail.css">
 	<link rel="stylesheet" href="assets/css/mideaquery.css">
 
+	<script>
+		//디바이스 모바일일때 모바일 페이지로 자동이동
+ 		var uAgent = navigator.userAgent.toLowerCase();
+		var mobilePhones = new Array('iphone', 'ipod', 'ipad', 'android', 'blackberry', 'windows ce','nokia', 'webos', 'opera mini', 'sonyericsson', 'opera mobi', 'iemobile');
+
+		for (var i = 0; i < mobilePhones.length; i++){
+			if (uAgent.indexOf(mobilePhones[i]) != -1){
+				location.href="/mobile/index.php";
+			}
+		};
+ 	</script>
+
 </head>
 <body>
 	<main id="main">

@@ -54,7 +54,7 @@ main .list .list_item a h2 {
 	text-align: left;
 }
 main .list .list_item a p {
-	min-height: 108px;
+	min-height: 125px;
 	padding-top: 40px;
 	text-align: left;
 }
@@ -92,11 +92,8 @@ main .list .list_item a .day {
 	}
 }
 @media screen and (max-width: 414px) {
-	main .filter_button button:hover {
-		background: none;
-	}
 	main .filter_button button:hover:nth-child(1) {
-		color: #343434;
+		color: #fff;
 	}
 	main .list .list_item {
 		width: 100%;

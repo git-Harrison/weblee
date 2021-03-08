@@ -42,9 +42,6 @@
 							<div class="tag">
 								<span>#timetable</span><span>#study</span><span>#html</span><span>#css</span>
 							</div>
-							<div class="day">
-								<span>2021</span>.<span>03</span>.<span>05</span>
-							</div>
 						</a>
 					</div>
 
@@ -54,9 +51,6 @@
 							<p>HTML 레퍼런스</p>
 							<div class="tag">
 								<span>#html</span>
-							</div>
-							<div class="day">
-								<span>2021</span>.<span>03</span>.<span>02</span>
 							</div>
 						</a>
 					</div>
@@ -68,9 +62,6 @@
 							<div class="tag">
 								<span>#css</span>
 							</div>
-							<div class="day">
-								<span>2021</span>.<span>03</span>.<span>02</span>
-							</div>
 						</a>
 					</div>
 
@@ -79,10 +70,7 @@
 							<h2>INFO</h2>
 							<p>필요 정보 사이트 링크</p>
 							<div class="tag">
-								<span>#html</span>
-							</div>
-							<div class="day">
-								<span>2021</span>.<span>03</span>.<span>02</span>
+								<span>#information</span>
 							</div>
 						</a>
 					</div>
