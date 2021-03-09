@@ -40,7 +40,7 @@
 							<h2>TIME TABLE</h2>
 							<p>시간표</p>
 							<div class="tag">
-								<span>#timetable</span><span>#study</span><span>#html</span><span>#css</span>
+								<span>#시간표</span><span>#스터디</span><span>#html</span><span>#css</span>
 							</div>
 						</a>
 					</div>

@@ -11,6 +11,7 @@
 	<link rel=" shortcut icon" href="../../assets/images/favicon.png">
 
 	<!-- 폰트 -->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;900&display=swap" rel="stylesheet">
 
 	<!-- CSS -->
@@ -77,20 +78,31 @@
 									<h3>8</h3>
 									<h4><span>셋팅</span> <span>기본</span></h4>
 									<ul>
-										<li>에디터/git/filezila/Dothome/Github 셋팅</li>
+										<li>에디터 셋팅</li>
 										<li>에디터 기본 사용법</li>
-										<li>HTML 기본 사용법 (파일 연동)</li>
+										<li>HTML과 CSS연동 방법</li>
+										<li>HTML문법 (닫는태그, 부모요소, 자식요소)</li>
+										<li>CSS문법 ( class 사용법 )</li>
 									</ul>
 								</td>
 								<td>
 									<h3>9</h3>
+									<h4><span class="homework">숙제</span></h4>
+									<ul>
+										<li>에디터 셋팅</li>
+										<li>에디터 기본 사용법</li>
+										<li>HTML과 CSS연동 방법</li>
+										<li>HTML문법 (닫는태그, 부모요소, 자식요소)</li>
+										<li>CSS문법 ( class 사용법 )</li>
+									</ul>
 								</td>
 								<td>
 									<h3>10</h3>
-									<h4><span>셋팅</span> <span>기본</span></h4>
+									<h4><span>타이핑연습</span> <span>레이아웃</span></h4>
 									<ul>
-										<li>HTML 사용 레이아웃 잡기 테스트</li>
-										<li>class 사용 CSS 연동</li>
+										<li>HTML, CSS 타이핑 연습</li>
+										<li>HTML, CSS 문법 연습</li>
+										<li>개발자 도구 사용법 (F12)</li>
 									</ul>
 								</td>
 								<td>
@@ -109,6 +121,12 @@
 								</td>
 								<td>
 									<h3>15</h3>
+									<h4><span>닷홈셋팅</span> <span>파일질라</span></h4>
+									<ul>
+										<li>닷홈 셋팅</li>
+										<li>닷홈 스터디 메인 index 연동</li>
+										<li>파일질라 사용법</li>
+									</ul>
 								</td>
 								<td>
 									<h3>16</h3>
