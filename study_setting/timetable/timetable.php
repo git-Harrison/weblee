@@ -89,11 +89,14 @@
 									<h3>9</h3>
 									<h4><span class="homework">숙제</span></h4>
 									<ul>
-										<li>에디터 셋팅</li>
-										<li>에디터 기본 사용법</li>
-										<li>HTML과 CSS연동 방법</li>
-										<li>HTML문법 (닫는태그, 부모요소, 자식요소)</li>
-										<li>CSS문법 ( class 사용법 )</li>
+										<li>
+											<p>레이아웃 형식 만들기</p>
+											<img src="../assets/images/homework_img1.png" alt="homework_img">
+										</li>
+										<li>
+											<p>생활코딩 CSS 유튜브 1~7회</p>
+											<a href="https://www.youtube.com/playlist?list=PLuHgQVnccGMAnWgUYiAW2cTzSBywFO75B">유튜브 이동하기</a>
+										</li>
 									</ul>
 								</td>
 								<td>

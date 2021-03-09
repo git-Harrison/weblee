@@ -137,10 +137,24 @@ body.timetable {
 	position: absolute;
     left: 10px;
     top: 70px;
+    width: 84%;
+    margin: 20px 0 11px 18px;
 }
 .timetable .list table td li {
 	word-break: break-all;
 	font-size: 14px;
+}
+.timetable .list table td li p {
+	padding: 0;
+	background: none;
+}
+.timetable .list table td li img {
+	width: 94%;
+}
+.timetable .list table td li a {
+	font-size: 14px;
+	color: #1155cc;
+    text-decoration: underline;
 }
 .list a {
 	font-size: 16px;
