@@ -150,6 +150,7 @@ body.timetable {
 }
 .timetable .list table td li img {
 	width: 94%;
+	max-width: 380px;
 }
 .timetable .list table td li a {
 	font-size: 14px;
@@ -208,4 +209,12 @@ body.timetable {
     body.sub .list ul {
     	margin: 20px 0 11px 25px;
     }
+}
+@media screen and (max-width: 414px) {
+	.timetable .list table td:hover {
+		background-color: #fff5e4;
+	}
+	.list table tbody tr:hover {
+		background-color: #fff5e4;
+	}
 }
