@@ -28,6 +28,10 @@ body.timetable {
 	margin: 20px 0;
 	font-size: 32px;
 }
+.list pre {
+	background-color: #ffe8df;
+	padding: 12px;
+}
 .list p {
 	padding: 16px;
 	background-color: #ffe8df;
