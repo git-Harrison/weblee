@@ -16,7 +16,18 @@
 	
 </head>
 <body>
-	
+
+	<div class="nav_icon_wrap">
+		<div id="nav_icon">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+	</div>
+
 	<div class="nav">
 		<div class="container">
 			<?	
@@ -47,6 +58,9 @@
 			</ul>
 		</div>
 	</div>
+
+	<script src="assets/js/jquery-3.4.1.js"></script>
+	<script src="assets/js/common.js"></script>
 
 </body>
 </html>
