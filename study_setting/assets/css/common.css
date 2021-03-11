@@ -389,7 +389,7 @@ footer div {
     }
 
     body.sub header {
-        height: 180px;
+        height: 138px;
     }
 
     body.sub .list {
@@ -418,5 +418,14 @@ footer div {
     body.sub .list table {
         margin-top: 6px;
         margin-bottom: 12px;
+    }
+
+    header .title h1 {
+        margin-top: 10px;
+        margin-bottom: 8px;
+        font-size: 22px;
+    }
+    header .title p {
+        font-size: 16px;
     }
 }
