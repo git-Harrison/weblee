@@ -229,6 +229,14 @@ textarea::-webkit-input-placeholder {
     top: 17px;
 }
 
+.nav_logo {
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 21%;
+    transform: translate(-50%, -50%);
+}
+
 .nav {
     z-index: 99999999;
     position: fixed;
@@ -349,6 +357,9 @@ footer div {
     .home_btn a {
         display: block;
     }
+    .nav_logo {
+        display: block;
+    }
     .nav {
         left: -768px;
         height: 100vh;
@@ -363,12 +374,15 @@ footer div {
     .nav.on ul {
         display: block;
         position: absolute;
-        top: 250px;
+        top: 42%;
         width: 96%;
         
     }
     .nav.on ul li a {
         padding: 20px 10px;
+    }
+    .update {
+        display: none;
     }
 
     header {

@@ -27,7 +27,8 @@
 				
 				<div class="filter_button">
 					<button class="button is-checked" data-filter="*">ALL</button>
-					<button class="button" data-filter=".coding">CODE</button>
+					<button class="button" data-filter=".html">HTML</button>
+					<button class="button" data-filter=".css">CSS</button>
 					<button class="button" data-filter=".info">INFO</button>
 					<button class="button" data-filter=".timetable">TIME TABLE</button>
 				</div>
@@ -44,7 +45,7 @@
 						</a>
 					</div>
 
-					<div class="list_item coding" title="coding">
+					<div class="list_item html" title="html">
 						<a href="html/html.php">
 							<h2>HTML</h2>
 							<p>HTML 레퍼런스</p>
@@ -54,7 +55,7 @@
 						</a>
 					</div>
 
-					<div class="list_item coding" title="coding">
+					<div class="list_item css" title="css">
 						<a href="css/css.php">
 							<h2>CSS</h2>
 							<p>CSS 레퍼런스</p>

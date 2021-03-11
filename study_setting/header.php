@@ -34,6 +34,11 @@
 	</div>
 
 	<div class="nav">
+
+		<div class="nav_logo">
+			<img src="../assets/images/logo.png" alt="로고이미지">
+		</div>
+		
 		<div class="container">
 			<?	
 				$filename =  basename($_SERVER['PHP_SELF']);

@@ -20,7 +20,8 @@ main .filter_button button:hover {
 }
 main .filter_button button:hover:nth-child(1) {color: #fff;}
 main .filter_button button[data-filter*="*"] {color: #343434;}
-main .filter_button button[data-filter*=".coding"] {color: #ff9b73;}
+main .filter_button button[data-filter*=".html"] {color: #ff9b73;}
+main .filter_button button[data-filter*=".css"] {color: #ffc972;}
 main .filter_button button[data-filter*=".info"] {color: #b692f2;}
 main .filter_button button[data-filter*=".timetable"] {color: #e4ee90;}
 /*main .filter_button button[data-filter*=".coding"] {color: #e4ee90;}*/
@@ -41,7 +42,8 @@ main .list .list_item:hover {
 	transition: box-shadow 0.2s ease;
 	box-shadow: 0 0 2rem rgb(12 12 12 / 70%);
 }
-main .list .list_item[title~="coding"] {background-color: #ff9b73;}
+main .list .list_item[title~="html"] {background-color: #ff9b73;}
+main .list .list_item[title~="css"] {background-color: #ffc972;}
 main .list .list_item[title~="info"] {background-color: #b692f2;}
 main .list .list_item[title~="timetable"] {background-color: #e4ee90;}
 /*main .list .list_item[data-filter*=".timetable"] {background-color: #e4ee90;}
