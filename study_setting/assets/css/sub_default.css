@@ -29,6 +29,7 @@ body.timetable {
 	font-size: 32px;
 }
 .list pre {
+	padding: 3%;
 	white-space: pre-line;
 	background-color: #ffe8df;
 }
