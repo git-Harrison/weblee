@@ -101,18 +101,44 @@
 								</td>
 								<td>
 									<h3>10</h3>
-									<h4><span>타이핑연습</span> <span>레이아웃</span></h4>
-									<ul>
+									<h4><span style="margin-bottom: 5px;">타이핑연습</span> <span style="margin-bottom: 5px;">레이아웃</span><span>닷홈셋팅</span> <span>파일질라</span></h4>
+									<ul style="top: 100px;">
 										<li>HTML, CSS 타이핑 연습</li>
 										<li>HTML, CSS 문법 연습</li>
 										<li>개발자 도구 사용법 (F12)</li>
+										<li>닷홈 스터디 메인 index 연동</li>
+										<li>파일질라 사용법</li>
 									</ul>
 								</td>
 								<td>
 									<h3>11</h3>
+									<h4><span class="homework">숙제</span></h4>
+									<ul>
+										<li>
+											<p>레이아웃 형식 만들기</p>
+											<img src="../assets/images/homework_img2.png" alt="homework_img">
+										</li>
+										<li>
+											<p>생활코딩 HTML 유튜브 보기</p>
+											<a href="https://www.youtube.com/watch?v=tZooW6PritE&list=PLuHgQVnccGMDZP7FJ_ZsUrdCGH68ppvPb">유튜브 이동하기</a>
+										</li>
+									</ul>
 								</td>
 								<td>
 									<h3>12</h3>
+									<h4><span class="homework">숙제</span></h4>
+									<ul>
+										<li>개인 서버에 HTML 레퍼런스 내용 채우기</li>
+										<li>개인 서버에 CSS 레퍼런스 내용 채우기</li>
+										<li>
+											<p>HTML 태그 이해하기</p>
+											<a href="https://weblee.kr/study_setting/html/html.php">HTML 이동하기</a>
+										</li>
+										<li>
+											<p>CSS 속성 이해하기</p>
+											<a href="https://weblee.kr/study_setting/css/css.php">CSS 이동하기</a>
+										</li>
+									</ul>
 								</td>
 								<td class="none">
 									<h3>13</h3>
@@ -124,12 +150,6 @@
 								</td>
 								<td>
 									<h3>15</h3>
-									<h4><span>닷홈셋팅</span> <span>파일질라</span></h4>
-									<ul>
-										<li>닷홈 셋팅</li>
-										<li>닷홈 스터디 메인 index 연동</li>
-										<li>파일질라 사용법</li>
-									</ul>
 								</td>
 								<td>
 									<h3>16</h3>
