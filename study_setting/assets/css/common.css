@@ -371,6 +371,10 @@ footer div {
         padding: 20px 10px;
     }
 
+    header {
+        height: 158px;
+    }
+
     header .title h1 {
         font-size: 23px;
     }

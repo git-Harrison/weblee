@@ -19,7 +19,7 @@
 	<link rel="stylesheet" href="../assets/css/sub_default.css">
 
 </head>
-<body class="sub css">
+<body class="sub html">
 
 	<div class="wrap">
 

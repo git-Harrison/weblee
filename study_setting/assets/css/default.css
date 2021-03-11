@@ -19,11 +19,11 @@ main .filter_button button:hover {
 	background: rgba(0,0,0,0.8);
 }
 main .filter_button button:hover:nth-child(1) {color: #fff;}
-main .filter_button button:nth-child(1) {color: #343434;}
-main .filter_button button:nth-child(2) {color: #ff9b73;}
-main .filter_button button:nth-child(3) {color: #ffc972;}
-main .filter_button button:nth-child(4) {color: #b692f2;}
-main .filter_button button:nth-child(5) {color: #e4ee90;}
+main .filter_button button[data-filter*="*"] {color: #343434;}
+main .filter_button button[data-filter*=".coding"] {color: #ff9b73;}
+main .filter_button button[data-filter*=".info"] {color: #b692f2;}
+main .filter_button button[data-filter*=".timetable"] {color: #e4ee90;}
+/*main .filter_button button[data-filter*=".coding"] {color: #e4ee90;}*/
 main .list {
 	display: flex;
 	flex-wrap: wrap;
@@ -41,11 +41,11 @@ main .list .list_item:hover {
 	transition: box-shadow 0.2s ease;
 	box-shadow: 0 0 2rem rgb(12 12 12 / 70%);
 }
-main .list .list_item.color1 {background-color: #ff9b73;}
-main .list .list_item.color2 {background-color: #ffc972;}
-main .list .list_item.color3 {background-color: #b692f2;}
-main .list .list_item.color4 {background-color: #e4ee90;}
-main .list .list_item.color5 {background-color: #01d4ff;}
+main .list .list_item[title~="coding"] {background-color: #ff9b73;}
+main .list .list_item[title~="info"] {background-color: #b692f2;}
+main .list .list_item[title~="timetable"] {background-color: #e4ee90;}
+/*main .list .list_item[data-filter*=".timetable"] {background-color: #e4ee90;}
+main .list .list_item[data-filter*=".timetable"] {background-color: #01d4ff;}*/
 main .list .list_item a {
 	display: block;
 	padding: 8%;
