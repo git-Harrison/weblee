@@ -26,6 +26,11 @@
 			<span></span>
 			<span></span>
 		</div>
+		<div class="home_btn">
+			<a href="https://weblee.kr/study_setting/index.php">
+				<img src="../assets/images/logo.png" alt="로고이미지">
+			</a>
+		</div>
 	</div>
 
 	<div class="nav">

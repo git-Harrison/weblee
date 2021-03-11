@@ -143,7 +143,7 @@ textarea::-webkit-input-placeholder {
     position: absolute;
     height: 6px;
     width: 50%;
-    background: #ffb696;
+    background: #e0448b;
     opacity: 1;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -300,6 +300,21 @@ header .title p {
     position: absolute;
 }
 
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+footer div {
+    display: inline-block;
+    font-size: 24px;
+    font-family: 'Caveat', cursive;
+}
+
+
 @media screen and (max-width: 1190px) {
     .container {
         width: 98%;
@@ -308,18 +323,32 @@ header .title p {
 
 @media screen and (max-width: 768px) {
     body {
+        position: relative;
         overflow: visible;
     }
     body.active {
         overflow: hidden;
     }
     .nav_icon_wrap {
+        overflow: hidden;
         display: block;
     }
     .nav_icon_wrap.on {
         background-color: rgb(7 7 7 / 0%);
     }
-
+    .nav_icon_wrap.on .home_btn {
+        display: none;
+    }
+    .home_btn {
+        position: absolute;
+        left: 50%;
+        top: 55%;
+        transform: translate(-50%, -50%);
+        width: 45px;
+    }
+    .home_btn a {
+        display: block;
+    }
     .nav {
         left: -768px;
         height: 100vh;

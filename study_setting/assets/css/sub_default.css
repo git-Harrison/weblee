@@ -222,4 +222,7 @@ body.timetable {
 	.list table tbody tr:hover {
 		background-color: #fff5e4;
 	}
+	.timetable .list table td li img {
+		max-width: 190px;
+	}
 }

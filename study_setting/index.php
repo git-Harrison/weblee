@@ -90,3 +90,5 @@
 	</script>	
 </body>
 </html>
+
+<? include_once('footer.php'); ?>

@@ -758,3 +758,5 @@
 	<script src="../assets/js/common.js"></script>
 </body>
 </html>
+
+<? include_once('../footer.php'); ?>
