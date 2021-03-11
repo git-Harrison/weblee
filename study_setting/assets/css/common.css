@@ -1,4 +1,5 @@
 body {
+    position: relative;
     font-family: 'Roboto', sans-serif;
     background-color: #faf5e5;
 }
@@ -310,7 +311,7 @@ footer {
 }
 footer div {
     display: inline-block;
-    font-size: 24px;
+    font-size: 34px;
     font-family: 'Caveat', cursive;
 }
 
@@ -323,7 +324,6 @@ footer div {
 
 @media screen and (max-width: 768px) {
     body {
-        position: relative;
         overflow: visible;
     }
     body.active {
@@ -373,6 +373,9 @@ footer div {
 
     header .title h1 {
         font-size: 23px;
+    }
+    footer div {
+        font-size: 24px;    
     }
 }
 
