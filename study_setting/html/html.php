@@ -10,7 +10,7 @@
 	<title>WebLee</title>
 	
 	<!-- 파비콘 -->
-	<link rel=" shortcut icon" href="/assets/images/favicon.png">
+	<link rel=" shortcut icon" href="https://weblee.kr/study_setting/assets/images/favicon.png">
 
 	<!-- 폰트 -->
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">

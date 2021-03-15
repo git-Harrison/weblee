@@ -49,17 +49,59 @@
 				</div>
 			</div>
 			<div class="m_slider">
-				<div>
-					<img src="../assets/images/site/pc_site_portfolio.png" alt="">
+				<div class="m_slider_item">
+					<div class="m_slider_content">
+						<div class="m_slider_img">
+							<img src="../assets/images/site/mobile_site_studying.png" alt="studying">
+						</div>
+						<div class="m_slider_text">	
+							<h4>Reference Site</h4>
+							<div class="tag">
+								<span>#PHP</span>
+								<span>#웹표준</span>
+								<span>#반응형</span>
+							</div>
+						</div>	
+						<div class="browser">
+							<img src="../assets/images/icon/IE.png" alt="IE">
+							<img src="../assets/images/icon/crome.png" alt="crome">
+							<img src="../assets/images/icon/firefox.png" alt="firefox">
+							<img src="../assets/images/icon/whale.png" alt="whale">
+						</div>
+						<a href="https://weblee.kr/study_setting/index.php">Go to Site</a>
+					</div>
 				</div>
-				<div>
-					<img src="../assets/images/site/pc_site_portfolio.png" alt="">
+				<div class="m_slider_item">
+					<div class="m_slider_content">
+						<div class="m_slider_img">
+							<img src="../assets/images/site/mobile_site_studying.png" alt="studying">
+						</div>
+						<a href="https://weblee.kr/study_setting/index.php">사이트 보기</a>
+					</div>
 				</div>
-				<div>
-					<img src="../assets/images/site/pc_site_portfolio.png" alt="">
+				<div class="m_slider_item">
+					<div class="m_slider_content">
+						<div class="m_slider_img">
+							<img src="../assets/images/site/mobile_site_studying.png" alt="studying">
+						</div>
+						<a href="https://weblee.kr/study_setting/index.php">사이트 보기</a>
+					</div>
 				</div>
-				<div>
-					<img src="../assets/images/site/pc_site_portfolio.png" alt="">
+				<div class="m_slider_item">
+					<div class="m_slider_content">
+						<div class="m_slider_img">
+							<img src="../assets/images/site/mobile_site_studying.png" alt="studying">
+						</div>
+						<a href="https://weblee.kr/study_setting/index.php">사이트 보기</a>
+					</div>
+				</div>
+				<div class="m_slider_item">
+					<div class="m_slider_content">
+						<div class="m_slider_img">
+							<img src="../assets/images/site/mobile_site_studying.png" alt="studying">
+						</div>
+						<a href="https://weblee.kr/study_setting/index.php">사이트 보기</a>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -73,24 +115,25 @@
 	<script>
 		$('.m_slider').slick({
 		  centerMode: true,
+		  dots: true,
 		  centerPadding: '20px',
-		  slidesToShow: 2,
+		  slidesToShow: 1,
 		  responsive: [
 		    {
 		      breakpoint: 768,
 		      settings: {
 		        arrows: false,
 		        centerMode: true,
-		        centerPadding: '20px',
-		        slidesToShow: 3
+		        centerPadding: '140px',
+		        slidesToShow: 1
 		      }
 		    },
 		    {
-		      breakpoint: 380,
+		      breakpoint: 600,
 		      settings: {
 		        arrows: false,
 		        centerMode: true,
-		        centerPadding: '10px',
+		        centerPadding: '50px',
 		        slidesToShow: 1
 		      }
 		    }

@@ -8,7 +8,7 @@
 	<title>WebLee</title>
 
 	<!-- 파비콘 -->
-	<link rel=" shortcut icon" href="/assets/images/favicon.png">
+	<link rel=" shortcut icon" href="https://weblee.kr/study_setting/assets/images/favicon.png">
 
 	<!-- 폰트 -->
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
@@ -150,6 +150,19 @@
 								</td>
 								<td>
 									<h3>15</h3>
+									<h4>
+										<span style="margin-bottom: 5px;">CSS 교육</span>
+										<span style="margin-bottom: 5px;">홈페이지 만들기</span>
+										<span>서버 업로드</span>
+									</h4>
+									<ul style="top: 100px;">
+										<li>CSS display 구조 관련</li>
+										<li>로컬에서 서버 업로드 방법</li>
+										<li>
+											<p>NC 블레이드&소울 페이지 마크업</p>
+											<a href="https://bns.plaync.com/?redirect=false">블레이드&소울 이동하기</a>
+										</li>
+									</ul>
 								</td>
 								<td>
 									<h3>16</h3>
