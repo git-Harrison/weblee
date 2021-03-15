@@ -1,0 +1,115 @@
+.block {width: 180px; height: 180px; font-size: 18px; line-height: 180px; color: #fff;	cursor: pointer; text-align: center; float: left; }
+.block.gra1 > div {border-radius: 50%;}
+
+.gradient1 {background: linear-gradient(to top, #fbc2eb, #a18cd1);}
+.gradient2 {background: linear-gradient(to right, #fbc2eb, #a18cd1);}
+.gradient3 {background: linear-gradient(to bottom, #fbc2eb, #a18cd1);}
+.gradient4 {background: linear-gradient(to left, #fbc2eb, #a18cd1);}
+
+.gradient5 {background: -webkit-linear-gradient(top, #fbc2eb, #a18cd1);}
+.gradient6 {background: -webkit-linear-gradient(right, #fbc2eb, #a18cd1);}
+.gradient7 {background: -webkit-linear-gradient(bottom, #fbc2eb, #a18cd1);}
+.gradient8 {background: -webkit-linear-gradient(left, #fbc2eb, #a18cd1);}
+
+.gradient9 {background: -webkit-linear-gradient(left top, #fbc2eb, #a18cd1);}
+.gradient10 {background: -webkit-linear-gradient(right top, #fbc2eb, #a18cd1);}
+.gradient11 {background: -webkit-linear-gradient(left bottom, #fbc2eb, #a18cd1);}
+.gradient12 {background: -webkit-linear-gradient(right bottom, #fbc2eb, #a18cd1);}
+
+.gradient13 {background: linear-gradient(0deg, #2af598, #009efd);}
+.gradient14 {background: linear-gradient(40deg, #2af598, #009efd);}
+.gradient15 {background: linear-gradient(80deg, #2af598, #009efd);}
+.gradient16 {background: linear-gradient(120deg, #2af598, #009efd);}
+
+.gradient17 {background: linear-gradient(140deg, #007adf, #00ecbc);}
+.gradient18 {background: linear-gradient(140deg, #007adf, #00ecbc, #e14fad);}
+.gradient19 {background: linear-gradient(140deg, #007adf, #00ecbc, #e14fad, #b334ef);}
+.gradient20 {background: linear-gradient(140deg, #007adf, #00ecbc, #e14fad, #b334ef, #ff4e50, #ff9a44);}
+
+.gradient21 {background: linear-gradient(140deg, #007adf, #00ecbc, #e14fad 20%, #b334ef, #ff4e50, #ff9a44);}
+.gradient22 {background: linear-gradient(140deg, #007adf, #00ecbc, #e14fad 40%, #b334ef, #ff4e50, #ff9a44);}
+.gradient23 {background: linear-gradient(140deg, #007adf, #00ecbc, #e14fad 60%, #b334ef, #ff4e50, #ff9a44);}
+.gradient24 {background: linear-gradient(140deg, #007adf, #00ecbc, #e14fad 80%, #b334ef, #ff4e50, #ff9a44);}
+
+.gradient25 {background: radial-gradient(#fc6076, #ff9a44);}
+.gradient26 {background: radial-gradient(#fc6076, #ff9a44, #00ecbc);}
+.gradient27 {background: radial-gradient(#fc6076, #ff9a44, #00ecbc, #b334ef);}
+.gradient28 {background: radial-gradient(#fc6076, #ff9a44, #00ecbc, #b334ef, #ff4e50);}
+
+.gradient29 {background: radial-gradient(#fc6076, #ff9a44 20%, #00ecbc, #b334ef, #ff4e50);}
+.gradient30 {background: radial-gradient(#fc6076, #ff9a44 40%, #00ecbc, #b334ef, #ff4e50);}
+.gradient31 {background: radial-gradient(#fc6076, #ff9a44 60%, #00ecbc, #b334ef, #ff4e50);}
+.gradient32 {background: radial-gradient(#fc6076, #ff9a44 80%, #00ecbc, #b334ef, #ff4e50);}
+
+.gradient33 {background: radial-gradient(ellipse farthest-corner at center top, #f8bfa4 0%, #f33b3e 100%);}
+.gradient34 {background: radial-gradient(ellipse farthest-corner at left top, #f8bfa4 0%, #f33b3e 100%);}
+.gradient35 {background: radial-gradient(ellipse farthest-corner at right top, #f8bfa4 0%, #f33b3e 100%);}
+.gradient36 {background: radial-gradient(ellipse farthest-corner at bottom left, #f8bfa4 0%, #f33b3e 100%);}
+.gradient37 {background: radial-gradient(ellipse farthest-corner at bottom center, #f8bfa4 0%, #f33b3e 100%);}
+.gradient38 {background: radial-gradient(ellipse farthest-corner at bottom right, #f8bfa4 0%, #f33b3e 100%);}
+.gradient39 {background: radial-gradient(ellipse farthest-corner at left center, #f8bfa4 0%, #f33b3e 100%);}
+.gradient40 {background: radial-gradient(ellipse farthest-corner at right center, #f8bfa4 0%, #f33b3e 100%);}
+
+.gradient41 {background: linear-gradient(0deg, #d61058 50%, #f49943 50%);}
+.gradient42 {background: linear-gradient(30deg, #d61058 50%, #f49943 50%);}
+.gradient43 {background: linear-gradient(90deg, #d61058 50%, #f49943 50%);}
+.gradient44 {background: linear-gradient(180deg, #d61058 50%, #f49943 50%);}
+
+.gradient45 {background: repeating-linear-gradient(-45deg, #66a6ff 5px, #66a6ff 30px, #89f7f3 5px, #89f7f3 45px);}
+.gradient46 {background: repeating-linear-gradient(-45deg, #66a6ff 10px, #66a6ff 30px, #89f7f3 5px, #89f7f3 45px);}
+.gradient47 {background: repeating-linear-gradient(-45deg, #66a6ff 15px, #66a6ff 30px, #89f7f3 5px, #89f7f3 45px);}
+.gradient48 {background: repeating-linear-gradient(-45deg, #66a6ff 25px, #66a6ff 30px, #89f7f3 5px, #89f7f3 45px);}
+
+.gradient49 {background: repeating-linear-gradient(-45deg, #66a6ff 5px, #66a6ff 30px, #89f7f3 35px, #89f7f3 45px);}
+.gradient50 {background: repeating-linear-gradient(-45deg, #66a6ff 10px, #66a6ff 30px, #89f7f3 40px, #89f7f3 45px);}
+.gradient51 {background: repeating-linear-gradient(-45deg, #66a6ff 15px, #66a6ff 30px, #89f7f3 45px, #89f7f3 45px);}
+.gradient52 {background: repeating-linear-gradient(-45deg, #66a6ff 25px, #66a6ff 30px, #89f7f3 50px, #89f7f3 45px);}
+
+.gradient53 {background: repeating-radial-gradient(#a18cd1, #a18cd1 5px, #fbc2eb 5px, #fbc2eb 10px);}
+.gradient54 {background: repeating-radial-gradient(#a18cd1, #a18cd1 5px, #fbc2eb 5px, #fbc2eb 15px);}
+.gradient55 {background: repeating-radial-gradient(#a18cd1, #a18cd1 5px, #fbc2eb 5px, #fbc2eb 20px);}
+.gradient56 {background: repeating-radial-gradient(#a18cd1, #a18cd1 5px, #fbc2eb 5px, #fbc2eb 25px);}
+
+.gradient57 {background: repeating-radial-gradient(#a18cd1, #a18cd1 5px, #fbc2eb 10px, #fbc2eb 10px);}
+.gradient58 {background: repeating-radial-gradient(#a18cd1, #a18cd1 5px, #fbc2eb 15px, #fbc2eb 15px);}
+.gradient59 {background: repeating-radial-gradient(#a18cd1, #a18cd1 5px, #fbc2eb 20px, #fbc2eb 20px);}
+.gradient60 {background: repeating-radial-gradient(#a18cd1, #a18cd1 5px, #fbc2eb 25px, #fbc2eb 25px);}
+
+.gradient61 {background: linear-gradient(180deg, #30cfd0, #330867) fixed;}
+.gradient62 {background: linear-gradient(180deg, #30cfd0, #330867) fixed;}
+.gradient63 {background: linear-gradient(180deg, #30cfd0, #330867) fixed;}
+.gradient64 {background: linear-gradient(180deg, #30cfd0, #330867) fixed;}
+
+.gradient65 {background: radial-gradient(#30cfd0, #330867) fixed;}
+.gradient66 {background: radial-gradient(#30cfd0, #330867) fixed;}
+.gradient67 {background: radial-gradient(#30cfd0, #330867) fixed;}
+.gradient68 {background: radial-gradient(#30cfd0, #330867) fixed;}
+
+pre.prettyprint {
+  padding: 20px;
+  margin-bottom: 40px;
+  background-color: #fff;
+  white-space: pre-line;
+}
+
+@media screen and (max-width: 768px) {
+	.list.background {
+		flex-wrap: wrap;
+		justify-content: space-between;
+		padding: 0;
+		margin-bottom: 0 !important;
+	}
+	.list.background.on > div {
+		padding: 0.3%;
+	}
+	.block {
+		width: 134px;
+		height: 134px;
+		line-height: 134px;
+		margin: 6%;
+	}
+	pre.prettyprint {
+		margin-top: 0;
+		background-color: #ffe8df;
+	}
+}

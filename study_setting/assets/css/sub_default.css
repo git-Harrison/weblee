@@ -70,6 +70,19 @@ body.timetable {
 	padding: 20px 0;
 	text-align: center;
 }
+.list.background {
+	display: flex;
+	justify-content: space-around;
+	margin: 0;
+	padding: 40px 0;
+	background-color: #fff5e4;
+}
+.list.background.on {
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}.list.background.on > div {
+	padding: 2.3%;
+}
 .list.bold h2 {
 	font-weight: bold;
 }
@@ -191,7 +204,7 @@ body.timetable {
 
 
 @media screen and (max-width: 1280px) {
-    .list table thead {
+    .timetable .list table thead {
     	display: none;
     }
     .timetable .list table .none {

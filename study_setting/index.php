@@ -75,6 +75,16 @@
 						</a>
 					</div>
 
+					<div class="list_item css" title="css">
+						<a href="background/background.php">
+							<h2>BACKGROUND</h2>
+							<p>CSS - background 상세 내용</p>
+							<div class="tag">
+								<span>#background #background-color</span>
+							</div>
+						</a>
+					</div>
+
 				</div>
 
 			</div>
