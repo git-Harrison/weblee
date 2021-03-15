@@ -7,9 +7,6 @@
 	<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width"/>
 	<title>WebLee</title>
 
-	<!-- 파비콘 -->
-	<link rel=" shortcut icon" href="https://weblee.kr/study_setting/assets/images/favicon.png">
-
 	<!-- 폰트 -->
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;900&display=swap" rel="stylesheet">
