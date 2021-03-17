@@ -163,6 +163,18 @@
 								</td>
 								<td>
 									<h3>16</h3>
+									<h4><span class="homework">숙제</span></h4>
+									<ul>
+										<li>display: block 태그 암기</li>
+										<li>display: inline 태그 암기</li>
+										<li>display: inline-block 쓰는 이유</li>
+										<li>padding, margin 속성 암기</li>
+										<li>
+											<p>HTML, CSS 태그 공부</p>
+											<a href="https://weblee.kr/study_setting/html/html.php">HTML 이동하기</a>
+											<a href="https://weblee.kr/study_setting/css/css.php">CSS 이동하기</a>
+										</li>
+									</ul>
 								</td>
 								<td>
 									<h3>17</h3>
