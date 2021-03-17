@@ -1,0 +1,108 @@
+.container {
+	position: relative;
+	width: 1180px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+header {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	overflow: hidden;
+	height: 56px;
+	line-height: 56px;
+	border-bottom: 1px solid #efefef;
+	background-color: rgba(0,0,0,.5);
+}
+.logo {
+	width: 80px;
+	margin-left: 36px; 
+	float: left;
+}
+.rogin {
+	float: right;	
+}
+
+.rogin button {
+	padding: 0 6px;
+	color: #fff;
+	background: none;
+}
+
+nav {
+	position: fixed;
+	left: 0;
+	top: 57px;
+	overflow: hidden;
+	height: 58px;
+	line-height: 58px;
+	background-color: rgba(0,0,0,.5);
+}
+nav ul {
+	overflow: hidden;
+	float: left;
+	width: 1250px;
+	padding-left: 36px;
+	height: 58px;
+	line-height: 58px;
+}
+nav ul li {
+	float: left;
+	margin-left: 24px;
+	color: #fff;
+}
+nav button {
+	width: 153px;
+	float: left;
+	height: 58px;
+	line-height: 58px;
+	font-size: 21.5px;
+	color: #fff;
+	background-color: #e54747;
+}
+
+.banner {
+	background: url(../images/banner_bg.jpg) no-repeat top center;
+	background-size: cover;
+	height: 510px;
+}
+.title {
+	padding-top: 190px;
+}
+.title .tag {
+	margin-bottom: 16px;
+}
+.title .tag span {
+	margin-right: 8px;
+	padding: 4px 10px;
+	border: 1px solid #fff;
+	border-radius: 16px;
+	font-size: 12px;
+	color: #fff;
+}
+.title .tag span:first-child {
+	background-color: #606cc8;
+	border-color: #606cc8;
+
+}
+.title h2 {
+	margin-bottom: 22px;
+	font-size: 48px;
+	color: #fff;
+}
+.title p {
+	font-size: 17px;
+	color: #fff;
+}
+
+.title_img {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 686px;
+}
+
+
+
