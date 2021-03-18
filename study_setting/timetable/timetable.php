@@ -149,7 +149,7 @@
 									<h3>15</h3>
 									<h4>
 										<span style="margin-bottom: 5px;">CSS 교육</span>
-										<span style="margin-bottom: 5px;">홈페이지 만들기</span>
+										<span style="margin-bottom: 5px;">마크업</span>
 										<span>서버 업로드</span>
 									</h4>
 									<ul style="top: 100px;">
@@ -178,6 +178,13 @@
 								</td>
 								<td>
 									<h3>17</h3>
+									<h4><span>마크업</span></h4>
+									<ul>
+										<li>
+											<p>NC 블레이드&소울 페이지 마크업</p>
+											<a href="https://bns.plaync.com/?redirect=false">블레이드&소울 이동하기</a>
+										</li>
+									</ul>
 								</td>
 								<td>
 									<h3>18</h3>
