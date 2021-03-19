@@ -24,6 +24,7 @@ main .filter_button button[data-filter*=".html"] {color: #ff9b73;}
 main .filter_button button[data-filter*=".css"] {color: #ffc972;}
 main .filter_button button[data-filter*=".info"] {color: #b692f2;}
 main .filter_button button[data-filter*=".timetable"] {color: #e4ee90;}
+main .filter_button button[data-filter*=".coding"] {color: #01d4ff;}
 /*main .filter_button button[data-filter*=".coding"] {color: #e4ee90;}*/
 main .list {
 	display: flex;
@@ -46,6 +47,7 @@ main .list .list_item[title~="html"] {background-color: #ff9b73;}
 main .list .list_item[title~="css"] {background-color: #ffc972;}
 main .list .list_item[title~="info"] {background-color: #b692f2;}
 main .list .list_item[title~="timetable"] {background-color: #e4ee90;}
+main .list .list_item[title~="coding"] {background-color: #01d4ff;}
 /*main .list .list_item[data-filter*=".timetable"] {background-color: #e4ee90;}
 main .list .list_item[data-filter*=".timetable"] {background-color: #01d4ff;}*/
 main .list .list_item a {

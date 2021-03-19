@@ -79,7 +79,7 @@ nav button {
 
 .banner {
 	position: relative;
-	background: url(../images/banner_bg.jpg) no-repeat top center;
+	background: url(images/banner_bg.jpg) no-repeat top center;
 	background-size: cover;
 	height: 510px;
 }

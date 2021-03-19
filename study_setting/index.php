@@ -31,6 +31,7 @@
 					<button class="button" data-filter=".css">CSS</button>
 					<button class="button" data-filter=".info">INFO</button>
 					<button class="button" data-filter=".timetable">TIME TABLE</button>
+					<button class="button" data-filter=".coding">CODING</button>
 				</div>
 
 				<div class="list">
@@ -81,6 +82,16 @@
 							<p>CSS - background 상세 내용</p>
 							<div class="tag">
 								<span>#background #background-color</span>
+							</div>
+						</a>
+					</div>
+
+					<div class="list_item coding" title="coding">
+						<a href="markup/markup.php">
+							<h2>MARKUP</h2>
+							<p>홈페이지 마크업</p>
+							<div class="tag">
+								<span>#markup #홈페이지디자인 #홈페이지제작</span>
 							</div>
 						</a>
 					</div>

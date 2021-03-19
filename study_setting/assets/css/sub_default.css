@@ -16,7 +16,9 @@ body.info .list p {
 body.timetable {
 	background-color: #e9efb2;
 }
-
+body.coding {
+	background-color: #c8edf5;
+}
 .tag {
 	color: #e32472;
 }
