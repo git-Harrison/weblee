@@ -6,6 +6,7 @@
 }
 
 header {
+	z-index: 1;
 	position: fixed;
 	left: 0;
 	top: 0;
@@ -32,6 +33,7 @@ header {
 }
 
 nav {
+	z-index: 1;
 	position: fixed;
 	left: 0;
 	top: 57px;
@@ -64,6 +66,7 @@ nav button {
 }
 
 .banner {
+	position: relative;
 	background: url(../images/banner_bg.jpg) no-repeat top center;
 	background-size: cover;
 	height: 510px;
@@ -103,6 +106,78 @@ nav button {
 	bottom: 0;
 	width: 686px;
 }
+
+.menu {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: rgba(25,24,51,.8);
+}
+.menu ul {
+	overflow: hidden;
+}
+.menu ul li {
+	float: left;
+	width: 20%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+.menu ul li a {
+	display: block;
+	font-size: 15px;
+	color: rgba(255,255,255,.3);
+	transition: color 0.3s ease;
+}
+.menu ul li a:hover {
+	color: #fff;
+	transition: color 0.3s ease;
+
+}
+
+.contents {
+
+}
+.contents .item {
+
+}
+.contents .item ul {
+	overflow: hidden;
+	padding: 24px 0;
+}
+.contents .item ul li {
+	float: left;
+	width: 16.66666%;
+}
+.contents .item ul li a {
+	display: block;
+	opacity: 0.5;
+	text-align: center;
+	transition: opacity 0.3s ease;
+}
+.contents .item ul li a:hover{
+	opacity: 1;
+	transition: opacity 0.3s ease;
+}
+.contents .item ul li a img {
+	display: block;
+	margin: 0 auto;
+	width: 36px;
+	height: 36px;
+}
+.contents .item ul li a span {
+	display: block;
+	font-size: 15px;
+	color: #000;
+}
+
+
+
+
+
+
+
 
 
 
