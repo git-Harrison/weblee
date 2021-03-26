@@ -171,7 +171,7 @@
 										<li>padding, margin 속성 암기</li>
 										<li>
 											<p>HTML, CSS 태그 공부</p>
-											<a href="https://weblee.kr/study_setting/html/html.php">HTML 이동하기</a>
+											<a href="https://weblee.kr/study_setting/html/html.php">HTML 이동하기</a><br>
 											<a href="https://weblee.kr/study_setting/css/css.php">CSS 이동하기</a>
 										</li>
 									</ul>
@@ -188,9 +188,20 @@
 								</td>
 								<td>
 									<h3>18</h3>
+									<h4><span>공강</span></h4>
 								</td>
 								<td>
 									<h3>19</h3>
+									<h4><span>마크업</span><span>서버적용</span></h4>
+									<ul>
+										<li>
+											<p>NC 블레이드&소울 페이지 마크업</p>
+											<a href="https://bns.plaync.com/?redirect=false">블레이드&소울 이동하기</a>
+										</li>
+										<li>
+											<p>파일질라 FTP 사용 서버 적용</p>
+										</li>
+									</ul>
 								</td>
 								<td class="none">
 									<h3>20</h3>
@@ -202,18 +213,67 @@
 								</td>
 								<td>
 									<h3>22</h3>
+									<h4><span class="homework">숙제</span> <span>포트폴리오</span></h4>
+									<ul>
+										<li>HTML, CSS , INFO, BACKGROUND 상세 사이트 정리</li>
+										<li>개인 서버 적용</li>
+										<li>
+											<p>HTML, CSS 태그 공부</p>
+											<a href="https://weblee.kr/study_setting/html/html.php">HTML 이동하기</a><br>
+											<a href="https://weblee.kr/study_setting/css/css.php">CSS 이동하기</a>
+										</li>
+									</ul>
 								</td>
 								<td>
 									<h3>23</h3>
+									<h4><span class="homework">숙제</span> <span>포트폴리오</span></h4>
+									<ul>
+										<li>HTML, CSS , INFO, BACKGROUND 상세 사이트 정리</li>
+										<li>개인 서버 적용</li>
+										<li>
+											<p>HTML, CSS 태그 공부</p>
+											<a href="https://weblee.kr/study_setting/html/html.php">HTML 이동하기</a><br>
+											<a href="https://weblee.kr/study_setting/css/css.php">CSS 이동하기</a>
+										</li>
+									</ul>
 								</td>
 								<td>
 									<h3>24</h3>
+									<h4><span class="homework">숙제</span> <span>포트폴리오</span></h4>
+									<ul>
+										<li>HTML, CSS , INFO, BACKGROUND 상세 사이트 정리</li>
+										<li>개인 서버 적용</li>
+										<li>
+											<p>HTML, CSS 태그 공부</p>
+											<a href="https://weblee.kr/study_setting/html/html.php">HTML 이동하기</a><br>
+											<a href="https://weblee.kr/study_setting/css/css.php">CSS 이동하기</a>
+										</li>
+									</ul>
 								</td>
 								<td>
 									<h3>25</h3>
+									<h4><span class="homework">숙제</span> <span>포트폴리오</span><span>마크업</span></h4>
+									<ul>
+										<li>HTML, CSS , INFO, BACKGROUND 상세 사이트 정리</li>
+										<li>개인 서버 적용</li>
+										<li>
+											<p>NC 블레이드&소울 페이지 마크업</p>
+											<img src="../assets/images/knowhow.png" alt="knowhow_img"><br>
+											<a href="https://bns.plaync.com/?redirect=false">블레이드&소울 이동하기</a>
+										</li>
+									</ul>
 								</td>
 								<td>
 									<h3>26</h3>
+									<h4><span class="homework">숙제</span> <span>포트폴리오</span><span>마크업</span></h4>
+									<ul>
+										<li>개인서버 적용 확인</li>
+										<li>
+											<p>NC 블레이드&소울 페이지 마크업</p>
+											<img src="../assets/images/knowhow.png" alt="knowhow_img"><br>
+											<a href="https://bns.plaync.com/?redirect=false">블레이드&소울 이동하기</a>
+										</li>
+									</ul>
 								</td>
 
 								<td class="none">
