@@ -27,11 +27,15 @@
 
 	<style>
 		#wrap {
+			overflow: hidden;
 			width: 100%;
 			height: 100vh;
+			min-height: 100vh;
+			max-height: 100vh;
 			background: url(assets/images/m_bg_day.png) no-repeat top center;
 			background-size: cover;
 			transition: background 0.6s ease;
+			-webkit-tap-highlight-color: rgba(0,0,0,0);
 		}
 		#wrap.night {
 			background: url(assets/images/m_bg_night.png) no-repeat top center;
@@ -42,12 +46,6 @@
 			color: #fff;
 			transition: color 0.6s ease;
 		}
-		#wrap.night .message span,
-		#wrap.night .message .msg_text {
-			color: #343434;
-			transition: color 0.6s ease;
-		}
-
 		#wrap.night .bottom_nav {
 			background-color: #0f1f36;
 			transition: background 0.6s ease;
@@ -60,6 +58,38 @@
 			color: #343434;
 			transition: color 0.6s ease;
 		}
+		header {
+			display: inline-block;
+			position: absolute;
+			right: 4px;
+			top: 4%;
+			padding: 14px;
+			font-size: 20px;
+			cursor: pointer;
+		}
+		header i {
+			color: #FFD228;
+		}
+		header span {
+			opacity: 0;
+			display: inline-block;
+			position: absolute;
+			right: 10px;
+			top: 14px;
+			width: 15px;
+			height: 15px;
+			line-height: 13.5px;
+			font-size: 9px;
+			border-radius: 50%;
+			text-align: center;
+			background-color: #ff0000;
+			color: #fff;
+			transition: opacity 0.3s ease; 
+		}
+		header span.on {
+			opacity: 1;
+			transition: opacity 1.6s ease; 
+		}
 		.title h1 {
 			font-weight: bold;
 		}
@@ -68,14 +98,21 @@
 			margin-top: 12px;
 		}
 		.message {
+			opacity: 1;
 			position: absolute;
-			left: 0;
+			right: 0;
 			top: 120px;
 			width: 92%;
 			padding: 4%;
 			font-size: 13px;
 			border-radius: 12px;
 			background-color: #fff;
+			transition: all 0.3s ease; 
+		}
+		.message.none {
+			opacity: 0;
+			right: -500px;
+			transition: all 0.3s ease; 
 		}
 		.msg_top {
 			overflow: hidden;
@@ -87,19 +124,19 @@
 			color: #FFD228;
 		}
 		.msg_top i:last-child {
-			font: none;
+			float: none;
 			position: absolute;
-			right: 6px;
-			top: 6px;
-			padding: 0;
+			right: 0;
+			top: 0;
+			padding: 3px 7px;
 			font-size: 20px;
-			color: #ff0000;
+			color: #ff4d4d;
 		}
 		.msg_top span {
 			display: inline-block;
 			float: left;
 			padding-left: 5px;
-			color: #343434;
+			color: #ff4d4d;;
 		}
 		.msg_top div {
 			display: inline-block;
@@ -124,20 +161,39 @@
 			transition: background 0.6s ease;
 		}
 		.bottom_nav > div {
-			width: 33.33333333333%;
+			width: 25%;
 			line-height: 58px;
 			text-align: center;
 			cursor: pointer;
+		}
+		.bottom_nav > div a {
+			display: block;
+			height: 100%;
 		}
 		.bottom_nav i {
 			font-size: 22px;
 			color: #fff;
 		}
+		/*@keyframes msg_none {
+			animation: msg_none 0.4s ease;
+		    0% {
+		        transform: scale(1);
+		    }
+		    100% {
+		    	transform: scale(0);
+		    }
+		}*/
 	</style>
 
 	<div id="wrap">
 		
 		<section>
+
+			<header>
+				<i class="fa fa-bell" aria-hidden="true"></i>
+				<span>1</span>
+			</header>
+
 			<div class="container">
 				<div class="title">
 					<h1>WebLee</h1>
@@ -154,10 +210,10 @@
 
 				</div>
 
-				<div class="message">
+				<div id="message" class="message">
 					<div class="msg_top">
 						<i class="fa fa-bell" aria-hidden="true"></i>
-						<span>Unread message</span>
+						<span data-translate="msg_top">Unread message</span>
 						<div>
 
 							<?php
@@ -165,22 +221,27 @@
 							?>
 
 						</div>
-						<i class="fa fa-times" aria-hidden="true"></i>
+						<i class="fa fa-times msg_close" aria-hidden="true"></i>
 					</div>
-					<div class="msg_text">This is the mobile version<br>If you want the PC version, please use the PC</div>	
+					<div class="msg_text" data-translate="msg_text"></div>	
 				</div>
 			</div>
 		</section>
 
 		<div class="bottom_nav">
 			<div>
-				<i class="fa fa-home" aria-hidden="true"></i>
+				<a href="/">
+					<i class="fa fa-home" aria-hidden="true"></i>
+				</a>
 			</div>
 			<div id="chang_bg_btn">
 				<i class="fa fa-moon-o" aria-hidden="true"></i>
 			</div>
 			<div>
 				<i class="fa fa-envelope-o" aria-hidden="true"></i>
+			</div>
+			<div onclick="change_lang()">
+				<i class="fa fa-language" aria-hidden="true"></i>
 			</div>
 		</div>
 
@@ -272,7 +333,7 @@
 
 
 
-	<script src="../assets/js/jquery-1.12.4.js"></script>
+	<script src="assets/js/jquery-3.4.1.js"></script>
 	<script src="assets/js/slick.min.js"></script>
 	<script>
 		// $('.m_slider').slick({
@@ -304,6 +365,44 @@
 		$('#chang_bg_btn').on('click', function(){
 			$('#wrap').toggleClass('night');
 		});
+
+		$('.msg_close').on('click', function(){
+			$('#message').addClass('none');
+			$('header span').addClass('on');
+		});
+		$('header').on('click', function(){
+			$('#message').removeClass('none');
+			$('header span').removeClass('on');
+		});
+
+		var dictionary = {
+        	'msg_top': {
+	            'en': 'Unread message',
+	            'ko': '읽지 않은 메시지',
+		    },
+		    'msg_text': {
+	            'en': '<?php echo 'This is the mobile version <br> If you want the PC version, please use the PC' ?>',
+	            'ko': '<?php echo '현재 모바일 버전입니다 <br> PC 버전을 원하시면 PC를 사용하세요' ?>',
+		    }
+		};
+		var langs = ['en', 'ko'];
+		var current_lang_index = 0;
+		var current_lang = langs[current_lang_index];
+
+		window.change_lang = function() {
+		    current_lang_index = ++current_lang_index % 2;
+		    current_lang = langs[current_lang_index];
+		    translate();
+		}
+
+		function translate() {
+		    $("[data-translate]").each(function(){
+		        var key = $(this).data('translate');
+		        $(this).html(dictionary[key][current_lang] || "N/A");
+		    });
+		}
+
+		translate();
 	</script>	
 </body>
 </html>
