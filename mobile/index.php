@@ -16,11 +16,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
 
 	<!-- 스타일시트 -->
-<!-- 	<link rel="stylesheet" href="assets/css/slick.css">
-    <link rel="stylesheet" href="assets/css/slick-theme.css"> -->
-	<link rel="stylesheet" href="assets/css/font-awesome.css">
 	<link rel="stylesheet" href="assets/css/index.css">
-	<link rel="stylesheet" href="assets/css/common.css">
 
 </head>
 <body>
