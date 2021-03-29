@@ -23,6 +23,9 @@ textarea::-webkit-input-placeholder {
 	width: 86%;
 	margin: 0 auto;
 }
+.row {
+    padding-left: 7%;
+}
 
 #change_bg.night footer {
     background-color: #0f1f36;

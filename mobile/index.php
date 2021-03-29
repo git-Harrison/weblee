@@ -23,7 +23,9 @@
 				<span>1</span>
 			</header>
 
+			<!-- container -->
 			<div class="container">
+
 				<div class="title">
 					<h1>WebLee</h1>
 
@@ -54,7 +56,27 @@
 					</div>
 					<div class="msg_text" data-translate="msg_text"></div>	
 				</div>
+
+				<div class="site">
+					<div class="row">
+						<h2>My work</h2>
+						<ul>
+							<li>
+								<a href="">
+									<i class="fa fa-tag" aria-hidden="true"></i>
+									<div>
+										<p>This is the mobile version </p>
+										<span> If you want the PC version</span>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
 			</div>
+			<!-- //container -->
+
 		</section>
 
 	</div>

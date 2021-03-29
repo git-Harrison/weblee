@@ -136,6 +136,56 @@ header span.on {
     padding-top: 6px;
 }
 
+.site {
+    position: fixed;
+    left: 0;
+    bottom: 60px;
+    width: 100%;
+    background-color: rgba(241,186,199,0.4);
+}
+
+.site h2 {
+
+}
+
+.site ul {
+    padding: 10px 0;
+    display: flex;
+}
+
+.site ul li {
+    width: 80%;
+    height: 80px;
+    border-radius: 12px;
+    background-color: #c98d9b;
+}
+
+.site ul li a {
+    display: flex;
+    height: 100%;
+    color: #343434;
+}
+
+.site ul li a i {
+    display: inline-block;
+    padding: 17px;
+    font-size: 3em;
+}
+
+.site ul li a div {
+    display: inline-block;
+    padding-left: 2%;
+}
+
+.site ul li a div p {
+    padding-top: 19px;
+    font-size: 13px;
+}
+
+.site ul li a div span {
+    font-size: 11px;
+}
+
 /*@keyframes msg_none {
 	animation: msg_none 0.4s ease;
     0% {
