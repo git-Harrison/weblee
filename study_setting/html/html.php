@@ -343,7 +343,7 @@
 				</div>
 
 				<div class="list">
-					<h2><span class="tag">&lt;main<&gt;</span></h2>
+					<h2><span class="tag">&lt;main&gt;</span></h2>
 					<p>웹 문서의 주요 콘텐츠 영역을 나타낼 때 사용합니다.</p>
 					<ul>
 						<li>main은 웹 페이지에서 한 번만 사용할 수 있으며, 접근성과 검색 영역에 노출을 향상시킵니다.</li>
