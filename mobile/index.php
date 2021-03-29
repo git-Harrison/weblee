@@ -49,7 +49,7 @@
 							?>
 
 						</div>
-						<i class="fa fa-times msg_close" aria-hidden="true"></i>
+						<i id="msg_close" class="fa fa-times" aria-hidden="true"></i>
 					</div>
 					<div class="msg_text" data-translate="msg_text"></div>	
 				</div>
