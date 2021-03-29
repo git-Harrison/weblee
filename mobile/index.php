@@ -60,17 +60,37 @@
 				<div class="site">
 					<div class="row">
 						<h2>My work</h2>
-						<ul>
-							<li>
-								<a href="">
-									<i class="fa fa-tag" aria-hidden="true"></i>
-									<div>
-										<p>This is the mobile version </p>
-										<span> If you want the PC version</span>
-									</div>
-								</a>
-							</li>
-						</ul>
+						<div class="site_scroll">
+							<ul>
+								<li>
+									<a href="">
+										<i class="fa fa-tag" aria-hidden="true"></i>
+										<div>
+											<p data-translate="site1"></p>
+											<span data-translate="site1_sub"></span>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<i class="fa fa-tag" aria-hidden="true"></i>
+										<div>
+											<p>This is the mobile version </p>
+											<span> If you want the PC version</span>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<i class="fa fa-tag" aria-hidden="true"></i>
+										<div>
+											<p>This is the mobile version </p>
+											<span> If you want the PC version</span>
+										</div>
+									</a>
+								</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 
@@ -97,6 +117,14 @@
 			    'msg_text': {
 		            'en': '<?php echo 'This is the mobile version <br> If you want the PC version, please use the PC' ?>',
 		            'ko': '<?php echo '현재 모바일 버전입니다 <br> PC 버전을 원하시면 PC를 사용하세요' ?>',
+			    },
+			    'site1': {
+		            'en': '<?php echo 'Publisher Study (Reference)' ?>',
+		            'ko': '<?php echo '퍼블리셔 스터디 (참조)' ?>',
+			    },
+			    'site1_sub': {
+		            'en': '<?php echo '#reactive #web #mobile' ?>',
+		            'ko': '<?php echo '#반응형 #웹 #모바일' ?>',
 			    }
 			};
 			var langs = ['en', 'ko'];
