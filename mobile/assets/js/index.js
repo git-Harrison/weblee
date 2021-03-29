@@ -1,7 +1,5 @@
+
 // 클릭 이벤트
-$('#chang_bg_btn').on('click', function(){
-	$('#wrap').toggleClass('night');
-});
 
 $('#msg_close').on('click', function(){
 	$('#message').addClass('none');

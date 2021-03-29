@@ -17,7 +17,6 @@
 
 	<!-- 스타일시트 -->
 	<link rel="stylesheet" href="assets/css/font-awesome.css">
-	<link rel="stylesheet" href="assets/css/common.css">
 	
 </head>
 <body>
@@ -40,6 +39,17 @@
 		</div>
 
 	</footer>
-	
+
+	<script>
+
+		// 낮 밤 전환
+
+		$('#chang_bg_btn').on('click', function(){
+
+			$('#change_bg').toggleClass('night');
+
+		});
+
+	</script>
 </body>
 </html>

@@ -24,6 +24,11 @@ textarea::-webkit-input-placeholder {
 	margin: 0 auto;
 }
 
+#change_bg.night footer {
+    background-color: #0f1f36;
+    transition: background 0.6s ease;
+}
+
 footer {
 	z-index: 99;
     display: flex;

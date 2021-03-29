@@ -9,11 +9,12 @@
 
 	<!-- 스타일시트 -->
 	<link rel="stylesheet" href="assets/css/index.css">
+	<link rel="stylesheet" href="assets/css/common.css">
 
 </head>
-<body>
+<body id="change_bg">
 
-	<div id="wrap">
+	<div class="wrap">
 		
 		<section>
 
