@@ -92,6 +92,41 @@
 	<!-- 스크립트 -->
 	<script src="assets/js/jquery-3.4.1.js"></script>
 	<script src="assets/js/index.js"></script>
+	<script>
+		$(document).ready(function(){
+
+			// 번역
+			var dictionary = {
+		    	'msg_top': {
+		            'en': 'Unread message',
+		            'ko': '읽지 않은 메시지',
+			    },
+			    'msg_text': {
+		            'en': '<?php echo 'This is the mobile version <br> If you want the PC version, please use the PC' ?>',
+		            'ko': '<?php echo '현재 모바일 버전입니다 <br> PC 버전을 원하시면 PC를 사용하세요' ?>',
+			    }
+			};
+			var langs = ['en', 'ko'];
+			var current_lang_index = 0;
+			var current_lang = langs[current_lang_index];
+
+			window.change_lang = function() {
+			    current_lang_index = ++current_lang_index % 2;
+			    current_lang = langs[current_lang_index];
+			    translate();
+			}
+
+			function translate() {
+			    $("[data-translate]").each(function(){
+			        var key = $(this).data('translate');
+			        $(this).html(dictionary[key][current_lang] || "N/A");
+			    });
+			}
+
+			translate();
+			
+		});
+	</script>
 
 </body>
 </html>
