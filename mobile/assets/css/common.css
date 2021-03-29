@@ -19,6 +19,7 @@ textarea::-webkit-input-placeholder {
 }
 
 .container {
-	width: 92%;
+	position: relative;
+	width: 86%;
 	margin: 0 auto;
 }

@@ -17,6 +17,7 @@
 
 	<!-- 스타일시트 -->
 	<link rel="stylesheet" href="assets/css/slick.css">
+	<link rel="stylesheet" href="assets/css/font-awesome.css">
 	<link rel="stylesheet" href="assets/css/common.css">
 	<link rel="stylesheet" href="assets/css/index.css">
 	<!-- <link rel="stylesheet" href="assets/css/slick-theme.css"> -->
@@ -24,20 +25,172 @@
 </head>
 <body>
 
+	<style>
+		#wrap {
+			width: 100%;
+			height: 100vh;
+			background: url(assets/images/m_bg_day.png) no-repeat top center;
+			background-size: cover;
+			transition: background 0.6s ease;
+		}
+		#wrap.night {
+			background: url(assets/images/m_bg_night.png) no-repeat top center;
+			background-size: cover;
+			transition: background 0.6s ease;
+		}
+		#wrap.night .title {
+			color: #fff;
+			transition: color 0.6s ease;
+		}
+		#wrap.night .message span,
+		#wrap.night .message .msg_text {
+			color: #343434;
+			transition: color 0.6s ease;
+		}
 
+		#wrap.night .bottom_nav {
+			background-color: #0f1f36;
+			transition: background 0.6s ease;
+		}
+		.title {
+			position: absolute;
+			left: 0;
+			top: 40px;
+			width: 100%;
+			color: #343434;
+			transition: color 0.6s ease;
+		}
+		.title h1 {
+			font-weight: bold;
+		}
+		.title p {
+			font-size: 13px;
+			margin-top: 12px;
+		}
+		.message {
+			position: absolute;
+			left: 0;
+			top: 120px;
+			width: 92%;
+			padding: 4%;
+			font-size: 13px;
+			border-radius: 12px;
+			background-color: #fff;
+		}
+		.msg_top {
+			overflow: hidden;
+		}
+		.msg_top i {
+			display: inline-block;
+			float: left;
+			padding-top: 5px;
+			color: #FFD228;
+		}
+		.msg_top i:last-child {
+			font: none;
+			position: absolute;
+			right: 6px;
+			top: 6px;
+			padding: 0;
+			font-size: 20px;
+			color: #ff0000;
+		}
+		.msg_top span {
+			display: inline-block;
+			float: left;
+			padding-left: 5px;
+			color: #343434;
+		}
+		.msg_top div {
+			display: inline-block;
+			float: right;
+			padding-top: 3px;
+			padding-right: 6%;
+			font-size: 11px;
+			color: #848484;
+		}
+		.msg_text {
+			padding-top: 6px;
+		}
+		.bottom_nav {
+			display: flex;
+			position: fixed;
+			left: 0;
+			bottom: 0;
+			width: 100%;
+			height: 60px;
+			/*background-color: rgba(71,84,101,0.8);*/
+			background-color: #c98d9b;
+			transition: background 0.6s ease;
+		}
+		.bottom_nav > div {
+			width: 33.33333333333%;
+			line-height: 58px;
+			text-align: center;
+			cursor: pointer;
+		}
+		.bottom_nav i {
+			font-size: 22px;
+			color: #fff;
+		}
+	</style>
 
-	<div class="wrap">
+	<div id="wrap">
 		
-		<section class="main">
+		<section>
+			<div class="container">
+				<div class="title">
+					<h1>WebLee</h1>
+
+					<?	
+						$filename =  basename($_SERVER['PHP_SELF']);
+
+						if (file_exists($filename)) {
+
+						    echo "<p>" . date ("j F,  Y H:i ", filemtime($filename));
+						    echo "</p>";
+						}
+					?> 
+
+				</div>
+
+				<div class="message">
+					<div class="msg_top">
+						<i class="fa fa-bell" aria-hidden="true"></i>
+						<span>Unread message</span>
+						<div>
+
+							<?php
+								echo date("Y-m-d H:i")."<br/>";
+							?>
+
+						</div>
+						<i class="fa fa-times" aria-hidden="true"></i>
+					</div>
+					<div class="msg_text">This is the mobile version<br>If you want the PC version, please use the PC</div>	
+				</div>
+			</div>
+		</section>
+
+		<div class="bottom_nav">
+			<div>
+				<i class="fa fa-home" aria-hidden="true"></i>
+			</div>
+			<div id="chang_bg_btn">
+				<i class="fa fa-moon-o" aria-hidden="true"></i>
+			</div>
+			<div>
+				<i class="fa fa-envelope-o" aria-hidden="true"></i>
+			</div>
+		</div>
+
+		<!-- <section class="main">
 
 			<h1>WebLee</h1>
 			<h2>My delicate and free UI&UX development space</h2>
 			<div class="main_img">
 				<img src="assets/images/bg.jpg" alt="강동원">
 			</div>
-<!-- 			<div class="main_s_img">
-				<img src="assets/images/bg.jpg" alt="강동원">
-			</div> -->
 
 		</section>
 
@@ -104,7 +257,16 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
+
+		<!-- 메일보내기 -->
+		<!-- <section>
+			<div class="container">
+				<div class="contact_us">
+					
+				</div>
+			</div>
+		</section> -->
 
 	</div>
 
@@ -113,31 +275,34 @@
 	<script src="../assets/js/jquery-1.12.4.js"></script>
 	<script src="assets/js/slick.min.js"></script>
 	<script>
-		$('.m_slider').slick({
-		  centerMode: true,
-		  dots: true,
-		  centerPadding: '20px',
-		  slidesToShow: 1,
-		  responsive: [
-		    {
-		      breakpoint: 768,
-		      settings: {
-		        arrows: false,
-		        centerMode: true,
-		        centerPadding: '140px',
-		        slidesToShow: 1
-		      }
-		    },
-		    {
-		      breakpoint: 600,
-		      settings: {
-		        arrows: false,
-		        centerMode: true,
-		        centerPadding: '50px',
-		        slidesToShow: 1
-		      }
-		    }
-		  ]
+		// $('.m_slider').slick({
+		//   centerMode: true,
+		//   dots: true,
+		//   centerPadding: '20px',
+		//   slidesToShow: 1,
+		//   responsive: [
+		//     {
+		//       breakpoint: 768,
+		//       settings: {
+		//         arrows: false,
+		//         centerMode: true,
+		//         centerPadding: '140px',
+		//         slidesToShow: 1
+		//       }
+		//     },
+		//     {
+		//       breakpoint: 600,
+		//       settings: {
+		//         arrows: false,
+		//         centerMode: true,
+		//         centerPadding: '50px',
+		//         slidesToShow: 1
+		//       }
+		//     }
+		//   ]
+		// });
+		$('#chang_bg_btn').on('click', function(){
+			$('#wrap').toggleClass('night');
 		});
 	</script>	
 </body>
