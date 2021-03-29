@@ -19,9 +19,8 @@
 <!-- 	<link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/slick-theme.css"> -->
 	<link rel="stylesheet" href="assets/css/font-awesome.css">
-	<link rel="stylesheet" href="assets/css/common.css">
 	<link rel="stylesheet" href="assets/css/index.css">
-	
+	<link rel="stylesheet" href="assets/css/common.css">
 
 </head>
 <body>
@@ -69,7 +68,7 @@
 			</div>
 		</section>
 
-		<div class="bottom_nav">
+		<footer>
 			<div>
 				<a href="/">
 					<i class="fa fa-home" aria-hidden="true"></i>
@@ -84,7 +83,7 @@
 			<div onclick="change_lang()">
 				<i class="fa fa-language" aria-hidden="true"></i>
 			</div>
-		</div>
+		</footer>
 
 	</div>
 
@@ -93,6 +92,7 @@
 	<script src="assets/js/jquery-3.4.1.js"></script>
 	<script src="assets/js/index.js"></script>
 	<script>
+
 		$(document).ready(function(){
 
 			// 번역
@@ -122,11 +122,13 @@
 			        $(this).html(dictionary[key][current_lang] || "N/A");
 			    });
 			}
-
 			translate();
-			
+
 		});
+
 	</script>
 
 </body>
 </html>
+
+<? include_once('footer.php'); ?>
