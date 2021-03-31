@@ -31,10 +31,10 @@
 		<div id="chang_bg_btn">
 			<i class="fa fa-moon-o" aria-hidden="true"></i>
 		</div>
-		<div>
+<!-- 		<div>
 			<i class="fa fa-envelope-o" aria-hidden="true"></i>
-		</div>
-		<div onclick="change_lang()">
+		</div> -->
+		<div id="change_lang" onclick="change_lang()">
 			<i class="fa fa-language" aria-hidden="true"></i>
 		</div>
 
@@ -45,9 +45,11 @@
 		// 낮 밤 전환
 
 		$('#chang_bg_btn').on('click', function(){
-
 			$('#change_bg').toggleClass('night');
+		});
 
+		$('#change_lang').on('click', function(){
+			$(this).toggleClass('on');
 		});
 
 	</script>

@@ -29,15 +29,10 @@
 				<div class="title">
 					<h1>WebLee</h1>
 
-					<?	
-						$filename =  basename($_SERVER['PHP_SELF']);
-
-						if (file_exists($filename)) {
-
-						    echo "<p>" . date ("j F,  Y H:i ", filemtime($filename));
-						    echo "</p>";
-						}
-					?> 
+					<?php
+						echo "<p>" . date("j F,  Y H:i")."<br/>";
+						echo "</p>";
+					?>
 
 				</div>
 
@@ -47,9 +42,15 @@
 						<span data-translate="msg_top">Unread message</span>
 						<div>
 
-							<?php
-								echo date("Y-m-d H:i")."<br/>";
-							?>
+							<?	
+								$filename =  basename($_SERVER['PHP_SELF']);
+
+								if (file_exists($filename)) {
+
+								    echo "<p>" . date ("Y-m-d H:i", filemtime($filename));
+								    echo "</p>";
+								}
+							?> 
 
 						</div>
 						<i id="msg_close" class="fa fa-times" aria-hidden="true"></i>
@@ -57,7 +58,36 @@
 					<div class="msg_text" data-translate="msg_text"></div>	
 				</div>
 
-				<div class="site">
+				<div class="app_wrap">
+					<ul>
+						<li>
+							<div class="app_icon">
+									<img src="assets/images/app_icon/site_app_icon1.png" alt="앱아이콘" title="site">
+							</div>
+							<span>Site</span>
+						</li>
+						<li>
+							<div class="app_icon">
+								<img src="assets/images/app_icon/site_app_icon2.png" alt="앱아이콘" title="mail">
+							</div>
+							<span>mail</span>
+						</li>
+						<li>
+							<div class="app_icon">
+								<img src="assets/images/app_icon/site_app_icon3.png" alt="앱아이콘">
+							</div>
+							<span>github</span>
+						</li>
+						<li>
+							<div class="app_icon">
+								<img src="assets/images/app_icon/site_app_icon4.png" alt="앱아이콘">
+							</div>
+							<span>instagram</span>
+						</li>
+					</ul>
+				</div>
+
+				<!-- <div class="site">
 					<div class="row">
 						<h2>My work</h2>
 						<div class="site_scroll">
@@ -92,7 +122,7 @@
 							</ul>
 						</div>
 					</div>
-				</div>
+				</div> -->
 
 			</div>
 			<!-- //container -->
