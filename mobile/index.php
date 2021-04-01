@@ -64,25 +64,29 @@
 							<div class="app_icon">
 									<img src="assets/images/app_icon/site_app_icon1.png" alt="앱아이콘" title="site">
 							</div>
-							<span>Site</span>
+							<span data-translate="app1">Site</span>
 						</li>
 						<li>
 							<div class="app_icon">
 								<img src="assets/images/app_icon/site_app_icon2.png" alt="앱아이콘" title="mail">
 							</div>
-							<span>mail</span>
+							<span data-translate="app2">mail</span>
 						</li>
 						<li>
-							<div class="app_icon">
-								<img src="assets/images/app_icon/site_app_icon3.png" alt="앱아이콘">
-							</div>
-							<span>github</span>
+							<a href="https://github.com/wognsl305/weblee" title="github">
+								<div class="app_icon">
+									<img src="assets/images/app_icon/site_app_icon3.png" alt="앱아이콘">
+								</div>
+								<span data-translate="app3">github</span>
+							</a>
 						</li>
 						<li>
-							<div class="app_icon">
-								<img src="assets/images/app_icon/site_app_icon4.png" alt="앱아이콘">
-							</div>
-							<span>instagram</span>
+							<a href="https://www.instagram.com/lj_hun/" title="instagram">
+								<div class="app_icon">
+									<img src="assets/images/app_icon/site_app_icon4.png" alt="앱아이콘">
+								</div>
+								<span data-translate="app4">instagram</span>
+							</a>
 						</li>
 					</ul>
 				</div>
@@ -155,6 +159,22 @@
 			    'site1_sub': {
 		            'en': '<?php echo '#reactive #web #mobile' ?>',
 		            'ko': '<?php echo '#반응형 #웹 #모바일' ?>',
+			    },
+			    'app1': {
+		            'en': '<?php echo 'site' ?>',
+		            'ko': '<?php echo '웹페이지' ?>',
+			    },
+			    'app2': {
+		            'en': '<?php echo 'mail' ?>',
+		            'ko': '<?php echo '메일' ?>',
+			    },
+			    'app3': {
+		            'en': '<?php echo 'github' ?>',
+		            'ko': '<?php echo '깃허브' ?>',
+			    },
+			    'app4': {
+		            'en': '<?php echo 'instagram' ?>',
+		            'ko': '<?php echo '인스타그램' ?>',
 			    }
 			};
 			var langs = ['en', 'ko'];
