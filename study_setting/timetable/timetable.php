@@ -286,12 +286,29 @@
 								</td>
 								<td>
 									<h3>29</h3>
+									<h4><span>HTML</span><span>CSS</span></h4>
+									<ul>
+										<li>HTML 구조 & 태그</li>
+										<li>CSS 구조 & 속성</li>
+									</ul>
 								</td>
 								<td>
 									<h3>30</h3>
+									<h4><span class="homework">숙제</span> <span>공부</span><span>속성</span></h4>
+									<ul>
+										<li>display 구조 공부</li>
+										<li>
+											<p>CSS 속성 공부</p>
+										</li>
+									</ul>
 								</td>
 								<td>
 									<h3>31</h3>
+									<h4><span>HTML/CSS 테스트</span></h4>
+									<ul>
+										<li>블록구조 & 인라인구조 이해</li>
+										<li>블록구조 & 인라인구조 가운데 정렬</li>
+									</ul>
 								</td>
 								<td class="none"></td>
 								<td class="none"></td>
@@ -338,6 +355,11 @@
 								</td>
 								<td>
 									<h3>5</h3>
+									<h4><span>HTML/CSS 테스트</span></h4>
+									<ul>
+										<li>dispaly 속성 테스트</li>
+										<li>CSS속성 테스트</li>
+									</ul>
 								</td>
 								<td>
 									<h3>6</h3>

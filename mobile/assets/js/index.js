@@ -10,3 +10,7 @@ $('header').on('click', function(){
 	$('#message').removeClass('none');
 	$('header span').removeClass('on');
 });
+
+$('.site').on('click', function(){
+	$('#site').addClass('app_on');
+});

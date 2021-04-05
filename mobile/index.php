@@ -60,7 +60,7 @@
 
 				<div class="app_wrap">
 					<ul>
-						<li>
+						<li class="site">
 							<div class="app_icon">
 									<img src="assets/images/app_icon/site_app_icon1.png" alt="앱아이콘" title="site">
 							</div>
@@ -91,45 +91,17 @@
 					</ul>
 				</div>
 
-				<!-- <div class="site">
-					<div class="row">
-						<h2>My work</h2>
-						<div class="site_scroll">
-							<ul>
-								<li>
-									<a href="">
-										<i class="fa fa-tag" aria-hidden="true"></i>
-										<div>
-											<p data-translate="site1"></p>
-											<span data-translate="site1_sub"></span>
-										</div>
-									</a>
-								</li>
-								<li>
-									<a href="">
-										<i class="fa fa-tag" aria-hidden="true"></i>
-										<div>
-											<p>This is the mobile version </p>
-											<span> If you want the PC version</span>
-										</div>
-									</a>
-								</li>
-								<li>
-									<a href="">
-										<i class="fa fa-tag" aria-hidden="true"></i>
-										<div>
-											<p>This is the mobile version </p>
-											<span> If you want the PC version</span>
-										</div>
-									</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div> -->
-
 			</div>
 			<!-- //container -->
+
+			<div id="site" class="app_on">
+				<div class="app_site_container">
+					<div class="app_top">
+						<h1>My Site Coding</h1>
+						<i class="fa fa-times" aria-hidden="true"></i>
+					</div>
+				</div>
+			</div>
 
 		</section>
 
