@@ -357,12 +357,28 @@
 									<h3>5</h3>
 									<h4><span>HTML/CSS 테스트</span></h4>
 									<ul>
-										<li>dispaly 속성 테스트</li>
-										<li>CSS속성 테스트</li>
+										<li>CSS : dispaly 속성</li>
+										<li>display:block</li>
+										<li>display:inline</li>
+										<li>display:inline-block</li>
 									</ul>
 								</td>
 								<td>
 									<h3>6</h3>
+									<h4><span class="homework">숙제</span> <span>공부</span><span>CSS</span></h4>
+									<ul>
+										<li>CSS : position 속성</li>
+										<li>
+											<p>
+												position 값 중앙 정렬 소스<br>
+												position: absolute;<br>
+											    left: 50%;<br>
+											    top: 50%;<br>
+											    transform: translate(-50%, -50%);<br>
+											    (width값 필수)
+											</p>
+										</li>
+									</ul>
 								</td>
 								<td>
 									<h3>7</h3>

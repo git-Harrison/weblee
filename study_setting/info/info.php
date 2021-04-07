@@ -65,6 +65,15 @@
 							<a href="https://fontawesome.com/v4.7.0/icons/">폰트 어썸 - <span>아이콘 이미지 대체</span></a>
 						</li>
 						<li>
+							<a href="https://wallpapers.ispazio.net/">모바일 - <span>배경 이미지</span></a>
+						</li>
+						<li>
+							<a href="https://pngtree.com/freepng/envelop-icon-in-neon-style_5286869.html">웹 & 앱 아이콘 1 - <span>(최대 하루 2개 다운로드 가능)</span></a>
+						</li>
+						<li>
+							<a href="https://icons8.kr/icons/set/app">웹 & 앱 아이콘 2 - <span>어플,앱모양 아이콘 다운로드</span></a>
+						</li>
+						<li>
 							<a href="https://www.pinterest.co.kr/">핀터레스트 - <span>웹&모바일 트렌드 UI&UX 디자인 서치</span></a>
 						</li>
 						<li>
