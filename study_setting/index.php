@@ -26,12 +26,14 @@
 			<div class="container">
 				
 				<div class="filter_button">
-					<button class="button is-checked" data-filter="*">ALL</button>
-					<button class="button" data-filter=".html">HTML</button>
-					<button class="button" data-filter=".css">CSS</button>
-					<button class="button" data-filter=".info">INFO</button>
-					<button class="button" data-filter=".timetable">TIME TABLE</button>
-					<button class="button" data-filter=".coding">CODING</button>
+					<div class="scroll_btn">
+						<button class="button is-checked" data-filter="*">ALL</button>
+						<button class="button" data-filter=".html">HTML</button>
+						<button class="button" data-filter=".css">CSS</button>
+						<button class="button" data-filter=".info">INFO</button>
+						<button class="button" data-filter=".timetable">TIME TABLE</button>
+						<button class="button" data-filter=".coding">CODING</button>
+					</div>
 				</div>
 
 				<div class="list">

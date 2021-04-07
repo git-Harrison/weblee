@@ -1,113 +1,169 @@
 body {
-	min-height: 100vh;
+    min-height: 100vh;
 }
 
 /* 메인 리스트 필터 */
-main .filter_button {
-	display: flex;
-	justify-content: flex-start;
+main .scroll_btn {
+    display: flex;
+    justify-content: flex-start;
+    width: max-content;
 }
+
 main .filter_button button {
-	display: block;
-	padding: 12px;
-	background: none;
-	color: #343434;
-	transition: background 0.2s ease;
+    display: block;
+    padding: 12px;
+    background: none;
+    color: #343434;
+    transition: background 0.2s ease;
 }
+
 main .filter_button button:hover {
-	transition: background 0.4s ease;
-	background: rgba(0,0,0,0.8);
+    transition: background 0.4s ease;
+    background: rgba(0, 0, 0, 0.8);
 }
-main .filter_button button:hover:nth-child(1) {color: #fff;}
-main .filter_button button[data-filter*="*"] {color: #343434;}
-main .filter_button button[data-filter*=".html"] {color: #ff9b73;}
-main .filter_button button[data-filter*=".css"] {color: #ffc972;}
-main .filter_button button[data-filter*=".info"] {color: #b692f2;}
-main .filter_button button[data-filter*=".timetable"] {color: #e4ee90;}
-main .filter_button button[data-filter*=".coding"] {color: #01d4ff;}
-/*main .filter_button button[data-filter*=".coding"] {color: #e4ee90;}*/
+
+main .filter_button button:hover:nth-child(1) {
+    color: #fff;
+}
+
+main .filter_button button[data-filter*="*"] {
+    color: #343434;
+}
+
+main .filter_button button[data-filter*=".html"] {
+    color: #ff9b73;
+}
+
+main .filter_button button[data-filter*=".css"] {
+    color: #ffc972;
+}
+
+main .filter_button button[data-filter*=".info"] {
+    color: #b692f2;
+}
+
+main .filter_button button[data-filter*=".timetable"] {
+    color: #e4ee90;
+}
+
+main .filter_button button[data-filter*=".coding"] {
+    color: #01d4ff;
+}
+
+main .filter_button button.is-checked {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.8);
+    transition: background 0.4s ease;
+}
+
+main .filter_button button.is-checked:nth-child(1) {
+    color: #fff;
+}
+
 main .list {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	margin-top: 26px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 26px;
 }
+
 main .list .list_item {
-	width: 269px;
-	min-height: 269px;
-	margin: 1%;
-	border-radius: 24px;
-	transition: box-shadow 0.1s ease;
+    width: 269px;
+    min-height: 269px;
+    margin: 1%;
+    border-radius: 24px;
+    transition: box-shadow 0.1s ease;
 }
+
 main .list .list_item:hover {
-	transition: box-shadow 0.2s ease;
-	box-shadow: 0 0 2rem rgb(12 12 12 / 70%);
+    transition: box-shadow 0.2s ease;
+    box-shadow: 0 0 2rem rgb(12 12 12 / 70%);
 }
-main .list .list_item[title~="html"] {background-color: #ff9b73;}
-main .list .list_item[title~="css"] {background-color: #ffc972;}
-main .list .list_item[title~="info"] {background-color: #b692f2;}
-main .list .list_item[title~="timetable"] {background-color: #e4ee90;}
-main .list .list_item[title~="coding"] {background-color: #01d4ff;}
-/*main .list .list_item[data-filter*=".timetable"] {background-color: #e4ee90;}
-main .list .list_item[data-filter*=".timetable"] {background-color: #01d4ff;}*/
+
+main .list .list_item[title~="html"] {
+    background-color: #ff9b73;
+}
+
+main .list .list_item[title~="css"] {
+    background-color: #ffc972;
+}
+
+main .list .list_item[title~="info"] {
+    background-color: #b692f2;
+}
+
+main .list .list_item[title~="timetable"] {
+    background-color: #e4ee90;
+}
+
+main .list .list_item[title~="coding"] {
+    background-color: #01d4ff;
+}
+
 main .list .list_item a {
-	display: block;
-	padding: 8%;
-	color: #343434;
+    display: block;
+    padding: 8%;
+    color: #343434;
 }
+
 main .list .list_item a h2 {
-	padding: 4px 0;
-	font-size: 20px;
+    padding: 4px 0;
+    font-size: 20px;
     font-weight: bold;
-	text-align: left;
+    text-align: left;
 }
+
 main .list .list_item a p {
-	min-height: 125px;
-	padding-top: 40px;
-	text-align: left;
+    min-height: 125px;
+    padding-top: 40px;
+    text-align: left;
 }
+
 main .list .list_item a .tag {
-	font-size: 12px;
-	text-align: right;
+    font-size: 12px;
+    text-align: right;
 }
+
 main .list .list_item a .tag span {
-	display: inline-block;
-	margin-right: 6px;
+    display: inline-block;
+    margin-right: 6px;
 }
+
 main .list .list_item a .tag span:last-child {
-	margin-right: 0;
+    margin-right: 0;
 }
+
 main .list .list_item a .day {
-	text-align: left;
-}
-.filter_button button.is-checked {
-	color: #fff;
-	background: rgba(0,0,0,0.8);
-	transition: background 0.4s ease;
-}
-.filter_button button.is-checked:nth-child(1) {
-	color: #fff;
+    text-align: left;
 }
 
 @media screen and (max-width: 1190px) {
-	main .list .list_item {
-		width: 22.5%;
-	}
+    main .list .list_item {
+        width: 22.5%;
+    }
 }
+
 @media screen and (max-width: 900px) {
-	main .list .list_item {
-		width: 48%;
-	}
+    main .list .list_item {
+        width: 48%;
+    }
 }
+
 @media screen and (max-width: 414px) {
-	main .filter_button button:hover:nth-child(1) {
-		color: #fff;
-	}
-	main .list .list_item {
-		width: 100%;
-		margin: 0 0 30px 0;
-	}
-	main .list .list_item:hover {
-		box-shadow: none;
-	}
+    main .filter_button button {
+        padding: 0 12px;
+    }
+
+    main .filter_button button:hover:nth-child(1) {
+        color: #fff;
+    }
+
+    main .list .list_item {
+        width: 100%;
+        margin: 0 0 30px 0;
+    }
+
+    main .list .list_item:hover {
+        box-shadow: none;
+    }
 }
