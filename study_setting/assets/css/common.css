@@ -367,6 +367,7 @@ footer div {
     .nav.on {
         left: 0;
         background-color: rgb(7 7 7 / 94%);
+        transition: all 0.2s ease;
     }
     .nav.on .update {
         top: 170px;

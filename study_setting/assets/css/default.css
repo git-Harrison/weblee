@@ -9,6 +9,11 @@ main .scroll_btn {
     width: max-content;
 }
 
+main .filter_button {
+	overflow: auto;
+	padding: 12px 0;
+}
+
 main .filter_button button {
     display: block;
     padding: 12px;
@@ -64,7 +69,7 @@ main .list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 26px;
+    margin-top: 10px;
 }
 
 main .list .list_item {
@@ -150,10 +155,6 @@ main .list .list_item a .day {
 }
 
 @media screen and (max-width: 414px) {
-    main .filter_button button {
-        padding: 0 12px;
-    }
-
     main .filter_button button:hover:nth-child(1) {
         color: #fff;
     }

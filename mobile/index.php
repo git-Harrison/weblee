@@ -55,7 +55,7 @@
 						</div>
 						<i id="msg_close" class="fa fa-times" aria-hidden="true"></i>
 					</div>
-					<div class="msg_text" data-translate="msg_text"></div>	
+					<div class="msg_text" data-translate="msg_text">This is the mobile version<br>If you want the PC version, please use the PC</div>	
 				</div>
 
 				<div class="app_wrap">
@@ -121,32 +121,32 @@
 		            'ko': '읽지 않은 메시지',
 			    },
 			    'msg_text': {
-		            'en': '<?php echo 'This is the mobile version <br> If you want the PC version, please use the PC' ?>',
-		            'ko': '<?php echo '현재 모바일 버전입니다 <br> PC 버전을 원하시면 PC를 사용하세요' ?>',
+		            'en': 'This is the mobile version <br> If you want the PC version, please use the PC',
+		            'ko': '현재 모바일 버전입니다 <br> PC 버전을 원하시면 PC를 사용하세요',
 			    },
 			    'site1': {
-		            'en': '<?php echo 'Publisher Study (Reference)' ?>',
-		            'ko': '<?php echo '퍼블리셔 스터디 (참조)' ?>',
+		            'en': 'Publisher Study (Reference)',
+		            'ko': '퍼블리셔 스터디 (참조)',
 			    },
 			    'site1_sub': {
-		            'en': '<?php echo '#reactive #web #mobile' ?>',
-		            'ko': '<?php echo '#반응형 #웹 #모바일' ?>',
+		            'en': '#reactive #web #mobile',
+		            'ko': '#반응형 #웹 #모바일',
 			    },
 			    'app1': {
-		            'en': '<?php echo 'site' ?>',
-		            'ko': '<?php echo '웹페이지' ?>',
+		            'en': 'site',
+		            'ko': '웹페이지',
 			    },
 			    'app2': {
-		            'en': '<?php echo 'mail' ?>',
-		            'ko': '<?php echo '메일' ?>',
+		            'en': 'mail',
+		            'ko': '메일',
 			    },
 			    'app3': {
-		            'en': '<?php echo 'github' ?>',
-		            'ko': '<?php echo '깃허브' ?>',
+		            'en': 'github',
+		            'ko': '깃허브',
 			    },
 			    'app4': {
-		            'en': '<?php echo 'instagram' ?>',
-		            'ko': '<?php echo '인스타그램' ?>',
+		            'en': 'instagram',
+		            'ko': '인스타그램',
 			    }
 			};
 			var langs = ['en', 'ko'];
