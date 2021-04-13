@@ -107,9 +107,8 @@
 
 	</div>
 
-	<!-- 스크립트 -->
-	<script src="assets/js/jquery-3.4.1.js"></script>
-	<script src="assets/js/index.js"></script>
+	<? include_once('footer.php'); ?>
+
 	<script>
 
 		$(document).ready(function(){
@@ -173,5 +172,3 @@
 
 </body>
 </html>
-
-<? include_once('footer.php'); ?>

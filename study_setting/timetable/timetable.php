@@ -382,12 +382,33 @@
 								</td>
 								<td>
 									<h3>7</h3>
+									<h4><span>웹표준 사이트 마크업</span></h4>
+									<ul>
+										<li>웹표준</li>
+										<li>html 구조 + css 속성</li>
+									</ul>
 								</td>
 								<td>
 									<h3>8</h3>
+									<h4><span class="homework">숙제</span> <span>마크업</span></h4>
+									<ul>
+										<li>웹표준 사이트 마크업</li>
+										<li>
+											<img src="../assets/images/homework_img3.png" alt="homework_img"><br>
+										</li>
+										<li>개인서버에 업로드</li>
+									</ul>
 								</td>
 								<td>
 									<h3>9</h3>
+									<h4><span class="homework">숙제</span> <span>마크업</span></h4>
+									<ul>
+										<li>웹표준 사이트 마크업</li>
+										<li>
+											<img src="../assets/images/homework_img3.png" alt="homework_img"><br>
+										</li>
+										<li>개인서버에 업로드</li>
+									</ul>
 								</td>
 								<td class="none">
 									<h3>10</h3>
@@ -399,9 +420,24 @@
 								</td>
 								<td>
 									<h3>12</h3>
+									<h4><span>웹표준 사이트 마크업</span></h4>
+									<ul>
+										<li>웹표준</li>
+										<li>html 구조 + css 속성</li>
+										<li>CSS 사용 마우스 오버 애니메이션 연습</li>
+									</ul>
 								</td>
 								<td>
 									<h3>13</h3>
+									<h4><span class="homework">숙제</span> <span>마크업</span></h4>
+									<ul>
+										<li>마크업 연습</li>
+										<li>CSS 사용 마우스 오버 애니메이션 연습</li>
+										<li>
+											<img src="../assets/images/homework_img4.png" alt="homework_img"><br>
+										</li>
+										<li>개인서버에 업로드</li>
+									</ul>
 								</td>
 								<td>
 									<h3>14</h3>

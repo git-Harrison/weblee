@@ -1,5 +1,3 @@
-<? include_once('header.php'); ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -40,6 +38,9 @@
 
 </head>
 <body>
+
+	<? include_once('header.php'); ?>
+
 	<main id="main">
 
 		<!-- 컨텐츠 1 -->
@@ -332,6 +333,8 @@
 		
 	</main>
 
+	<? include_once('footer.php'); ?>
+	
 	<!-- 스크립트 -->
 	<script data-cfasync="false" type="text/javascript"
 	src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
@@ -343,5 +346,3 @@
 	
 </body>
 </html>
-
-<? include_once('footer.php'); ?>
