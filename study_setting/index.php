@@ -10,6 +10,8 @@
 	<!-- 파비콘 -->
 	<link rel=" shortcut icon" href="../assets/images/favicon.png">
 
+	<? include_once('/gogle_analytics.php'); ?>
+
 </head>
 <body>
 

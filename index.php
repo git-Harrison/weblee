@@ -24,6 +24,8 @@
 	<link rel="stylesheet" href="assets/css/mail.css">
 	<link rel="stylesheet" href="assets/css/mideaquery.css">
 
+	<? include_once('gogle_analytics.php'); ?>
+
 	<script>
 		//디바이스 모바일일때 모바일 페이지로 자동이동
  		var uAgent = navigator.userAgent.toLowerCase();

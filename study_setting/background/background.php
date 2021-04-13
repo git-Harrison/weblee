@@ -16,6 +16,8 @@
 	<link rel="stylesheet" href="../assets/css/sub_default.css">
 	<link rel="stylesheet" href="css/background.css">
 
+	<? include_once('/gogle_analytics.php'); ?>
+
 </head>
 <body class="sub html">
 
