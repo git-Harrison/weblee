@@ -11,7 +11,15 @@
 	<link rel="stylesheet" href="assets/css/index.css">
 	<link rel="stylesheet" href="assets/css/common.css">
 
-	<? include_once('/gogle_analytics.php'); ?>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q33C7E9XM2"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-Q33C7E9XM2');
+	</script>
 
 </head>
 <body id="change_bg">
@@ -96,7 +104,7 @@
 			</div>
 			<!-- //container -->
 
-			<div id="site" class="app_on">
+			<div id="site">
 				<div class="app_site_container">
 					<div class="app_top">
 						<h1>My Site Coding</h1>

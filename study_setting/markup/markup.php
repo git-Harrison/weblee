@@ -17,7 +17,15 @@
 	<link rel="stylesheet" href="../assets/css/common.css">
 	<link rel="stylesheet" href="../assets/css/sub_default.css">
 
-	<? include_once('/gogle_analytics.php'); ?>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q33C7E9XM2"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-Q33C7E9XM2');
+	</script>
 	
 </head>
 <body class="sub coding">

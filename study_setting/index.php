@@ -10,7 +10,15 @@
 	<!-- 파비콘 -->
 	<link rel=" shortcut icon" href="../assets/images/favicon.png">
 
-	<? include_once('/gogle_analytics.php'); ?>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q33C7E9XM2"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-Q33C7E9XM2');
+	</script>
 
 </head>
 <body>

@@ -24,7 +24,15 @@
 	<link rel="stylesheet" href="assets/css/mail.css">
 	<link rel="stylesheet" href="assets/css/mideaquery.css">
 
-	<? include_once('gogle_analytics.php'); ?>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q33C7E9XM2"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-Q33C7E9XM2');
+	</script>
 
 	<script>
 		//디바이스 모바일일때 모바일 페이지로 자동이동
