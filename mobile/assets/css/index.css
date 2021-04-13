@@ -209,18 +209,40 @@ header span.on {
     margin: 0 auto;
 }
 .app_top {
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
     padding-top: 26px;
-    position: relative;
+    padding-bottom: 6px;
+    background-color: #fff;
 }
 .app_top h1 {
-
+    padding-left: 4%;
+    font-weight: bold;
 }
 .app_top i {
     display: block;
-    position: absolute;
-    right: 0;
-    top: 31px;
+    margin-top: 8px;
+    padding-right: 4%;
     font-size: 24px;    
+}
+#site ul {
+    overflow-y: scroll;
+    height: 535px;
+    margin-top: 72px;
+}
+#site li {
+    margin-bottom: 12px;
+    padding: 14px;
+    height: 170px;
+    border-radius: 14px;
+    background-color: #000;
+}
+#site li.study {
+    background: url(../images/bg/m_site1_bg.jpg) no-repeat top center / cover;
 }
 
 

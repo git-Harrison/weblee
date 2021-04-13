@@ -110,6 +110,13 @@
 						<h1>My Site Coding</h1>
 						<i class="fa fa-times" aria-hidden="true"></i>
 					</div>
+					<ul>
+						<li class="study"></li>
+						<li class="study"></li>
+						<li class="study"></li>
+						<li class="study"></li>
+						<li class="study"></li>
+					</ul>
 				</div>
 			</div>
 
