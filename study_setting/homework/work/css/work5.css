@@ -43,8 +43,8 @@ header a:hover {
 
 /* 배너 */
 .banner {
-	height: 235px;
-	background: url('https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80') no-repeat top center;
+	height: 325px;
+	background: url('https://images.unsplash.com/photo-1617612349848-5c926c855bd4?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60') no-repeat top center;
 	/*background-repeat: no-repeat;
 	background-position: center;*/
 	background-size: cover;
@@ -53,14 +53,10 @@ header a:hover {
 	opacity: 1;
 	position: absolute;
 	left: 50%;
-	top: -50%;
+	top: 50%;
 	transform: translate(-50%, -50%);
 	width: 270px;
 
-}
-.banner:hover .title {
-	top: 50%;
-	transition: top 0.4s ease-in-out;
 }
 .banner .title h1 {
 	display: inline-block;
@@ -99,3 +95,113 @@ header a:hover {
 .banner .title ul li a img {
 	
 }
+
+.cont_title {
+	text-align: center;
+	height: 74px;
+	line-height: 74px;
+	font-size: 32px;
+	background-color: #fff;
+}
+
+
+.cont_banner {
+
+}
+.cont_banner ul {
+	overflow: hidden;
+}
+.cont_banner ul li {
+	float: left;
+	width: 300px;
+	height: 200px;
+}
+.cont_banner ul li:nth-child(2) {
+	float: right;
+}
+.cont_banner ul li:nth-child(3) {
+	float: right;
+}
+.cont_banner ul li a {
+	display: block;
+}
+.cont_banner ul li a img {
+
+}
+
+.cont_main {
+	padding-top: 30px;
+}
+.cont {
+	width: 320px;
+	height: 364px;
+	padding-right: 30px;
+	border-right: 1px solid #ccc;
+}
+.cont .cont_top {
+	overflow: hidden;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #ccc;
+}
+.cont .cont_top img {
+	display: block;
+	float: left;
+	width: 60px;
+	height: 60px;
+	margin-right: 10px;
+	border-radius: 50%;
+}
+.cont .cont_top .cont_top_text {
+	float: left;
+	width: 250px;
+	margin-top: 8px;
+}
+.cont .cont_top .cont_top_text h4 {
+	font-size: 18px;
+}
+.cont .cont_top .cont_top_text p {
+	font-size: 13px;
+}
+    
+.cont_bottom > div {
+
+}
+.cont_bottom > div h5 {
+	padding-top: 15px;
+}
+.cont_bottom > div ul {
+	padding-top: 4px;
+}
+.cont_bottom > div li {	
+	list-style: disc;
+	margin-left: 16px;
+	padding: 2px 0;
+}
+.cont_bottom > div li a {
+	display: block;
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #000;
+    font-size: 13px;
+}
+.cont_bottom > div.cont_2 li a {
+	float: left;
+	display: block;
+	width: 100px;
+}
+.cont_bottom > div li span {
+	display: block;
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
