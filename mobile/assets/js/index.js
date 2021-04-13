@@ -69,12 +69,12 @@ $('#change_lang').on('click', function(){
 
 $('#msg_close').on('click', function(){
 	$('#message').addClass('none');
-	$('header span').addClass('on');
+	$('header span, .app_wrap').addClass('on');
 });
 
 $('header').on('click', function(){
 	$('#message').removeClass('none');
-	$('header span').removeClass('on');
+	$('header span, .app_wrap').removeClass('on');
 });
 
 $('.site').on('click', function(){

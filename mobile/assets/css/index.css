@@ -96,7 +96,7 @@ header span.on {
     font-size: 13px;
     border-radius: 12px;
     background-color: #fff;
-    transition: all 0.3s ease;
+    transition: all 0.3s 0.1s ease;
 }
 
 .message.none {
@@ -151,6 +151,12 @@ header span.on {
     left: 0;
     top: 220px;
     width: 100%;
+    transition: top 0.3s ease;
+}
+
+.app_wrap.on {
+    top: 120px;
+    transition: top 0.3s 0.1s ease;
 }
 
 .app_wrap ul {
