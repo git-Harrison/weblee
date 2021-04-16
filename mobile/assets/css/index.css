@@ -18,7 +18,6 @@
 }
 
 #change_bg.night .site {
-    background-color: rgba(15,31,54,0.8);
     transition: background 0.4s ease;
 }
 
@@ -97,7 +96,7 @@ header span.on {
     font-size: 13px;
     border-radius: 12px;
     background-color: #fff;
-    transition: all 0.3s ease;
+    transition: all 0.3s 0.1s ease;
 }
 
 .message.none {
@@ -152,6 +151,12 @@ header span.on {
     left: 0;
     top: 220px;
     width: 100%;
+    transition: top 0.3s ease;
+}
+
+.app_wrap.on {
+    top: 120px;
+    transition: top 0.3s 0.1s ease;
 }
 
 .app_wrap ul {
@@ -204,19 +209,40 @@ header span.on {
     margin: 0 auto;
 }
 .app_top {
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
     padding-top: 26px;
-    position: relative;
+    padding-bottom: 6px;
+    background-color: #fff;
 }
 .app_top h1 {
-
+    padding-left: 4%;
+    font-weight: bold;
 }
 .app_top i {
     display: block;
-    position: absolute;
-    right: 4px;
-    top: 50%;
-    transform: translate(-50%,-50%);
+    margin-top: 8px;
+    padding-right: 4%;
     font-size: 24px;    
+}
+#site ul {
+    overflow-y: scroll;
+    height: 535px;
+    margin-top: 72px;
+}
+#site li {
+    margin-bottom: 12px;
+    padding: 14px;
+    height: 170px;
+    border-radius: 14px;
+    background-color: #000;
+}
+#site li.study {
+    background: url(../images/bg/m_site1_bg.jpg) no-repeat top center / cover;
 }
 
 

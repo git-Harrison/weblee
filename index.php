@@ -1,5 +1,3 @@
-<? include_once('header.php'); ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,6 +24,16 @@
 	<link rel="stylesheet" href="assets/css/mail.css">
 	<link rel="stylesheet" href="assets/css/mideaquery.css">
 
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q33C7E9XM2"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-Q33C7E9XM2');
+	</script>
+
 	<script>
 		//디바이스 모바일일때 모바일 페이지로 자동이동
  		var uAgent = navigator.userAgent.toLowerCase();
@@ -40,6 +48,9 @@
 
 </head>
 <body>
+
+	<? include_once('header.php'); ?>
+
 	<main id="main">
 
 		<!-- 컨텐츠 1 -->
@@ -332,6 +343,8 @@
 		
 	</main>
 
+	<? include_once('footer.php'); ?>
+	
 	<!-- 스크립트 -->
 	<script data-cfasync="false" type="text/javascript"
 	src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
@@ -343,5 +356,3 @@
 	
 </body>
 </html>
-
-<? include_once('footer.php'); ?>
