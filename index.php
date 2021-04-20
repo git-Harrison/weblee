@@ -245,11 +245,11 @@
 		<!-- //컨텐츠 2 -->
 
 		<!-- 컨텐츠 3 -->
-		<section class="section" id="section3">
+		<!-- <section class="section" id="section3">
 		    <div class="sec_container">
 		    	
 		    </div>
-		</section>
+		</section> -->
 		<!-- //컨텐츠 3 -->
 
 		<!-- //컨텐츠 4 -->
