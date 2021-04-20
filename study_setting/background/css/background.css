@@ -85,13 +85,6 @@
 .gradient67 {background: radial-gradient(#30cfd0, #330867) fixed;}
 .gradient68 {background: radial-gradient(#30cfd0, #330867) fixed;}
 
-pre.prettyprint {
-  padding: 20px;
-  margin-bottom: 40px;
-  background-color: #fff;
-  white-space: pre-line;
-}
-
 @media screen and (max-width: 768px) {
 	.list.background {
 		flex-wrap: wrap;

@@ -1,5 +1,3 @@
-<? include_once('../header.php'); ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,9 +7,8 @@
 	<meta name="keywords" content="웹 퍼블리셔,퍼블리셔,웹 표준,웹 접근성,크로스브라우징,프런트엔드,Front-end,leehun,web developer,publisher,html5,css3,markup,javascript,jquery,php,jsp">
 	<title>WebLee</title>
 
-	<!-- 폰트 -->
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;900&display=swap" rel="stylesheet">
+	<!-- 파비콘 -->
+	<link rel=" shortcut icon" href="https://weblee.kr/study_setting/assets/images/favicon.png">
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="../assets/css/common.css">
@@ -30,6 +27,8 @@
 </head>
 <body class="sub coding">
 
+	<? include_once('../header.php'); ?>
+
 	<div class="wrap">
 
 		<header>
@@ -45,7 +44,7 @@
 				<div class="list">
 					<ul>
 						<li>
-							<a href="site_list/blade&soul/nc.html">블레이드 & 소울 - <span>사이트 이동하기</span></a>
+							<!-- <a href="site_list/blade&soul/nc.html">블레이드 & 소울 - <span>사이트 이동하기</span></a> -->
 						</li>
 					</ul>
 				</div>

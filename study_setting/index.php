@@ -1,14 +1,18 @@
-<? include_once('header.php'); ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width"/>
+	<meta name="author" content="weblee">
+	<meta name="keywords" content="웹 퍼블리셔,퍼블리셔,웹 표준,웹 접근성,크로스브라우징,프런트엔드,Front-end,leehun,web developer,publisher,html5,css3,markup,javascript,jquery,php,jsp">
 	<title>WebLee</title>
-
+	
 	<!-- 파비콘 -->
-	<link rel=" shortcut icon" href="../assets/images/favicon.png">
+	<link rel=" shortcut icon" href="https://weblee.kr/study_setting/assets/images/favicon.png">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="assets/css/common.css">
+	<link rel="stylesheet" href="assets/css/default.css">
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q33C7E9XM2"></script>
@@ -22,6 +26,8 @@
 
 </head>
 <body>
+
+	<? include_once('header.php'); ?>
 
 	<div class="wrap">
 
@@ -58,6 +64,16 @@
 						</a>
 					</div>
 
+					<div class="list_item info" title="info">
+						<a href="info/info.php">
+							<h2>INFO</h2>
+							<p>필요 정보 사이트 링크</p>
+							<div class="tag">
+								<span>#information</span>
+							</div>
+						</a>
+					</div>
+
 					<div class="list_item html" title="html">
 						<a href="html/html.php">
 							<h2>HTML</h2>
@@ -78,22 +94,22 @@
 						</a>
 					</div>
 
-					<div class="list_item info" title="info">
-						<a href="info/info.php">
-							<h2>INFO</h2>
-							<p>필요 정보 사이트 링크</p>
-							<div class="tag">
-								<span>#information</span>
-							</div>
-						</a>
-					</div>
-
 					<div class="list_item css" title="css">
 						<a href="background/background.php">
 							<h2>BACKGROUND</h2>
 							<p>CSS - background 상세 내용</p>
 							<div class="tag">
 								<span>#background #background-color</span>
+							</div>
+						</a>
+					</div>
+
+					<div class="list_item css" title="css">
+						<a href="transform/transform.php">
+							<h2>TRANSFORM</h2>
+							<p>CSS - transform 상세 내용</p>
+							<div class="tag">
+								<span>#transform #animation</span>
 							</div>
 						</a>
 					</div>
@@ -115,13 +131,8 @@
 
 	</div>
 
-	<script src="assets/js/jquery-1.12.4.js"></script>
-	<script src="assets/js/isotope.pkgd.min.js"></script>
-	<script src="assets/js/index.js"></script>
-	<script>
-		
-	</script>	
+	<? include_once('footer.php'); ?>
+
 </body>
 </html>
 
-<? include_once('footer.php'); ?>

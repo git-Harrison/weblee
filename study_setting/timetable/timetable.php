@@ -1,15 +1,14 @@
-<? include_once('../header.php'); ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width"/>
+	<meta name="author" content="weblee">
+	<meta name="keywords" content="웹 퍼블리셔,퍼블리셔,웹 표준,웹 접근성,크로스브라우징,프런트엔드,Front-end,leehun,web developer,publisher,html5,css3,markup,javascript,jquery,php,jsp">
 	<title>WebLee</title>
 
-	<!-- 폰트 -->
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;900&display=swap" rel="stylesheet">
+	<!-- 파비콘 -->
+	<link rel=" shortcut icon" href="https://weblee.kr/study_setting/assets/images/favicon.png">
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="../assets/css/common.css">
@@ -27,6 +26,8 @@
 	
 </head>
 <body class="sub timetable">
+
+	<? include_once('../header.php'); ?>
 
 	<div class="wrap">
 
@@ -515,10 +516,11 @@
 		</main>
 
 	</div>
-	
+
+	<? include_once('../footer.php'); ?>
+
 	<script src="../assets/js/jquery-3.4.1.js"></script>
 	<script src="../assets/js/common.js"></script>
 </body>
 </html>
 
-<? include_once('../footer.php'); ?>

@@ -7,10 +7,13 @@
 	<meta name="keywords" content="웹 퍼블리셔,퍼블리셔,웹 표준,웹 접근성,크로스브라우징,프런트엔드,Front-end,leehun,web developer,publisher,html5,css3,markup,javascript,jquery,php,jsp">
 	<title>WebLee</title>
 
+	<!-- 파비콘 -->
+	<link rel=" shortcut icon" href="https://weblee.kr/study_setting/assets/images/favicon.png">
+
 	<!-- CSS -->
 	<link rel="stylesheet" href="../assets/css/common.css">
 	<link rel="stylesheet" href="../assets/css/sub_default.css">
-	<link rel="stylesheet" href="assets/css/transform.css">
+	<link rel="stylesheet" href="css/transform.css">
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q33C7E9XM2"></script>
@@ -886,6 +889,9 @@
 	</div>
 
     <? include_once('../footer.php'); ?>
+
+    <script src="../assets/js/jquery-3.4.1.js"></script>
+	<script src="../assets/js/common.js"></script>
 
 </body>
 </html>

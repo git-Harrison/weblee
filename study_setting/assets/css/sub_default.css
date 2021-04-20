@@ -26,6 +26,13 @@ body.coding {
     background-color: #c8edf5;
 }
 
+pre.prettyprint {
+  padding: 20px;
+  margin-bottom: 40px;
+  background-color: #fff;
+  white-space: pre-line;
+}
+
 .tag {
     color: #e32472;
 }
@@ -108,6 +115,15 @@ body.coding {
 
 .list.background.on>div {
     padding: 2.3%;
+}
+
+.list.transform {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 40px 0;
+    background-color: #fff5e4;
 }
 
 .list.bold h2 {
