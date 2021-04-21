@@ -117,6 +117,10 @@ pre.prettyprint {
     padding: 2.3%;
 }
 
+.list.pre pre {
+    white-space: pre;
+}
+
 .list.transform {
     display: flex;
     justify-content: space-around;
@@ -124,6 +128,19 @@ pre.prettyprint {
     margin: 0;
     padding: 40px 0;
     background-color: #fff5e4;
+}
+
+.list.boxshadow {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 40px 0;
+    background-color: #fff5e4;
+}
+
+.list.codepen p {
+    padding: 0;
 }
 
 .list.bold h2 {

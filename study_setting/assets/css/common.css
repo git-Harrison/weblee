@@ -421,6 +421,14 @@ footer div {
         font-size: 25px;
     }
 
+    body.sub .list.pre h2 {
+        word-break: break-all;
+    }
+
+    body.sub .list.pre pre {
+        white-space: pre-line;
+    }
+
     body.sub .list p {
         padding: 11px;
     }
