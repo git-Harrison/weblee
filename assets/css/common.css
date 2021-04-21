@@ -3,6 +3,7 @@ body {
     background-color: #d0d0d0;
     font-family: 'Roboto', sans-serif;
 }
+
 body,
 div,
 ul,
@@ -159,7 +160,7 @@ textarea:valid::-webkit-input-placeholder {
     width: 1520px;
     height: 86vh;
     box-shadow: 0 0 3rem rgb(17 17 17 / 70%);
-    /*	border-radius: 18px;*/
+    /*  border-radius: 18px;*/
 }
 
 html {

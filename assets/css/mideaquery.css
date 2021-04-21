@@ -1,6 +1,7 @@
 @media screen and (max-width: 1520px) {
+
     .sec_container,
-    header > div {
+    header>div {
         width: 1440px;
     }
 
@@ -22,8 +23,9 @@
 }
 
 @media screen and (max-width: 1440px) {
+
     .sec_container,
-    header > div {
+    header>div {
         width: 1360px;
     }
 
@@ -41,8 +43,9 @@
 }
 
 @media screen and (max-width: 1360px) {
+
     .sec_container,
-    header > div {
+    header>div {
         width: 1280px;
     }
 
@@ -53,25 +56,32 @@
     html.white .cont_R {
         background-size: 880px 860px;
     }
+
     .mail_send_form {
         right: 48px;
         width: 320px;
     }
+
     .mail_send_form h2 {
         padding: 10px 0 20px 0;
     }
+
     .mail_send_form {
         min-height: 428px;
     }
+
     .mail_send_form fieldset {
-        margin-bottom: 30px;    
+        margin-bottom: 30px;
     }
+
     .mail_send_form .button-xlarge {
-        bottom: 80px;   
+        bottom: 80px;
     }
+
     .mail_send_form .ps {
         padding-top: 60px;
     }
+
     .sns {
         right: 362px;
     }
@@ -83,7 +93,7 @@
         height: 90vh;
     }
 
-    header > div {
+    header>div {
         width: 1100px;
     }
 
@@ -120,42 +130,53 @@
     .marker {
         left: -490px;
     }
+
     .contact_us h1 {
         left: 80px;
     }
+
     .our {
         left: 48px;
     }
-    input, textarea {
+
+    input,
+    textarea {
         font-size: 13px;
         padding: 8px 0 6px 0;
     }
+
     input:focus::-webkit-input-placeholder,
     input:valid::-webkit-input-placeholder,
     textarea:focus::-webkit-input-placeholder,
     textarea:valid::-webkit-input-placeholder {
         transform: translateY(0);
     }
+
     .site_slider {
         height: 100%;
     }
+
     .site_slider .site .img_bg {
         left: 9%;
         width: 550px;
         height: 370px;
     }
+
     .site_introduction {
         left: 77%;
     }
+
     .site_slider .site .txt {
         font-size: 7vw;
     }
+
     .slide_count {
         top: 4px;
         height: 63px;
         line-height: 52px;
         font-size: 40px;
     }
+
     .slide_count span:first-child:before {
         bottom: 21px;
     }
@@ -167,15 +188,19 @@
     .cont_L .lee_img {
         width: 314px;
     }
+
     .cont_L .lee_img:before {
         top: -133px;
     }
+
     .cont_L .lee_img:after {
         bottom: -117px;
     }
+
     .cont_L .title {
         font-size: 30px;
     }
+
     .center_title {
         left: 63%;
     }

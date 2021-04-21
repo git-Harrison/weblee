@@ -27,10 +27,10 @@ body.coding {
 }
 
 pre.prettyprint {
-  padding: 20px;
-  margin-bottom: 40px;
-  background-color: #fff;
-  white-space: pre-line;
+    padding: 20px;
+    margin-bottom: 40px;
+    background-color: #fff;
+    white-space: pre-line;
 }
 
 .tag {

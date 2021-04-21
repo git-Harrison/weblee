@@ -10,8 +10,8 @@ main .scroll_btn {
 }
 
 main .filter_button {
-	overflow: auto;
-	padding: 12px 0;
+    overflow: auto;
+    padding: 12px 0;
 }
 
 main .filter_button button {
