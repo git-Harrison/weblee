@@ -34,7 +34,7 @@
 		<header>
 			<div class="title">
 				<h1>STUDY MAIN SITE</h1>
-				<p>강의</p>
+				<p>References</p>
 			</div>
 		</header>
 
@@ -105,6 +105,16 @@
 					</div>
 
 					<div class="list_item css" title="css">
+						<a href="flex/flex.php">
+							<h2>FLEX</h2>
+							<p>CSS - display:flex 상세 내용</p>
+							<div class="tag">
+								<span>#display #flex #CSS3 #flexible box</span>
+							</div>
+						</a>
+					</div>
+
+					<div class="list_item css" title="css">
 						<a href="background/background.php">
 							<h2>BACKGROUND</h2>
 							<p>CSS - background 상세 내용</p>
@@ -139,7 +149,7 @@
 							<h2>MARKUP</h2>
 							<p>홈페이지 마크업</p>
 							<div class="tag">
-								<span>#markup #홈페이지디자인 #홈페이지제작</span>
+								<span>#markup #홈페이지디자인 #레이아웃</span>
 							</div>
 						</a>
 					</div>

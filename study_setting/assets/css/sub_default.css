@@ -26,15 +26,59 @@ body.coding {
     background-color: #c8edf5;
 }
 
+body.flex .list p {
+    line-height: 28px;
+}
+
+body .list .ps {
+    width: 80%;
+    padding: 2% 10%;
+    background-color: #f9ecd7;
+    text-align: center;
+}
+
+body .list.flex {
+    margin-bottom: 0;
+}
+
 pre.prettyprint {
     padding: 20px;
     margin-bottom: 40px;
     background-color: #fff;
     white-space: pre-line;
 }
+pre.flex {
+    margin: 0 0 10px 0;
+    background-color: #282923;
+}
+pre code {
+    display: block;
+    padding: 20px;
+    padding-bottom: 0;
+    color: #a9b7c6;
+    background-color: #282923;
+}
+
+pre code span.pre_tag {
+    color: #e8bf6a;
+}
+
+pre code span.pre_class {
+    
+}
+
+pre code span.pre_classname {
+    
+}
 
 .tag {
+    font-weight: bold;
     color: #e32472;
+}
+
+.style {
+    font-weight: bold;
+    color: #5050FF;
 }
 
 .list {

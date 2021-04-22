@@ -2,7 +2,7 @@
 
 <footer>
 	<div>
-		WeeLee
+		WebLee
 	</div>
 </footer>
 
