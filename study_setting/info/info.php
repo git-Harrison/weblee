@@ -69,6 +69,14 @@
 					</ul>
 				</div>
 
+				<div class="list">
+					<h2>Web Tool</h2>
+					<ul>
+						<li>
+							<a href="https://www.photopea.com/">photopea - <span>PSD 파일 오픈 브라우저</span></a>
+						</li>
+					</ul>
+				</div>
 
 				<div class="list">
 					<h2>디자인 관련</h2>

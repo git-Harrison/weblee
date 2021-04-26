@@ -129,46 +129,60 @@
 
 /* 이미지 마우스 오버 시 애니메이션들 */
 .s1 .pc_img_wrap:hover img {
-    top: -41px;
+    top: -72px;
     transition: top 1.2s ease;
 }
 
 .s1 .tablet_img_wrap:hover img {
-    top: -135px;
-    transition: top 2.2s ease;
+    top: -2715px;
+    transition: top 6s ease;
 }
 
 .s1 .mobile_img_wrap:hover img {
-    top: -500px;
-    transition: top 3.2s ease;
+    top: -6236px;
+    transition: top 10s ease;
 }
 
-.s2 .pc_img_wrap:hover img {
+.s2 .pc_img_wrap img {
+    height: 100%;
+}
+
+.s2 .tablet_img_wrap:hover img {
+    top: -1150px;
+    transition: top 5.2s;
+}
+
+.s2 .mobile_img_wrap:hover img {
+    top: -1430px;
+    transition: top 6.2s;
+}
+
+.s3 .pc_img_wrap:hover img {
     top: -1261px;
     transition: top 5.2s ease;
 }
 
-.s2 .tablet_img_wrap:hover img {
-    top: -1036px;
-    transition: top 4.2s ease;
+.s3 .tablet_img_wrap:hover img {
+    top: -569px;
+    transition: top 4s ease;
 }
 
-.s2 .mobile_img_wrap:hover img {
-    top: -791px;
-    transition: top 5.2s ease;
+.s3 .mobile_img_wrap:hover img {
+    top: -2220px;
+    transition: top 7s ease;
 }
 
-.s3 .pc_img_wrap:hover img {
+.s4 .pc_img_wrap:hover img {
     top: -468px;
     transition: top 5.2s ease;
 }
 
-.s3 .tablet_img_wrap:hover img {
+.s4 .tablet_img_wrap:hover img {
     top: -365px;
     transition: top 4.2s ease;
 }
 
-.s3 .mobile_img_wrap:hover img {
+.s4 .mobile_img_wrap:hover img {
     top: -1206px;
     transition: top 5.2s ease;
 }
