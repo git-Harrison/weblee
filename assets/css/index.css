@@ -12,17 +12,17 @@
     background: linear-gradient(#d0d0d0, #b3b3b3);
 }
 
-#section3 {
+#section4 {
     background: -webkit-gradient(linear, top left, bottom left, from(#b3b3b3), to(#9a9a9a));
     background: -webkit-linear-gradient(#b3b3b3, #9a9a9a);
     background: linear-gradient(#b3b3b3, #9a9a9a);
 }
 
-#section4 {
+/*#section4 {
     background: -webkit-gradient(linear, top left, bottom left, from(#9a9a9a), to(#868585));
     background: -webkit-linear-gradient(#9a9a9a, #868585);
     background: linear-gradient(#9a9a9a, #868585);
-}
+}*/
 
 /*.sec1_bg_L {
 	z-index: 0;

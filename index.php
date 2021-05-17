@@ -296,7 +296,7 @@
 		<!-- //컨텐츠 3 -->
 
 		<!-- //컨텐츠 4 -->
-		<section class="section" id="section4">
+		<!-- <section class="section" id="section4">
 			<div class="sec_container">
 				<div class="contact_us">
 					<h1>Contact us</h1>
@@ -335,7 +335,6 @@
 								<i class="fa fa-paper-plane"></i>SEND MESSAGE</button>
 						    </div>
 							<div style="display:none" class="thankyou_message">
-								<!-- You can customize the thankyou message by editing the code below -->
 								<h2>메일을 성공적으로 보냈습니다.<br>
 									감사합니다.<br><br>
 									The mail was sent successfully.<br>
@@ -352,7 +351,6 @@
 							<h4>주소</h4>
 							<div>
 								경기도 수원시<br>
-								경수대로 302번길<br>
 								인근역 - 수원시청역,수원역
 							</div>
 						</div>
@@ -360,7 +358,6 @@
 							<h4>이메일</h4>
 							<div>
 								wognsl305@naver.com<br>
-								wognsl95@gmail.com<br>
 							</div>
 						</div>
 					</div>
@@ -381,7 +378,7 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 		<!-- //컨텐츠 4 -->
 		
 	</main>

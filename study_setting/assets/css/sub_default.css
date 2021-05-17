@@ -30,15 +30,17 @@ body.flex .list p {
     line-height: 28px;
 }
 
-body .list .ps {
+.list .ps {
     width: 80%;
     padding: 2% 10%;
-    background-color: #f9ecd7;
     text-align: center;
 }
 
-body .list.flex {
+.list.flex {
     margin-bottom: 0;
+}
+.list.flex table td {
+    height: auto;
 }
 
 pre.prettyprint {
@@ -48,28 +50,59 @@ pre.prettyprint {
     white-space: pre-line;
 }
 pre.flex {
+    position: relative;
     margin: 0 0 10px 0;
     background-color: #282923;
 }
 pre code {
     display: block;
-    padding: 20px;
+    line-height: 22px;
+    padding: 30px;
     padding-bottom: 0;
-    color: #a9b7c6;
+    color: #fff;
     background-color: #282923;
 }
 
-pre code span.pre_tag {
-    color: #e8bf6a;
+span.pre_tag {
+    color: #e32472;
+}
+span.pre_class {
+    color: #98e22a;
 }
 
-pre code span.pre_class {
-    
+span.pre_classname {
+    color: #e7d86a;
+}
+span.css {
+    color: #67d8c1;
+}
+span.css_detail {
+    color: #ac80c2;
+}
+span.code_ps {
+    color: #a7a7a7;
+}
+pre .flex_tag {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 4px 8px;
+    background-color: #f2793d;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 0 0 0 4px;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+pre .flex_tag.css {
+    background-color: #1790d2;
+}
+pre .flex_tag.text {
+    background-color: #9b9b9b;
 }
 
-pre code span.pre_classname {
-    
-}
 
 .tag {
     font-weight: bold;
@@ -143,7 +176,10 @@ pre code span.pre_classname {
     padding: 20px 0;
     text-align: center;
 }
-
+.list table code {
+    color: #f2793d;
+    font-weight: bold;
+}
 .list.background {
     display: flex;
     justify-content: space-around;
@@ -369,5 +405,8 @@ pre code span.pre_classname {
 
     .timetable .list table td li img {
         max-width: 190px;
+    }
+    span.code_ps {
+        white-space: initial;
     }
 }
