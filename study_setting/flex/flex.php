@@ -618,6 +618,92 @@
 <img src="../assets/images/flex10.jpg" alt="flex_img">
 </pre>
 
+				<div class="list">
+					<h2>flex</h2>
+					<p>Item의 너비(증가, 감소, 기본)를 설정하는 단축 속성입니다.</p>
+					<table>
+						<thead>
+							<tr>
+								<th>값</th>
+								<th>의미</th>
+								<th>기본값</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>flex-grow</td>
+								<td>Item의 증가 너비 비율을 설정</td>
+								<td><code>0</code></td>
+							</tr>
+							<tr>
+								<td>flex-shrink</td>
+								<td>Item의 감소 너비 비율을 설정</td>
+								<td><code>1</code></td>
+							</tr>
+							<tr>
+								<td>flex-basis</td>
+								<td>Item의 (공간 배분 전) 기본 너비 설정</td>
+								<td><code>auto</code></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+<pre class="flex">
+<code><span class="code_ps">flex: 증가너비 감소너비 기본너비;</span></code>
+<div class="flex_tag text">PLAINTEXT</div>
+</pre>
+
+<pre class="flex">
+<code><span class="pre_class">.item</span> {
+   <span class="css">flex</span>: <span class="css_detail">1 1 20px;</span>   <span class="code_ps">/* 증가너비 감소너비 기본너비 */</span>
+   <span class="css">flex</span>: <span class="css_detail">1 1;</span>   <span class="code_ps">/* 증가너비 감소너비 */</span>
+   <span class="css">flex</span>: <span class="css_detail">1 20px;</span>   <span class="code_ps">/* 증가너비 기본너비 (단위를 사용하면 flex-basis가 적용됩니다) */</span>
+}
+</code>
+<div class="flex_tag css">CSS</div>
+</pre>
+
+				<div class="list">
+					<p>
+						<span style="color: #f2793d; font-weight: bold">flex-grow</span>를 제외한 개별 속성은 생략할 수 있습니다.<br>
+						만약 <span style="color: #f2793d; font-weight: bold">flex: 1;</span>로 작성하면 <span style="color: #f2793d; font-weight: bold">flex-grow: 1;</span>과 같습니다.<br>
+						그러면 나머지 속성은 생략했으니 기본값이 적용되어 <span style="color: #f2793d; font-weight: bold">flex-shrink: 1;</span>, <span style="color: #f2793d; font-weight: bold">flex-basis: auto;</span>가 되겠죠?<br>
+						즉 <span style="color: #f2793d; font-weight: bold">flex: 1;</span> 혹은 <span style="color: #f2793d; font-weight: bold">flex: 1 1;</span>은 <span style="color: #f2793d; font-weight: bold">flex: 1 1 auto;</span>와 같다고 볼 수 있습니다만 그렇지 않습니다.<br>
+						<br>
+						<span style="color: #f2793d; font-weight: bold">flex-basis</span>의 기본값은 <span style="color: #f2793d; font-weight: bold">auto</span>입니다만 단축 속성인 <span style="color: #f2793d; font-weight: bold">flex</span>에서 그 값을 생략할 경우 0이 적용됩니다.<br>
+						다시 정리하면 <span style="color: #f2793d; font-weight: bold">flex: 1</span>; 혹은 <span style="color: #f2793d; font-weight: bold">flex: 1 1;</span>은 <span style="color: #f2793d; font-weight: bold">flex: 1 1 0;</span>이 된다는 것입니다.<br>
+						이 부분을 기억하지 않으면 엉뚱한 결과가 나올 수 있으니 주의합시다!
+					</p>
+					<h4 style="background-color: #fff5e4; padding: 16px; font-weight: bold; font-size: 22px;"> - flex-grow</h4>
+					<p>
+						Item의 증가 너비 비율을 설정합니다.<br>
+						숫자가 크면 더 많은 너비를 가집니다.<br>
+						Item이 가변 너비가 아니거나, 값이 0일 경우 효과가 없습니다.
+					</p>
+					<table>
+						<thead>
+							<tr>
+								<th>값</th>
+								<th>의미</th>
+								<th>기본값</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>숫자</td>
+								<td>Item의 증가 너비 비율을 설정</td>
+								<td><code>0</code></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+<pre class="flex">
+<code><span class="code_ps">flex-grow: 증가너비;</span></code>
+<div class="flex_tag text">PLAINTEXT</div>
+</pre>
+
 			</div>
 		</main>
 

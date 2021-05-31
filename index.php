@@ -296,7 +296,7 @@
 		<!-- //컨텐츠 3 -->
 
 		<!-- //컨텐츠 4 -->
-		<!-- <section class="section" id="section4">
+		<section class="section" id="section4">
 			<div class="sec_container">
 				<div class="contact_us">
 					<h1>Contact us</h1>
@@ -378,7 +378,7 @@
 					</div>
 				</div>
 			</div>
-		</section> -->
+		</section>
 		<!-- //컨텐츠 4 -->
 		
 	</main>

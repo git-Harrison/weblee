@@ -1,0 +1,67 @@
+.wrap {
+    float: left;
+    width: calc(100% - 210px);
+    height: 100%;
+}
+
+.container {
+    padding: 16px;
+    height: 100%;
+    background-color: #edf0f5;
+}
+
+.main_title {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.content {
+	margin-bottom: 10px;
+    padding: 25px;
+    background-color: #fff;
+    border: 1px solid #dbdde2;
+}
+.cont {
+	overflow: hidden;
+	padding: 16px 0;
+	line-height: 40px;
+}
+.cont h2 {
+	float: left;
+	font-size: 17px;
+	font-family: 'NotoSansKR', sans-serif;
+}
+.cont .date {
+	float: left;
+	margin-left: 10px;
+}
+.cont .date span {
+	padding-left: 10px;
+	font-size: 12px;
+	color: #ff0000;
+}
+.cont input[type="date"] {
+	padding: 4px;
+	font-size: 17px;
+	outline: none;
+	border: 1px solid #2d3539;
+	color: #2d3539;
+	font-family: 'NotoSansKR', sans-serif;
+}
+.excel_download_btn {
+	float: left;
+	width: 100%;
+	text-align: right;
+}
+.excel_download_btn button {
+	padding: 12px;
+	color: #2d3539;
+	background-color: #fff;
+	border: 1px solid #2d3539;
+	transition: all 0.3s ease;
+}
+.excel_download_btn button:hover {
+	color: #fff;
+	background-color: #2d3539;
+	transition: all 0.4s ease;
+}
