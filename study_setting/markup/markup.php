@@ -44,6 +44,7 @@
 				<div class="list">
 					<ul>
 						<li>
+							준비중입니다.
 							<!-- <a href="site_list/blade&soul/nc.html">블레이드 & 소울 - <span>사이트 이동하기</span></a> -->
 						</li>
 					</ul>

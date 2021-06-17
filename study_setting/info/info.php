@@ -43,7 +43,7 @@
 			<div class="container">
 
 				<div class="list">
-					<h2>코딩 관련 사이트</h2>
+					<h2>HTML, CSS 관련</h2>
 					<ul>
 						<li>
 							<a href="https://publ-reference.tistory.com/21?category=931834">색상표 - <span>color,background 색상 값</span></a>
@@ -74,6 +74,24 @@
 					<ul>
 						<li>
 							<a href="https://www.photopea.com/">photopea - <span>PSD 파일 오픈 브라우저</span></a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="list">
+					<h2>개발 관련</h2>
+					<ul>
+						<li>
+							<a href="https://reactjsexample.com/">리액트 샘플 - <span>javascript</span></a>
+						</li>
+						<li>
+							<a href="https://kenwheeler.github.io/slick/">slick (슬라이드 쇼) - <span>jquery</span></a>
+						</li>
+						<li>
+							<a href="https://bxslider.com/">bxslider (슬라이드 쇼) - <span>jquery</span></a>
+						</li>
+						<li>
+							<a href="https://manos.malihu.gr/jquery-custom-content-scroller/">스크롤바 커스텀 - <span>jquery</span></a>
 						</li>
 					</ul>
 				</div>

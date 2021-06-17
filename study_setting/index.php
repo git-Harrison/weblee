@@ -46,23 +46,13 @@
 						<button class="button is-checked" data-filter="*">ALL</button>
 						<button class="button" data-filter=".html">HTML</button>
 						<button class="button" data-filter=".css">CSS</button>
+						<button class="button" data-filter=".coding">CODING</button>
 						<button class="button" data-filter=".info">INFO</button>
 						<button class="button" data-filter=".timetable">TIME TABLE</button>
-						<button class="button" data-filter=".coding">CODING</button>
 					</div>
 				</div>
 
 				<div class="list">
-
-					<div class="list_item timetable" title="timetable">
-						<a href="timetable/timetable.php">
-							<h2>TIME TABLE</h2>
-							<p>시간표</p>
-							<div class="tag">
-								<span>#일정</span><span>#스터디</span><span>#html</span><span>#css</span>
-							</div>
-						</a>
-					</div>
 
 					<div class="list_item info" title="info">
 						<a href="info/info.php">
@@ -133,6 +123,16 @@
 							</div>
 						</a>
 					</div>
+					
+					<div class="list_item coding" title="coding">
+						<a href="bootstrap/bootstrap.php">
+							<h2>Bootstrap</h2>
+							<p>프레임워크</p>
+							<div class="tag">
+								<span>#Bootstrap #html #css #js #framework</span>
+							</div>
+						</a>
+					</div>
 
 					<div class="list_item css" title="css">
 						<a href="boxshadow/boxshadow.php">
@@ -154,6 +154,16 @@
 						</a>
 					</div>
 
+					<div class="list_item timetable" title="timetable">
+						<a href="timetable/timetable.php">
+							<h2>TIME TABLE</h2>
+							<p>시간표</p>
+							<div class="tag">
+								<span>#일정</span><span>#스터디</span><span>#html</span><span>#css</span>
+							</div>
+						</a>
+					</div>
+
 				</div>
 
 			</div>
@@ -163,6 +173,21 @@
 
 	<? include_once('footer.php'); ?>
 
+	<script>
+		$('#nav_icon').click(function(){
+
+			$(this).toggleClass('open');
+			$('body').toggleClass('active');
+			if ($(this).hasClass('open')) {
+				$('.nav').addClass('on');
+				$('.nav_icon_wrap').addClass('on');
+			}else {
+				$('.nav').removeClass('on');
+				$('.nav_icon_wrap').removeClass('on');
+			}
+
+		});
+	</script>
 </body>
 </html>
 

@@ -2,10 +2,10 @@ $('document').ready(function () {
 
 
 	$('#main').fullpage({
-		anchors: ['main', 'site', 'mail'],
+		anchors: ['weblee', 'site', 'mail'],
 		navigation: true,
 		navigationPosition: 'right',
-		navigationTooltips: ['Main', 'Site', 'Mail'],
+		navigationTooltips: ['Weblee', 'Site', 'Mail'],
 
 		afterLoad: function(anchorLink, index){
 

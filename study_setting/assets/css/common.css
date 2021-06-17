@@ -340,6 +340,7 @@ footer div {
     .nav_icon_wrap {
         overflow: hidden;
         display: block;
+        background-color: #333;
     }
     .nav_icon_wrap.on {
         background-color: rgb(7 7 7 / 0%);

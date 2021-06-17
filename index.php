@@ -63,7 +63,7 @@
 							<img src="assets/images/weblee.jpg" alt="weblee" class="black">
 							<img src="assets/images/weblee_white.jpg" alt="weblee" class="white">
 						</div>
-						<div class="title">Web Publisher<br>and<br>Fornt-End Developer</div>
+						<div class="title">Web Publisher<br>and<br>Front-End Developer</div>
 						<div class="sub_title">My delicate and free UI&UX development space</div>
 					</div>
 					<div class="cont_R">
