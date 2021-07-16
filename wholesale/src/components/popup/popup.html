@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width"/>
+	<title>팝업</title>
+
+	<!-- 스타일 시트 -->
+	<link rel="stylesheet" href="../common.css"> <!-- 공통 CSS -->
+	<link rel="stylesheet" href="assets/css/popup.css">
+</head>
+<body>
+	
+	<!-- 비디오 팝업 -->
+	<form action="">
+		<div class="popup">
+
+
+			<div class="popup_video">
+				<video src="assets/video/video.mp4" autoplay="autoplay" loop="loop" muted="muted" playsinline>동영상 입니다.</video>
+			</div>
+			<div class="popup_link">
+				<a href=""> <!-- 상품페이지 링크 이동 -->
+					<div class="popup_item_image">
+						<img src="assets/images/popup_item.png" alt="item_image"> <!-- 팝업 상품 이미지 -->
+					</div>
+					<div class="popup_text">
+						<span>VOLUME BY TAEYANG/Keratin</span>
+						<span>LEarn more</span>
+						<img src="assets/images/arrows.png" alt="arrows_image"> <!-- 팝업 텍스트 화살표 이미지 -->
+					</div>
+				</a>
+				<button class="add_cart_btn"><img src="assets/images/cart.png" alt="cart_icon"></button> <!-- 팝업 카트 이미지 -->
+			</div>
+			<div class="popup_btn">
+				<button type="button" id="day_close" class="day_close_btn">Don't show 24 hours</button> <!-- 클릭 시 24시간동안 비노출 -->
+				<button type="button" class="close_btn">Close</button> <!-- 팝업 닫기 버튼 -->
+			</div>
+
+
+		</div>
+	</form>
+	<!-- //비디오 팝업 -->
+
+
+	<!-- 팝업 백그라운드 -->
+	<div class="popup_bg"></div>
+	<!-- //팝업 백그라운드 -->
+
+
+	<!-- 스크립트 -->
+	<script src="../jquery-3.4.1.js"></script>
+	<script src="assets/js/popup.js"></script>
+
+</body>
+</html>

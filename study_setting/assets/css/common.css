@@ -248,6 +248,10 @@ textarea::-webkit-input-placeholder {
     background-color: rgb(7 7 7 / 70%);
 }
 
+.nav.on {
+    width: 10%;
+}
+
 .nav ul {
     display: flex;
     justify-content: flex-end;

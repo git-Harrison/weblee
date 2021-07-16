@@ -1,0 +1,136 @@
+.item_detail {
+    overflow: hidden;
+    padding-bottom: 20px;
+    background-color: #fff;
+}
+
+.item_video .slick-dots li button {
+    opacity: 0.75;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #acacac;
+}
+
+.item_video .slick-dots li.slick-active button {
+    opacity: 1;
+    background-color: #000;
+}
+
+.item_name {
+    margin-top: 38px;
+    margin-bottom: 6px;
+}
+
+.item_name span {
+    font-size: 14px;
+    font-weight: normal;
+    color: #222;
+}
+
+.price .sale {
+    display: block;
+    margin-bottom: 12px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #222;
+}
+
+.price .exist {
+    color: #787878;
+}
+
+.price .rate {
+    margin-left: 6px;
+    color: #ee2f49;
+}
+
+.price .stock {
+    margin-left: 6px;
+    padding: 2px 6px;
+    font-size: 13px;
+    border-radius: 10px;
+    background-color: #ee2f49;
+    color: #fff;
+}
+
+.price .number {
+    margin-left: 6px;
+    font-size: 13px;
+    color: #333;
+}
+
+.price .perbox {
+    display: block;
+    margin-top: 6px;
+    font-size: 13px;
+    color: #222;
+}
+
+.detail_contents {
+    margin-top: 20.5px;
+    padding-bottom: 40.5px;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.detail_contents div {
+    padding: 10.5px 0;
+}
+
+.detail_contents div .title {
+    display: inline-block;
+    width: 76px;
+    color: #787878;
+}
+
+.detail_contents div .more {
+    color: #787878;
+}
+
+.detail_contents div .moq {
+    margin-left: 6px;
+    padding: 2px 6px;
+    font-size: 13px;
+    border-radius: 10px;
+    background-color: #f69a5c;
+    color: #fff;
+}
+
+.detail_contents div span {
+    font-size: 13px;
+    font-weight: 400;
+    color: #333;
+}
+
+.detail_contents .login_link {
+    width: 70px;
+}
+
+.contents_line {
+    height: 8px;
+    background-color: #fafafa;
+}
+
+.detail_title {
+    height: 48px;
+    line-height: 48px;
+    border-bottom: 1px solid #ccc;
+}
+
+.description h2 {
+    width: 94%;
+    margin: 0 auto;
+    font-size: 23px;
+}
+
+.description ol {
+    padding-top: 20px;
+    list-style-position: inside;
+}
+
+.description li {
+    line-height: 20px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    color: #222;
+}

@@ -18,7 +18,7 @@
 	</div>
 </div>
 
-<div class="nav">
+<div id="nav" class="nav">
 
 	<div class="nav_logo">
 		<img src="../assets/images/logo.png" alt="로고이미지">
@@ -53,3 +53,15 @@
 		</ul>
 	</div>
 </div>
+
+<script>
+	
+	// document.addEventListener('scroll', function() {
+	// 	var currentScrollValue = document.documentElement.scrollTop;
+	//     if (currentScrollValue > 100) {
+	//     	document.getElementById('nav').classList.add('on');
+	//     }else {
+	//     	document.getElementById('nav').classList.remove('on');
+	//     }
+	// });
+</script>
