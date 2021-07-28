@@ -18,7 +18,10 @@
 	text-align: center;
 }
 .sinup a.sinup_href {
-    margin-bottom: 10px;
+    padding: 10px 0;
+    font-size: 13px;
+    color: #333;
+    margin-bottom: 20px;
     text-align: right;
 }
 
@@ -35,6 +38,7 @@
     font-size: 17px;
     color: #333;
     padding: 7px 0;
+    border-radius: 0;
     background: transparent;
 }
 
@@ -78,6 +82,7 @@
 .form_field:focus {
     padding-bottom: 7px;
     color: #333;
+    background-color: #fff;
 }
 
 .form_field:focus~.form_label {
@@ -110,6 +115,8 @@
 	cursor: pointer;
 	text-align: center;
 	transition: all 0.3s ease;
+    box-shadow: none;
+    border-radius: 0;
 }
 .sinup_btn:hover {
 	color: #fff;
@@ -126,6 +133,10 @@
 	.sinup a {
 		margin-bottom: 30px;
 	}
+    .sinup_btn {
+        color: #fff;
+        background-color: #b265039c;
+    }
 }
 @media screen and (max-width: 500px) {
 	.sinup {

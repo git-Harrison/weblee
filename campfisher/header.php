@@ -24,15 +24,16 @@
                 </li>
             </ul>
             <ul class="header_menu">
-                <li>
-                    <a href="login.php" title="로그인">로그인</a>
-                </li>
-                <li>
-                    <a href="logout.php" title="로그아웃">로그아웃</a>
-                </li>
-                <li>
-                    <a href="sinup.php" title="회원가입">회원가입</a>
-                </li>
+
+                <?php 
+                    if (!$_SESSION['id']) {
+                        echo "<li><a href='login.php' title='로그인'>로그인</a></li>";
+                        echo "<li><a href='sinup.php' title='회원가입'>회원가입</a></li>";
+                    }else {
+                        echo "<li><a href='logout.php' title='로그아웃'>로그아웃</a></li>";
+                    }
+                ?>
+
                 <li>
                     <a href="" title="주문조회">주문조회</a>
                 </li>
@@ -184,26 +185,16 @@
 <div class="category_wrap">
 	<div class="nav_all_category">
 		<div class="m_cg_top">
-			
-			<div class="no_login">
-				<div>'로그아웃' 상태입니다.</div>
-				<div>스타일코리안에 가입하여 더 많은 혜택을 누리세요.</div>
-				<div>
-					<button>로그인</button>
-					<button>회원가입</button>
-				</div>
-			</div>
+            <?php 
 
-			<div class="user_body">
-				<div>
-					<span>이재훈[wognsl305]</span> 님, 즐거운 쇼핑 되세요.
-				</div>
-				<div>
-					<button>마이페이지</button>
-					<button>배송중인 상품</button>
-				</div>
-			</div>
+                $user_name = $_SESSION['id'];
 
+                if (!$_SESSION['id']) {
+                    echo "<div class='no_login'><div>'로그아웃' 상태입니다.</div><div>스타일코리안에 가입하여 더 많은 혜택을 누리세요.</div><div><button>로그인</button><button>회원가입</button></div></div>";
+                }else {
+                    echo "<div class='user_body'><div><span> $user_name </span> 님, 즐거운 쇼핑 되세요.</div><div><button>마이페이지</button><button>배송중인 상품</button></div></div>";
+                }
+            ?>
 		</div>
 		<div class="m_cg_menu">
 			<ul>
@@ -262,7 +253,7 @@
 		</div>
 		<div class="m_footer">
 			<div>
-				<button>로그아웃</button>
+				<button onclick="location.href='logout.php'">로그아웃</button>
 				<button>고객센터</button>
 			</div>
 			<p>ⓒ All right reserved.</p>

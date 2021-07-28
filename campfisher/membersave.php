@@ -7,13 +7,9 @@
 
 	//회원가입
 	$id=$_POST['id'];
-	$password=($_POST['pw']);
+	$password=sha1($_POST['pw']);
 	$name=$_POST['name'];
 	$email =$_POST['email'];
-
-	//로그인
-	// $id_log=$_POST['id_log'];
-	// $password_log=($_POST['pw_log']);
 
 
 	if ($id == NULL || $id == NULL) {
@@ -26,6 +22,7 @@
 
 	$sql = "insert into member (id, pw, name, email)";            
 	$sql = $sql. "values('$id','$password','$name','$email')";  
+
 
 	if($mysqli->query($sql)){
 		echo "<script>alert('회원가입 완료');</script>";                                                  

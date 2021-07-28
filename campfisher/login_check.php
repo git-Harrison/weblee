@@ -13,7 +13,8 @@
 		session_start();
 
 		$id=$_POST['id'];
-		$password=($_POST['pw']);
+		$password=sha1($_POST['pw']);
+		$name=$_POST['name'];
 
 		$check_id = "SELECT * from member where id='$id'";
 
@@ -28,6 +29,7 @@
 					exit();
 				}else {
 					header ('Location: login.php');
+					echo "<script>alert('아이디 또는 비밀번호가 맞지 않습니다.');</script>";
 				}
 			}else {
 				echo "<script>alert('아이디 또는 비밀번호가 맞지 않습니다.');</script>";
