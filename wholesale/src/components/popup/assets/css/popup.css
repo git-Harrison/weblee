@@ -21,9 +21,7 @@ body {
 .popup_video {
 	margin-bottom: -4px;
 }
-.popup_video video {
-	border-radius: 16px 16px 0 0;
-}
+
 .popup_link {
 	position: relative;
 	background-color: #ed2f49;

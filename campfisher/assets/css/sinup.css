@@ -1,0 +1,135 @@
+.sinup {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	width: 460px;
+}
+
+.input_box > div{
+	position: relative;
+}
+.sinup .input_box {
+	margin: 40px 0;
+}
+.sinup a {
+	display: block;
+	margin-bottom: 60px;
+	text-align: center;
+}
+.sinup a.sinup_href {
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.sinup a img {
+	width: 290px;
+}
+
+.form_field {
+    display: block;
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #dadada;
+    outline: 0;
+    font-size: 17px;
+    color: #333;
+    padding: 7px 0;
+    background: transparent;
+}
+
+.line {
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    width: 0;
+    height: 1px;
+    background-color: #b265039c;
+    transition: width 0.4s ease;
+}
+
+.form_field::placeholder {
+    color: transparent;
+    font-size: 0;
+}
+
+.form_field:placeholder-shown~.form_label {
+    font-size: 13px;
+    font-weight: 300;
+    cursor: text;
+    top: 6px;
+}
+
+.form_label {
+    position: absolute;
+    top: -20px;
+    display: block;
+    transition: all 0.3s ease;
+    font-size: 13px;
+    font-weight: 700;
+    color: #9b9b9b;
+}
+
+.form_label span {
+    font-size: 14px;
+    color: #b265039c;
+}
+
+.form_field:focus {
+    padding-bottom: 7px;
+    color: #333;
+}
+
+.form_field:focus~.form_label {
+    position: absolute;
+    top: -20px;
+    display: block;
+    transition: all 0.3s ease;
+    font-size: 13px;
+    font-weight: 700;
+    color: #b265039c;
+}
+
+.form_field:focus~.line {
+    width: 100%;
+    transition: width 0.4s ease;
+}
+
+.form_field:required,
+.form_field:invalid {
+    box-shadow: none;
+}
+
+.sinup_btn {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	border: 0;
+	font-size: 14px;
+	color: #ababab;
+	cursor: pointer;
+	text-align: center;
+	transition: all 0.3s ease;
+}
+.sinup_btn:hover {
+	color: #fff;
+	font-weight: bold;
+	background-color: #b265039c;
+	transition: all 0.3s ease;
+}
+@media screen and (max-width: 1024px) {
+	.sinup {
+		top: 56%;
+	}
+}
+@media screen and (max-width: 768px) {
+	.sinup a {
+		margin-bottom: 30px;
+	}
+}
+@media screen and (max-width: 500px) {
+	.sinup {
+		width: 94%;
+		top: 53%;
+	}
+}

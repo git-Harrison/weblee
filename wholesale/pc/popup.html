@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://wholesale.stylekorean.com/Content/mobile/css/m_common.css?v=202101140001">
+	<link rel="stylesheet" href="popup.css">
+</head>
+<body>
+	<!-- 비디오 팝업 -->
+	<form action="">
+		<div class="popup">
+
+			<div class="popup_btn">
+				<div id="check">
+                    <input type="checkbox" id="day_close" name="day_close" class="day_close" value="checkbox">
+                    <label for="day_close" class="day_close_label">Don't show 24 hours</label>
+                </div>
+				<button type="button" class="close_btn" style="outline: none;">
+					<img src="close.png" alt="close">
+				</button> <!-- 팝업 닫기 버튼 -->
+				</a>
+			</div>
+			<div class="popup_video">
+				<video src="https://wholesale.stylekorean.com/Content/mobile/video/video.mp4?v=20210716001" autoplay="autoplay" loop="loop" muted="muted" playsinline>동영상 입니다.</video>
+			</div>
+			<div class="popup_link">
+				<a href=""> <!-- 상품페이지 링크 이동 -->
+					<div class="popup_item_image">
+						<img src="https://wholesale.stylekorean.com/Content/mobile/images/popup_item.png?v=20210716001" alt="item_image"> <!-- 팝업 상품 이미지 -->
+					</div>
+					<div class="popup_text">
+						<span>VOLUME BY TAEYANG/Keratin/Volume</span>
+						<span>Learn more</span>
+						<img src="https://wholesale.stylekorean.com/Content/mobile/images/arrows.png?v=20210716001" alt="arrows_image"> <!-- 팝업 텍스트 화살표 이미지 -->
+					</div>
+				<button class="add_cart_btn" style="outline: none;"><img src="https://wholesale.stylekorean.com/Content/mobile/images/cart.png?v=20210716001" alt="cart_icon"></button> <!-- 팝업 카트 이미지 -->
+			</div>
+			
+
+
+		</div>
+	</form>
+	<!-- //비디오 팝업 -->
+
+	<!-- 팝업 백그라운드 -->
+	<div class="popup_bg"></div>
+	<!-- //팝업 백그라운드 -->
+
+
+	<script src="https://wholesale.stylekorean.com//Content/mobile/scripts/jquery-3.4.1.js?v=202101140001" charset="utf-8"></script>
+	<script src="https://wholesale.stylekorean.com//Content/mobile/scripts/slick.min.js?v=20210716002" charset="utf-8"></script>
+	<script>
+		$(document).ready(function(){
+
+			//닫기버튼 & 팝업 백그라운드 클릭 시 팝업 삭제
+			$('.close_btn, .popup_bg').on('click', function(){
+				$('.popup').remove();
+				$('.popup_bg').remove();
+				$('body').css('overflow','visible')
+			});
+
+		});
+	</script>	
+
+</body>
+</html>
