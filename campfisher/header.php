@@ -1,11 +1,15 @@
 <link rel="stylesheet" href="assets/css/header.css">
 
+<?php
+    $user_name = $_SESSION['id'];
+?>
+
 <header>
     <div class="top_container">
         <div class="header">
             <ul class="header_sns">
                 <li>
-                    <a href="" title="인스타그램" class="instagram">
+                    <a href="https://www.instagram.com/h_campfisher/" target="_black" title="인스타그램" class="instagram">
                     	<img src="https://i.pinimg.com/564x/5c/03/89/5c03895d71d4e59e5058604964fe5120.jpg" alt="인스타그램아이콘">
                     	<span>Instagram</span>
                     </a>
@@ -26,11 +30,13 @@
             <ul class="header_menu">
 
                 <?php 
+
                     if (!$_SESSION['id']) {
                         echo "<li><a href='login.php' title='로그인'>로그인</a></li>";
                         echo "<li><a href='sinup.php' title='회원가입'>회원가입</a></li>";
                     }else {
-                        echo "<li><a href='logout.php' title='로그아웃'>로그아웃</a></li>";
+                        echo "<li><a href='logout.php' title='아이디'>$user_name 님</a></li>";
+                        echo "<li><a href='logout.php' title='로그아웃'>로그아웃</a></li>"; 
                     }
                 ?>
 
@@ -187,12 +193,10 @@
 		<div class="m_cg_top">
             <?php 
 
-                $user_name = $_SESSION['id'];
-
                 if (!$_SESSION['id']) {
-                    echo "<div class='no_login'><div>'로그아웃' 상태입니다.</div><div>스타일코리안에 가입하여 더 많은 혜택을 누리세요.</div><div><button>로그인</button><button>회원가입</button></div></div>";
+                    echo "<div class='no_login'><div>'로그아웃' 상태입니다.</div><div>스타일코리안에 가입하여 더 많은 혜택을 누리세요.</div><div><a href='login.php'>로그인</a><a href='sinup.php'>회원가입</a></div></div>";
                 }else {
-                    echo "<div class='user_body'><div><span> $user_name </span> 님, 즐거운 쇼핑 되세요.</div><div><button>마이페이지</button><button>배송중인 상품</button></div></div>";
+                    echo "<div class='user_body'><div><span> $user_name </span> 님, 즐거운 쇼핑 되세요.</div><div><a>마이페이지</a><a>배송중인 상품</a></div></div>";
                 }
             ?>
 		</div>
@@ -232,7 +236,7 @@
 		<div class="m_cg_menu sns">
 			<ul>
 				<li>
-					<a href="">
+					<a href="https://www.instagram.com/h_campfisher/" target="_blank">
 						<img src="https://i.pinimg.com/564x/5c/03/89/5c03895d71d4e59e5058604964fe5120.jpg" alt="인스타그램아이콘">
 						<span>Instagram</span>
 					</a>
@@ -305,11 +309,18 @@
         // 스크롤 이벤트
         $(window).scroll(function(){ 
             var height = $(document).scrollTop();
+            var width = $(document).width();
 
             if(height > 250){ 
                 $('header, nav').addClass('fixed');
 
                 if ($('nav').find('.fixed')) {
+                    if (width <= 768) {
+                        $('.nav_all_category').addClass('top');
+                    }else {
+                        $('.nav_all_category').removeClass('top');
+                    }
+
                     $('.category_wrap').addClass('fixed');
                 }
             }else if(height < 130){ 

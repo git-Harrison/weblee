@@ -9,8 +9,7 @@
 	<?php
 
 		include_once('db.php');
-
-		session_start();
+		
 
 		$id=$_POST['id'];
 		$password=sha1($_POST['pw']);

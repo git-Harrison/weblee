@@ -24,7 +24,7 @@
 	}
 </style>
 
-<body>
+<body style="height: 5000px">
 
     <header>
         <div class="top_container">
@@ -346,11 +346,16 @@
 			// 스크롤 이벤트
 			$(window).scroll(function(){ 
 				var height = $(document).scrollTop();
-
+				var width = $('html').width();
 				if(height > 250){ 
 					$('header, nav').addClass('fixed');
 
 					if ($('nav').find('.fixed')) {
+						if (width <= 768) {
+							$('.nav_all_category').addClass('top');
+						}else {
+							$('.nav_all_category').removeClass('top');
+						}
 						$('.category_wrap').addClass('fixed');
 					}
 				}else if(height < 130){ 

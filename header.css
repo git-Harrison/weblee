@@ -814,6 +814,10 @@ nav.fixed {
         height: 100%;
     }
 
+    .category_wrap.active.fixed .nav_all_category.top {
+        top: 0;
+    }
+
     .pc_category {
         height: 58vh;
         padding: 6% 0;

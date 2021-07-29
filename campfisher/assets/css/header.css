@@ -461,8 +461,8 @@ nav.fixed {
     margin-top: 18px;
 }
 
-.no_login div button,
-.user_body div button {
+.no_login div a,
+.user_body div a {
     width: 132px;
     margin: 0 8px;
     padding: 12px 0;
@@ -632,6 +632,7 @@ nav.fixed {
     .main {
         margin-top: 159px;
     }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -718,6 +719,10 @@ nav.fixed {
         z-index: 9999;
         top: 0;
         height: 100%;
+    }
+
+    .category_wrap.active.fixed .nav_all_category.top {
+        top: 0;
     }
 
     .pc_category {

@@ -51,10 +51,10 @@
 							<div class="line"></div>
 						</div>
 					</div>
+					<input type=submit value="로그인" class="sinup_btn">
 					<div>
 						<a href="sinup.php" class="sinup_href">회원가입</a>
 					</div>
-					<input type=submit value="로그인" class="sinup_btn">
 				</form>
 			</div>
 		</div>

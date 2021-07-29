@@ -53,13 +53,16 @@
 
 		<div class="banner">
 			<div class="slider_banner">
-				<img src="assets/images/banner1.jpg" alt="배너이미지">
+				<img src="assets/images/banner1.jpg" class="pc_banner" alt="배너이미지">
+				<img src="assets/images/m_banner1.jpg" class="m_banner" alt="배너이미지">
 			</div>
 			<div class="slider_banner">
-				<img src="assets/images/banner2.jpg" alt="배너이미지">
+				<img src="assets/images/banner2.jpg" class="pc_banner" alt="배너이미지">
+				<img src="assets/images/m_banner2.jpg" class="m_banner" alt="배너이미지">
 			</div>
 			<div class="slider_banner">
-				<img src="assets/images/banner3.jpg" alt="배너이미지">
+				<img src="assets/images/banner3.jpg" class="pc_banner" alt="배너이미지">
+				<img src="assets/images/m_banner3.jpg" class="m_banner" alt="배너이미지">
 			</div>
 		</div>
 		
@@ -79,7 +82,7 @@
 									<span></span>
 								</div>
 								<div class="item_image">
-									<img src="assets/images/new1.jpg" alt="신상품이미지">
+									<img src="assets/images/new1.png" alt="신상품이미지">
 								</div>
 								<div class="item_name">새턴쉘터라이트</div>
 								<div class="item_price">796,000원</div>
@@ -88,7 +91,7 @@
 						<li class="item camp">
 							<a href="">
 								<div class="item_image">
-									<img src="assets/images/new2.jpg" alt="신상품이미지">
+									<img src="assets/images/new2.png" alt="신상품이미지">
 								</div>
 								<div class="item_name">폴딩벤치(21)</div>
 								<div class="item_price">56,000원</div>
@@ -97,7 +100,7 @@
 						<li class="item camp">
 							<a href="">
 								<div class="item_image">
-									<img src="assets/images/new3.jpg" alt="신상품이미지">
+									<img src="assets/images/new3.png" alt="신상품이미지">
 								</div>
 								<div class="item_name">롱릴렉스체어(21)</div>
 								<div class="item_price">입고예정(7월말)</div>
@@ -106,7 +109,7 @@
 						<li class="item camp">
 							<a href="">
 								<div class="item_image">
-									<img src="assets/images/new4.jpg" alt="신상품이미지">
+									<img src="assets/images/new4.png" alt="신상품이미지">
 								</div>
 								<div class="item_name">아이언BBQ팬</div>
 								<div class="item_price">입고예정(8월)</div>
@@ -115,7 +118,7 @@
 						<li class="item camp">
 							<a href="">
 								<div class="item_image">
-									<img src="assets/images/new5.jpg" alt="신상품이미지">
+									<img src="assets/images/new5.png" alt="신상품이미지">
 								</div>
 								<div class="item_name">텀블러591ml</div>
 								<div class="item_price">17,600원</div>
@@ -124,7 +127,7 @@
 						<li class="item camp">
 							<a href="">
 								<div class="item_image">
-									<img src="assets/images/new6.jpg" alt="신상품이미지">
+									<img src="assets/images/new6.png" alt="신상품이미지">
 								</div>
 								<div class="item_name">텀블러887ml</div>
 								<div class="item_price">23,200원</div>
@@ -133,7 +136,7 @@
 						<li class="item camp">
 							<a href="">
 								<div class="item_image">
-									<img src="assets/images/new7.jpg" alt="신상품이미지">
+									<img src="assets/images/new7.png" alt="신상품이미지">
 								</div>
 								<div class="item_name">텀블러354ml</div>
 								<div class="item_price">16,000원</div>
@@ -153,7 +156,8 @@
 			<div class="container">
 				<div class="event_banner">
 					<a href="">
-						<img src="assets/images/event_banner1.jpg" alt="배너이미지">
+						<img src="assets/images/event_banner1.jpg" class="pc_banner" alt="배너이미지">
+						<img src="assets/images/m_event_banner1.jpg" class="m_banner" alt="배너이미지">
 					</a>
 				</div>
 			</div>
@@ -169,7 +173,7 @@
 					<ul class="best_item_wrap">
 						<li class="best_item camp">
 							<a href="" class="best_item_img">
-								<img src="assets/images/best1.jpg" alt="베스트상품이미지">
+								<img src="assets/images/best1.png" alt="베스트상품이미지">
 							</a>
 							<div class="best_item_text">
 								<div class="best_item_name">
@@ -181,7 +185,7 @@
 						</li>
 						<li class="best_item camp">
 							<a href="" class="best_item_img">
-								<img src="assets/images/best2.jpg" alt="베스트상품이미지">
+								<img src="assets/images/best2.png" alt="베스트상품이미지">
 							</a>
 							<div class="best_item_text">
 								<div class="best_item_name">
@@ -193,7 +197,7 @@
 						</li>
 						<li class="best_item camp">
 							<a href="" class="best_item_img">
-								<img src="assets/images/best3.jpg" alt="베스트상품이미지">
+								<img src="assets/images/best3.png" alt="베스트상품이미지">
 							</a>
 							<div class="best_item_text">
 								<div class="best_item_name">
@@ -215,7 +219,9 @@
 	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 	<script src="https://kenwheeler.github.io/slick/slick/slick.js"></script>
 	<script>
+
 		$(document).ready(function(){
+
 			$('.banner').bxSlider({
 				mode: 'fade',
 				speed: 500,
@@ -228,12 +234,47 @@
 				pager: false,
 			});
 
+
 			$('.item_slide ul').slick({
 				infinite: true,
 				slidesToShow: 5,
 				slidesToScroll: 5,
+				autoplay : true,
+				autoplaySpeed : 1400,
+				draggable : true,
+				pauseOnHover : true,
+				speed : 400,
+
+				responsive: [ // 반응형 웹 구현 옵션
+					{  
+						breakpoint: 1280, //화면 사이즈 960px
+						settings: {
+							slidesToShow: 4,
+							slidesToScroll: 4
+						} 
+					},
+					{ 
+						breakpoint: 900, //화면 사이즈 768px
+						settings: {	
+							slidesToShow: 3,
+							slidesToScroll: 3,
+							dots: true,
+							arrows : false
+						} 
+					},
+					{ 
+						breakpoint: 600, //화면 사이즈 768px
+						settings: {	
+							slidesToShow: 2,
+							slidesToScroll: 2,
+							dots: true,
+							arrows : false
+						} 
+					}
+				]
 			});
 		});
+
 	</script>
 </body>
 </html>
