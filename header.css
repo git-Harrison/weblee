@@ -742,6 +742,10 @@ nav.fixed {
         height: 44px;
         line-height: 44px;
     }
+    nav.fixed,
+    nav.fixed .nav_center {
+        background-color: rgba(255,255,255,.8);
+    }
 
     nav .nav_center,
     nav.fixed .nav_center {

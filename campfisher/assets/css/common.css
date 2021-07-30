@@ -34,24 +34,24 @@ button {
     margin: 0;
     padding: 0;
 }
-input,button,textarea,select {
+input[type="text"],button,textarea,select {
     -webkit-border-radius: 0;
     -webkit-appearance: none;
     outline: none;
 }
-input:focus,button:focus,textarea:focus,select:focus {
+input[type="text"]:focus,button:focus,textarea:focus,select:focus {
     -webkit-border-radius: 0;
     -webkit-appearance: none;
     outline: none;
 }
-input:-internal-autofill-selected {
+input[type="text"]:-internal-autofill-selected {
     background-color: #fff;
 }
-input:-webkit-autofill:focus {
+input[type="text"]:-webkit-autofill:focus {
     -webkit-box-shadow: 0 0 0 30px white inset !important;
     transition: background-color 5000s ease-in-out 0s;
 }
-input:-webkit-autofill {
+input[type="text"]:-webkit-autofill {
    -webkit-box-shadow: 0 0 0 1000px white inset;
 }
 
@@ -138,4 +138,10 @@ section {
 .container {
     width: 1280px;
     margin: 0 auto;
+}
+
+@media screen and (max-width: 1280px) {
+    .container {
+        width: 94%;
+    }
 }

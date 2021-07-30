@@ -165,7 +165,7 @@
 
 		<section>
 			<div class="container">
-				<div class="sec_title">
+				<div class="sec_title long">
 					<h1>주간 판매 베스트 상품</h1>
 					<p>고객분들께 사랑을 가장 많이 받은 제품입니다.</p>
 				</div>

@@ -1,4 +1,5 @@
-.sinup {
+.sinup,
+.terms {
 	position: absolute;
 	left: 50%;
 	top: 50%;
@@ -6,19 +7,26 @@
 	width: 460px;
 }
 
+.terms {
+    top: 58%;
+}
+
 .input_box > div{
 	position: relative;
 }
-.sinup .input_box {
+.sinup .input_box,
+.terms .input_box {
 	margin: 40px 0;
 }
-.sinup a {
+.sinup a,
+.terms a {
     overflow: hidden;
 	display: block;
 	margin-bottom: 60px;
 	text-align: center;
 }
-.sinup a.sinup_href {
+.sinup a.sinup_href,
+.terms a.sinup_href {
     font-weight: 300;
     letter-spacing: 1px;
     float: right;
@@ -29,12 +37,14 @@
     margin-top: 14px;
 }
 
-.sinup a.sinup_href:hover {
+.sinup a.sinup_href:hover,
+.terms a.sinup_href:hover {
     color: #333;
     transition: all 0.3s ease;
 }
 
-.sinup a img {
+.sinup a img,
+.terms a img {
 	width: 290px;
 }
 
@@ -135,6 +145,89 @@
 	background-color: #b265039c;
 	transition: all 0.3s ease;
 }
+
+.terms input[type='checkbox'] {
+    width: 20px;
+    height: 20px;
+    margin: 8px;
+    border: 1px solid #eee;
+    display: block;
+    cursor: pointer;
+}
+
+.terms label {
+    display: block;
+    width: 88%;
+    cursor: pointer;
+}
+.chk_all {
+    margin-bottom: 40px;
+}
+.chk_all,
+.chk {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.chk {
+    margin-bottom: 40px;
+}
+.chk label {
+    line-height: 35px;
+}
+.chk_all_txt {
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.chk_txt {
+    font-size: 14px;
+    font-weight: 700;
+}
+.chk_txt strong {
+    padding-left: 6px;
+    font-size: 13px;
+    font-weight: 300;
+    color: #ff0000;
+}
+.terms_box {
+    width: 100%;
+    position: relative;
+    overflow: auto;
+    height: 88px;
+    margin-top: 8px;
+    padding: 12px;
+    border: 1px solid #dadada;
+}
+
+.terms_btn {
+    display: flex;
+    justify-content: space-between;
+}
+.terms_btn input[type="submit"],
+.terms_btn a {
+    width: 48%;
+    height: 50px;
+    line-height: 50px;
+    border: 0;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: none;
+    border-radius: 0;
+    -webkit-appearance: none;
+   -webkit-border-radius: 0;
+   background-color: #b265039c;
+}
+.terms_btn a {
+    background-color: #333;
+}
+
+
 @media screen and (max-width: 1024px) {
 	.sinup {
 		top: 56%;
@@ -150,8 +243,13 @@
     }
 }
 @media screen and (max-width: 500px) {
-	.sinup {
+	.sinup,
+    .terms {
 		width: 94%;
 		top: 53%;
 	}
+    .terms {
+        width: 94%;
+        top: 58%;
+    }
 }

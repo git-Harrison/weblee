@@ -301,6 +301,16 @@ img.m_banner {
         -webkit-line-clamp: 3;
         -webkit-box-orient: vertical;
     }
+
+    .sec_title:before,
+    .sec_title:after {
+        width: 22%;
+    }
+
+    .sec_title.long:before,
+    .sec_title.long:after {
+        width: 16%;
+    }
 }
 
 @media screen and (max-width: 434px) {
@@ -316,5 +326,10 @@ img.m_banner {
 
     .best_item_text {
         padding: 3%;
+    }
+
+    .sec_title.long:before,
+    .sec_title.long:after {
+        width: 12%;
     }
 }
