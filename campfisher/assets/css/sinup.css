@@ -1,30 +1,42 @@
 .sinup,
 .terms {
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%,-50%);
-	width: 460px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 460px;
 }
 
 .terms {
     top: 58%;
 }
 
-.input_box > div{
-	position: relative;
+.input_box>div {
+    position: relative;
 }
+
+.input_box.checkbox {
+    display: flex;
+}
+
+.checkbox_box {
+    width: 33.3333333%;
+    text-align: center;
+}
+
 .sinup .input_box,
 .terms .input_box {
-	margin: 40px 0;
+    margin: 40px 0;
 }
+
 .sinup a,
 .terms a {
     overflow: hidden;
-	display: block;
-	margin-bottom: 60px;
-	text-align: center;
+    display: block;
+    margin-bottom: 60px;
+    text-align: center;
 }
+
 .sinup a.sinup_href,
 .terms a.sinup_href {
     font-weight: 300;
@@ -45,7 +57,7 @@
 
 .sinup a img,
 .terms a img {
-	width: 290px;
+    width: 290px;
 }
 
 .form_field {
@@ -125,25 +137,26 @@
 }
 
 .sinup_btn {
-	width: 100%;
-	height: 50px;
-	line-height: 50px;
-	border: 0;
-	font-size: 14px;
-	color: #ababab;
-	cursor: pointer;
-	text-align: center;
-	transition: all 0.3s ease;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    border: 0;
+    font-size: 14px;
+    color: #ababab;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease;
     box-shadow: none;
     border-radius: 0;
     -webkit-appearance: none;
-   -webkit-border-radius: 0;
+    -webkit-border-radius: 0;
 }
+
 .sinup_btn:hover {
-	color: #fff;
-	font-weight: bold;
-	background-color: #b265039c;
-	transition: all 0.3s ease;
+    color: #fff;
+    font-weight: bold;
+    background-color: #b265039c;
+    transition: all 0.3s ease;
 }
 
 .terms input[type='checkbox'] {
@@ -160,9 +173,11 @@
     width: 88%;
     cursor: pointer;
 }
+
 .chk_all {
     margin-bottom: 40px;
 }
+
 .chk_all,
 .chk {
     display: flex;
@@ -170,12 +185,15 @@
     justify-content: space-between;
 
 }
+
 .chk {
     margin-bottom: 40px;
 }
+
 .chk label {
     line-height: 35px;
 }
+
 .chk_all_txt {
     font-size: 14px;
     font-weight: 700;
@@ -186,12 +204,14 @@
     font-size: 14px;
     font-weight: 700;
 }
+
 .chk_txt strong {
     padding-left: 6px;
     font-size: 13px;
     font-weight: 300;
     color: #ff0000;
 }
+
 .terms_box {
     width: 100%;
     position: relative;
@@ -206,7 +226,8 @@
     display: flex;
     justify-content: space-between;
 }
-.terms_btn input[type="submit"],
+
+.terms_btn button,
 .terms_btn a {
     width: 48%;
     height: 50px;
@@ -220,34 +241,51 @@
     box-shadow: none;
     border-radius: 0;
     -webkit-appearance: none;
-   -webkit-border-radius: 0;
-   background-color: #b265039c;
+    -webkit-border-radius: 0;
+    background-color: #b265039c;
 }
+
 .terms_btn a {
     background-color: #333;
 }
 
+.sex {
+    cursor: pointer;
+}
+
+.sex input {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 4%;
+    cursor: pointer;
+}
 
 @media screen and (max-width: 1024px) {
-	.sinup {
-		top: 56%;
-	}
+    .sinup {
+        top: 56%;
+    }
 }
+
 @media screen and (max-width: 768px) {
-	.sinup a {
-		margin-bottom: 30px;
-	}
+    .sinup a {
+        margin-bottom: 30px;
+    }
+
     .sinup_btn {
         color: #fff;
         background-color: #b265039c;
     }
 }
+
 @media screen and (max-width: 500px) {
-	.sinup,
+
+    .sinup,
     .terms {
-		width: 94%;
-		top: 53%;
-	}
+        width: 94%;
+        top: 53%;
+    }
+
     .terms {
         width: 94%;
         top: 58%;

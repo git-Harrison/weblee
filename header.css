@@ -752,6 +752,16 @@ nav.fixed {
         top: 45px;
     }
 
+    .nav {
+        justify-content: flex-end;
+    }
+
+    .nav_left {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
     .nav_left,
     .nav_right {
         width: auto;
@@ -763,6 +773,11 @@ nav.fixed {
 
     #mobile_menu {
         display: block;
+        left: 2%;
+        top: 5px;
+        bottom: auto;
+        width: 20px;
+        background: #fff;
     }
 
     .m_cg_menu {

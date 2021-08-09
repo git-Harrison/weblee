@@ -8,7 +8,7 @@
 	<title>campfisher</title>
 
 	<!-- 파비콘 -->
-	<link rel=" shortcut icon" href="https://weblee.kr/study_setting/assets/images/favicon.png">
+	<link rel=" shortcut icon" href="https://weblee.kr/study_setting/assets/images/avifcon.png">
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="assets/css/common.css">
@@ -40,30 +40,45 @@
 	                </a>
 					<div class="input_box">
 						<div>
-							<input type="text" size="30" name="id" class="form_field" id="sinup_id" placeholder="아이디">
-							<label for="sinup_id" class="form_label">아이디</label>
+							<input type="text" size="30" name="id" class="form_field" id="sinup_id" placeholder="아이디" autocomplete="off">
+							<label for="sinup_id" class="form_label">아이디*(필수)</label>
 							<div class="line"></div>
 						</div>
 					</div>
 					<div class="input_box">
 						<div>
-							<input type="password" size="30" name="pw" class="form_field" id="sinup_pw" placeholder="비밀번호">
-							<label for="sinup_pw" class="form_label">비밀번호</label>
+							<input type="password" size="30" name="pw" class="form_field" id="sinup_pw" placeholder="비밀번호" autocomplete="off">
+							<label for="sinup_pw" class="form_label">비밀번호*(필수)</label>
 							<div class="line"></div>
 						</div>
 					</div>
 					<div class="input_box">
 						<div>
-							<input type="text" size="12" maxlength="10" name="name" class="form_field" id="sinup_name" placeholder="닉네임">
-							<label for="sinup_name" class="form_label">닉네임</label>
+							<input type="text" size="12" maxlength="10" name="name" class="form_field" id="sinup_name" placeholder="닉네임" autocomplete="off">
+							<label for="sinup_name" class="form_label">닉네임*(필수)</label>
 							<div class="line"></div>
 						</div>
 					</div>
 					<div class="input_box">
 						<div>
-							<input type="email" size="30" name="email" class="form_field" id="sinup_email" placeholder="이메일">
-							<label for="sinup_email" class="form_label">이메일</label>
+							<input type="email" size="30" name="email" class="form_field" id="sinup_email" placeholder="이메일" autocomplete="off">
+							<label for="sinup_email" class="form_label">이메일*(필수)</label>
 							<div class="line"></div>
+						</div>
+					</div>
+					<div class="input_box checkbox">
+						<div class="checkbox_box" style="text-align: left; font-size: 13px; font-weight: 300; color: #9b9b9b;">성별 (선택)</div>
+						<div class="checkbox_box">
+							<label for="sinup_sex1" class="sex">
+								<input type="radio" name="sex" id="sinup_sex1" value="남">
+								<span>남</span>
+							</label>
+						</div>
+						<div class="checkbox_box">
+							<label for="sinup_sex2" class="sex">
+								<input type="radio" name="sex" id="sinup_sex2" value="여">
+								<span>여</span>
+							</label>
 						</div>
 					</div>
 					<input type=submit value="가입하기" class="sinup_btn">

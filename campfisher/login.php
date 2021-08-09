@@ -39,21 +39,21 @@
 	                </a>
 					<div class="input_box">
 						<div>
-							<input type="text" size="30" name="id" class="form_field" id="sinup_id" placeholder="아이디">
+							<input type="text" size="30" name="id" class="form_field" id="sinup_id" placeholder="아이디" autocomplete="off">
 							<label for="sinup_id" class="form_label">아이디</label>
 							<div class="line"></div>
 						</div>
 					</div>
 					<div class="input_box">
 						<div>
-							<input type="password" size="30" name="pw" class="form_field" id="sinup_pw" placeholder="비밀번호">
+							<input type="password" size="30" name="pw" class="form_field" id="sinup_pw" placeholder="비밀번호" autocomplete="off">
 							<label for="sinup_pw" class="form_label">비밀번호</label>
 							<div class="line"></div>
 						</div>
 					</div>
 					<input type=submit value="로그인" class="sinup_btn">
 					<div>
-						<a href="sinup.php" class="sinup_href">회원가입</a>
+						<a href="sinup_terms.php" class="sinup_href">회원가입</a>
 					</div>
 				</form>
 			</div>

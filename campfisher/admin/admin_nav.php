@@ -1,3 +1,9 @@
+<?php
+	include_once('../db.php');
+
+	$user_name = $_SESSION['id'];
+?>
+
 <!-- 폰트 -->
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
@@ -7,14 +13,15 @@
 <link rel="stylesheet" href="src/components/css/admin_nav.css">
 
 
-
 <!-- 상단 네비 -->
 <nav>
-	<h1 class="nav_header"><a href="admin.php">소픽스토어센터</a></h1>
+	<h1 class="nav_header">
+		<a href="../index.php">캠피셔 관리자 센터</a>
+	</h1>
 	<div class="nav_bar">
 		<ul>
-			<li><span>dlwogns7662</span> 님</li>
-			<li><a href="">로그아웃</a></li>
+			<li><span><?= $user_name ?></span>님</li>
+			<li><a href="../logout.php">로그아웃</a></li>
 		</ul>
 	</div>
 </nav>
@@ -26,9 +33,9 @@
 <div class="side_nav">
 	<div class="top">
 		<div class="logo">
-			<img src="src/components/images/sopick_logo.png" alt="sopick_logo">
+			<img src="../assets/images/logo.png" alt="logo">
 		</div>
-		<div class="sopick_name">SOPICK</div>
+		<div class="sopick_name">CampFisher</div>
 	</div>
 	<div class="list_wrap">
 		<ul class="menu">

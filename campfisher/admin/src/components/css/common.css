@@ -1,5 +1,6 @@
 /* reset */
 body {
+    height: 100vh;
     direction: ltr;
     font-family: 'Nanum Gothic', sans-serif;
     min-height: calc(100vh - 55px);

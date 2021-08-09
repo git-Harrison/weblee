@@ -10,9 +10,10 @@
 	$password=sha1($_POST['pw']);
 	$name=$_POST['name'];
 	$email =$_POST['email'];
+	$sex = $_POST['sex'];
 
 
-	if ($id == NULL || $id == NULL) {
+	if ($id == NULL || $password == NULL || $name == NULL || $email == NULL) {
 		echo('<script>alert("빈칸을 채워주세요")</script>');
 		echo "<script>location.href='sinup.php'</script>"; 
 	}
@@ -20,8 +21,8 @@
 	$check_id = "SELECT * from member where id='$id'";
 
 
-	$sql = "insert into member (id, pw, name, email)";            
-	$sql = $sql. "values('$id','$password','$name','$email')";  
+	$sql = "insert into member (id, pw, name, email, sex)";            
+	$sql = $sql. "values('$id','$password','$name','$email', '$sex')";  
 
 
 	if($mysqli->query($sql)){

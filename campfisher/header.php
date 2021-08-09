@@ -30,10 +30,13 @@
             <ul class="header_menu">
 
                 <?php 
+                    if ($_SESSION['id']=="admin") {
+                        echo "<li><a href='admin/admin.php' title='관리자페이지'>관리자페이지</a></li>";
+                    }
 
                     if (!$_SESSION['id']) {
                         echo "<li><a href='login.php' title='로그인'>로그인</a></li>";
-                        echo "<li><a href='sinup.php' title='회원가입'>회원가입</a></li>";
+                        echo "<li><a href='sinup_terms.php' title='회원가입'>회원가입</a></li>";
                     }else {
                         echo "<li><a href='logout.php' title='아이디'>$user_name 님</a></li>";
                         echo "<li><a href='logout.php' title='로그아웃'>로그아웃</a></li>"; 
@@ -194,7 +197,7 @@
             <?php 
 
                 if (!$_SESSION['id']) {
-                    echo "<div class='no_login'><div>'로그아웃' 상태입니다.</div><div>스타일코리안에 가입하여 더 많은 혜택을 누리세요.</div><div><a href='login.php'>로그인</a><a href='sinup.php'>회원가입</a></div></div>";
+                    echo "<div class='no_login'><div>'로그아웃' 상태입니다.</div><div>스타일코리안에 가입하여 더 많은 혜택을 누리세요.</div><div><a href='login.php'>로그인</a><a href='sinup_terms.php'>회원가입</a></div></div>";
                 }else {
                     echo "<div class='user_body'><div><span> $user_name </span> 님, 즐거운 쇼핑 되세요.</div><div><a>마이페이지</a><a>배송중인 상품</a></div></div>";
                 }
