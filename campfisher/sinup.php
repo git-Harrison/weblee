@@ -54,7 +54,14 @@
 					</div>
 					<div class="input_box">
 						<div>
-							<input type="text" size="12" maxlength="10" name="name" class="form_field" id="sinup_name" placeholder="닉네임" autocomplete="off">
+							<input type="password" size="30" name="repw" class="form_field" id="sinup_pw" placeholder="비밀번호" autocomplete="off">
+							<label for="sinup_pw" class="form_label">비밀번호 확인*(필수)</label>
+							<div class="line"></div>
+						</div>
+					</div>
+					<div class="input_box">
+						<div>
+							<input type="text" size="12" name="name" class="form_field" id="sinup_name" placeholder="닉네임" autocomplete="off">
 							<label for="sinup_name" class="form_label">닉네임*(필수)</label>
 							<div class="line"></div>
 						</div>
