@@ -1,12 +1,12 @@
-<? include_once('login_check.php'); ?>
+<?
+	include_once('db.php');
 
-<?php 
-	$id=$_POST['id'];
-	$password=($_POST['pw']);
-	$name=$_POST['name'];
-	$email =$_POST['email'];
+	if (!isset($_SESSION['id'])) {
+		
+		header ('Location: login.php');
+	}
+
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -41,13 +41,6 @@
 <body>
 	
 	<? include_once('header.php'); ?>
-
-	<?php 
-		if (!$_SESSION['id']) {
-			echo "<script>alert('로그인 후 이용해주세요');</script>";
-			echo "<script>location.href='login.php'</script>";
-		}
-	?>
 
 	<div class="main">
 

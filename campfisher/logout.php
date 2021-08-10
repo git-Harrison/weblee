@@ -1,7 +1,9 @@
 <?php
-	session_start();
+	include_once "db.php";
+	
 	$res = session_destroy();
+
 	if ($res) {
-		header ('Location: login.php');
+		header('Location: index.php');
 	}
 ?>

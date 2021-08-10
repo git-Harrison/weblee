@@ -3,39 +3,37 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>campfisher</title>
+	<title>Document</title>
 </head>
 <body>
 	<?php
-
 		include_once('db.php');
-		
 
-		$id=$_POST['id'];
-		$password=sha1($_POST['pw']);
-		$name=$_POST['name'];
+		$id = $_POST['id'];
+		$pw = $_POST['pw'];
 
-		$check_id = "SELECT * from member where id='$id'";
+		$check = "SELECT * FROM member WHERE id='$id'";
 
-		$result=$mysqli->query($check_id);
+		$result = $mysqli->query($check);
 
 		if ($result->num_rows==1) {
-			$row=$result->fetch_array(MYSQLI_ASSOC);
-			if ($row['pw']==$password) {
-				$_SESSION['id']=$id;
+			$row = $result->fetch_array(MYSQLI_ASSOC);
+			if (password_verify($pw, $row['pw'])) {
+				$_SESSION['id'] = $id;
+				$_SESSION['name'] = $row['name'];
 				if (isset($_SESSION['id'])) {
-					header ('Location: index.php');
-					exit();
+					header('Location: index.php');
 				}else {
-					header ('Location: login.php');
-					echo "<script>alert('아이디 또는 비밀번호가 맞지 않습니다.');</script>";
+					echo "세션 저장 실패";
 				}
 			}else {
-				echo "<script>alert('아이디 또는 비밀번호가 맞지 않습니다.');</script>";
-				echo "<script>location.href='login.php'</script>";
+				echo ("<script>alert('비밀번호가 일치하지 않습니다.'); location.href='login.php';</script>");
 			}
+		}else {
+			echo ("<script>alert('존재하지 않는 아이디 입니다.'); location.href='login.php';</script>");
 		}
 
 	?>
+
 </body>
 </html>

@@ -26,6 +26,8 @@
 </head>
 <body>
 
+	<? include_once('db.php'); ?>
+
 	<? include_once('header.php'); ?>
 
 
@@ -41,35 +43,35 @@
 					<div class="input_box">
 						<div>
 							<input type="text" size="30" name="id" class="form_field" id="sinup_id" placeholder="아이디" autocomplete="off">
-							<label for="sinup_id" class="form_label">아이디*(필수)</label>
+							<label for="sinup_id" class="form_label">아이디</label>
 							<div class="line"></div>
 						</div>
 					</div>
 					<div class="input_box">
 						<div>
 							<input type="password" size="30" name="pw" class="form_field" id="sinup_pw" placeholder="비밀번호" autocomplete="off">
-							<label for="sinup_pw" class="form_label">비밀번호*(필수)</label>
+							<label for="sinup_pw" class="form_label">비밀번호</label>
 							<div class="line"></div>
 						</div>
 					</div>
 					<div class="input_box">
 						<div>
 							<input type="password" size="30" name="repw" class="form_field" id="sinup_pw" placeholder="비밀번호" autocomplete="off">
-							<label for="sinup_pw" class="form_label">비밀번호 확인*(필수)</label>
+							<label for="sinup_pw" class="form_label">비밀번호 확인</label>
 							<div class="line"></div>
 						</div>
 					</div>
 					<div class="input_box">
 						<div>
-							<input type="text" size="12" name="name" class="form_field" id="sinup_name" placeholder="닉네임" autocomplete="off">
-							<label for="sinup_name" class="form_label">닉네임*(필수)</label>
+							<input type="text" size="12" maxlength="10" name="name" class="form_field" id="sinup_name" placeholder="닉네임" autocomplete="off">
+							<label for="sinup_name" class="form_label">닉네임</label>
 							<div class="line"></div>
 						</div>
 					</div>
 					<div class="input_box">
 						<div>
 							<input type="email" size="30" name="email" class="form_field" id="sinup_email" placeholder="이메일" autocomplete="off">
-							<label for="sinup_email" class="form_label">이메일*(필수)</label>
+							<label for="sinup_email" class="form_label">이메일</label>
 							<div class="line"></div>
 						</div>
 					</div>

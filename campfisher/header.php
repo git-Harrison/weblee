@@ -1,7 +1,11 @@
 <link rel="stylesheet" href="assets/css/header.css">
 
 <?php
-    $user_name = $_SESSION['id'];
+    include_once('db.php');
+
+    $user_name =  $_SESSION['name'];
+
+
 ?>
 
 <header>
@@ -38,7 +42,7 @@
                         echo "<li><a href='login.php' title='로그인'>로그인</a></li>";
                         echo "<li><a href='sinup_terms.php' title='회원가입'>회원가입</a></li>";
                     }else {
-                        echo "<li><a href='logout.php' title='아이디'>$user_name 님</a></li>";
+                        echo "<li><a href='' title='아이디'>$user_name 님</a></li>";
                         echo "<li><a href='logout.php' title='로그아웃'>로그아웃</a></li>"; 
                     }
                 ?>
