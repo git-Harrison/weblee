@@ -1,10 +1,7 @@
 <?
 	include_once('db.php');
 
-	if (!isset($_SESSION['id'])) {
-		
-		header ('Location: login.php');
-	}
+
 
 ?>
 <!DOCTYPE html>
@@ -38,7 +35,7 @@
 	</script>
 
 </head>
-<body>
+<body oncontextmenu="return false">
 	
 	<? include_once('header.php'); ?>
 

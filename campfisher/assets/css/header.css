@@ -14,7 +14,7 @@ header {
 }
 
 header.fixed {
-    top: -50px;
+    top: -60px;
     transition: all 0.4s ease;
 }
 
@@ -120,7 +120,7 @@ nav {
     line-height: 59px;
     background-color: #fff;
     box-shadow: 0 2px 5px 0 rgb(0 0 0 / 10%);
-    transition: top 0.3s ease;
+    transition: top 0.4s ease;
 }
 
 nav.on {
@@ -129,8 +129,8 @@ nav.on {
 }
 
 nav.fixed {
-    top: 0;
-    transition: top 0.4s ease;
+    top: -60px;
+    transition: top 0.5s ease;
 }
 
 .nav {
@@ -265,6 +265,11 @@ nav.fixed {
 .nav_center li a:hover {
     color: #000;
     transition: color 0.2s ease;
+}
+
+nav.fixed .nav_center li .sub_nav {
+    opacity: 0;
+    transition: all 0.2s ease;
 }
 
 .nav_center li .sub_nav {
@@ -648,6 +653,8 @@ nav.fixed {
         top: 0;
         height: 44px;
         line-height: 44px;
+        border-bottom: 0;
+        transition: all 0.2s ease;
     }
 
     .nav_left,
@@ -655,9 +662,19 @@ nav.fixed {
         width: auto;
     }
 
-    nav .nav_center,
+    nav .nav_center {
+        top: 44px;
+        box-shadow: none;
+    }
+
     nav.fixed .nav_center {
-        top: 45px;
+        top: 0;
+        background-color: #000;
+        transition: all 0.4s ease;
+    }
+
+    nav.fixed {
+        top: -50px;
     }
 
     #pc_menu {
@@ -690,6 +707,10 @@ nav.fixed {
 
     .nav_center {
         top: 45px;
+        box-shadow: none;
+        background-color: #fff;
+        border-bottom: 1px solid #fff;
+        transition: all 0.3s ease;
     }
 
     .nav_center li {
@@ -697,6 +718,8 @@ nav.fixed {
     }
 
     .m_nav_row {
+        height: 40px;
+        line-height: 40px;
         overflow-x: scroll;
         overflow-y: hidden;
         -ms-overflow-style: none;
@@ -739,7 +762,7 @@ nav.fixed {
     }
 
     .main {
-        margin-top: 94px;
+        margin-top: 85px;
     }
 
 }

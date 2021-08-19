@@ -314,14 +314,21 @@
         });
 
         // 스크롤 이벤트
-        $(window).scroll(function(){ 
-            var height = $(document).scrollTop();
-            var width = $(document).width();
 
-            if(height > 250){ 
-                $('header, nav').addClass('fixed');
+        var prevScrollTop = 0;
+        var nowScrollTop = 0;
+        var width = $(document).width();
 
-                if ($('nav').find('.fixed')) {
+        function wheelDelta(){
+            return prevScrollTop - nowScrollTop > 0 ? 'up' : 'down';
+        };
+
+        $(window).on('scroll', function(){
+            nowScrollTop = $(this).scrollTop();
+
+            if (nowScrollTop > 130) {
+                if(wheelDelta() == 'down'){
+                    $('header, nav').addClass('fixed');
                     if (width <= 768) {
                         $('.nav_all_category').addClass('top');
                     }else {
@@ -330,9 +337,13 @@
 
                     $('.category_wrap').addClass('fixed');
                 }
-            }else if(height < 130){ 
-                $('header, nav, .category_wrap').removeClass('fixed'); 
-            } 
+
+                if(wheelDelta() == 'up'){
+                    $('header, nav, .category_wrap').removeClass('fixed');
+                }
+
+                prevScrollTop = nowScrollTop;
+            }
         });
 
     }); 

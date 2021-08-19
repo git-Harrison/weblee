@@ -287,14 +287,6 @@
 		</section>
 		<!-- //컨텐츠 2 -->
 
-		<!-- 컨텐츠 3 -->
-		<!-- <section class="section" id="section3">
-		    <div class="sec_container">
-		    	
-		    </div>
-		</section> -->
-		<!-- //컨텐츠 3 -->
-
 		<!-- //컨텐츠 4 -->
 		<section class="section" id="section4">
 			<div class="sec_container">

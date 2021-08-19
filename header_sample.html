@@ -241,8 +241,181 @@
 				</ul>
 			</div>
 			<div class="pc_category">
-				<div class="cg_tab"></div>
-				<div class="cg_tab"></div>
+				<div class="cg_tab">
+					<ul class="cg_tab_menu">
+						<li>
+							<h4>
+								<span>브랜드</span>
+								<div class="open_btn"></div>
+							</h4>
+							<ul class="cg_tab_list autoheight">
+								<li>
+									<a href="https://www.naver.com/">- 이니스프리</a>
+								</li>
+								<li>
+									<a href="https://finance.naver.com/">- 닥터자르트</a>
+								</li>
+								<li>
+									<a href="">- 에뛰드하우스</a>
+								</li>
+								<li>
+									<a href="">- 페이페라</a>
+								</li>
+								<li>
+									<a href="">- 클리오</a>
+								</li>
+								<li>
+									<a href="">- 토니모리</a>
+								</li>
+								<li>
+									<a href="">- 벤튼</a>
+								</li>
+								<li>
+									<a href="">- 편강율</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<h4>
+								<a href="">베스트 10</a>
+							</h4>
+						</li>
+						<li>
+							<h4>
+								<span>스킨케어</span>
+								<div class="open_btn"></div>
+							</h4>
+							<ul class="cg_tab_list autoheight">
+								<li>
+									<a href="">- 스킨</a>
+								</li>
+								<li>
+									<a href="">- 로션</a>
+								</li>
+								<li>
+									<a href="">- 에센스/앰플</a>
+								</li>
+								<li>
+									<a href="">- 크림</a>
+								</li>
+								<li>
+									<a href="">- 아이케어</a>
+								</li>
+								<li>
+									<a href="">- 오일</a>
+								</li>
+								<li>
+									<a href="">- 미스트</a>
+								</li>
+								<li>
+									<a href="">- 편강율</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<h4>
+								<span>메이크업</span>
+								<div class="open_btn"></div>
+							</h4>
+							<ul class="cg_tab_list autoheight">
+								<li>
+									<a href="">- 베이스 메이크업</a>
+								</li>
+								<li>
+									<a href="">- 아이 메이크업</a>
+								</li>
+								<li>
+									<a href="">- 립 메이크업</a>
+								</li>
+								<li>
+									<a href="">- 크림</a>
+								</li>
+								<li>
+									<a href="">- 아이케어</a>
+								</li>
+								<li>
+									<a href="">- 오일</a>
+								</li>
+								<li>
+									<a href="">- 미스트</a>
+								</li>
+								<li>
+									<a href="">- 편강율</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<h4>
+								<span>클렌징</span>
+								<div class="open_btn"></div>
+							</h4>
+							<ul class="cg_tab_list autoheight">
+								<li>
+									<a href="">- 클렌징폼</a>
+								</li>
+								<li>
+									<a href="">- 클렌징티슈</a>
+								</li>
+								<li>
+									<a href="">- 클렌징크림</a>
+								</li>
+								<li>
+									<a href="">- 클렌징워터</a>
+								</li>
+								<li>
+									<a href="">- 클렌징밤/로션/젤</a>
+								</li>
+								<li>
+									<a href="">- 각질제거/필링</a>
+								</li>
+								<li>
+									<a href="">- 립 & 아이리무버</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<h4>
+								<span>선케어</span>
+								<div class="open_btn"></div>
+							</h4>
+							<ul class="cg_tab_list autoheight">
+								<li>
+									<a href="">- 선크림</a>
+								</li>
+								<li>
+									<a href="">- 선스틱/쿠션</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<h4>
+								<span>기획전</span>
+								<div class="open_btn"></div>
+							</h4>
+							<ul class="cg_tab_list autoheight">
+								<li>
+									<a href="">- 셋트</a>
+								</li>
+								<li>
+									<a href="">- 할인</a>
+								</li>
+								<li>
+									<a href="">- 이벤트</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<h4>
+								<a href="">뷰티쿠키</a>
+							</h4>
+						</li>
+						<li>
+							<h4>
+								<a href="">리뷰</a>
+							</h4>
+						</li>
+					</ul>
+				</div>
 			</div>
 			<div class="m_cg_menu sns">
 				<ul>
@@ -322,6 +495,12 @@
 				}else {
 					$('.category_wrap, .category_bg').removeClass('active');
 				}
+
+				var minql = window.matchMedia("screen and (min-width: 767px)");
+
+				if (minql.matches) {
+					$('.cg_tab_list').css('display', 'block');
+				}
 			});
 
 			$('#mobile_menu').click(function(){
@@ -342,6 +521,34 @@
 				$(this).removeClass('active');
 				$('#pc_menu, #pc_menu_icon, .category_wrap').removeClass('active');
 			});
+
+
+
+			$('.cg_tab_menu li').on('click', function(){
+				
+				var mql = window.matchMedia("screen and (max-width: 769px)");
+
+				if (mql.matches) {
+					$(this).find('.open_btn').toggleClass('close_btn');
+
+					$(this).children('.cg_tab_list').toggle(300);
+
+					function autoHeightAnimate(element, time){
+
+					  	var curHeight = element.height(),
+					        autoHeight = element.css('height','auto').height(),
+					        el_opacity = element.css('opacity','1'),
+					        el_transition = element.css('transition','opacity 0.3s');
+
+					    element.height(curHeight);
+					    element.stop().animate({ height: autoHeight, opacity: el_opacity, transition: el_transition }, time);
+
+					}
+				}
+				
+			});
+
+				
 
 			// 스크롤 이벤트
 			$(window).scroll(function(){ 
