@@ -466,6 +466,28 @@
     			<img src="http://odeshop.diskn.com/ODE/main/mainBig_210719-1.jpg" alt="test" style="width: 100%;">
     		</div>
     	</div>
+    	<div class="icon_banner">
+    		<ul>
+    			<li>
+    				<a href="">
+    					<img src="" alt="">
+    					<span></span>
+    				</a>
+    			</li>
+    			<li>
+    				<a href="">
+    					<img src="" alt="">
+    					<span></span>
+    				</a>
+    			</li>
+    			<li>
+    				<a href="">
+    					<img src="" alt="">
+    					<span></span>
+    				</a>
+    			</li>
+    		</ul>
+    	</div>
     </div>
 
 </body>
@@ -483,6 +505,18 @@
 				auto: true,
 				pager: true,
 			});
+
+			function ClearNav() {
+				$('.nav_center li').removeClass('hover');
+			}
+
+			$('.nav_center li').hover(function(){
+				ClearNav();
+		        $(this).addClass('hover');
+		    },function(){
+		    	ClearNav();
+		    });
+
 
 			// 햄버거 메뉴 클릭
 			$('#pc_menu').click(function(){

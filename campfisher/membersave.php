@@ -23,7 +23,7 @@
 				$email = $_POST['email'];
 				$sex = $_POST['sex'];
 				$sinupdate = date("Y-m-d", time());
-				$result = mysqli_query($mysqli, "INSERT INTO member(id,pw,name,email,sex,sinupdate) VALUES('".$id."','".$pw."','".$name."','".$email."','".$sex."','".$sinupdate."')") or die ("알수없는 오류");
+				$result = mysqli_query($mysqli, "INSERT INTO member(id,pw,name,email,sex,sinup_time) VALUES('".$id."','".$pw."','".$name."','".$email."','".$sex."','".$sinupdate."')") or die ("알수없는 오류");
 
 				echo ("<script>alert('회원가입이 되었습니다!'); location.href='login.php';</script>");
 			}

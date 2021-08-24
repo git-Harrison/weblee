@@ -1,14 +1,12 @@
 <?
 	include_once('db.php');
-
-
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width"/>
+	<meta property="og:image" content="assets/images/banner1.jpg">
 	<meta name="author" content="weblee">
 	<meta name="keywords" content="캠핑,캠낚,캠피셔,오토캠핑,카라반,웹 퍼블리셔,퍼블리셔,웹 표준,웹 접근성,크로스브라우징,프런트엔드,Front-end,leehun,web developer,publisher,html5,css3,markup,javascript,jquery,php,jsp">
 	<title>campfisher</title>

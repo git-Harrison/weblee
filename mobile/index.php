@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head style="touch-action: pan-y;">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width"/>
 	<meta name="author" content="weblee">

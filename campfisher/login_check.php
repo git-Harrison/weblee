@@ -32,7 +32,6 @@
 		}else {
 			echo ("<script>alert('존재하지 않는 아이디 입니다.'); location.href='login.php';</script>");
 		}
-
 	?>
 
 </body>

@@ -24,10 +24,16 @@
 		gtag('config', 'G-Q33C7E9XM2');
 	</script>
 </head>
+
 <body>
 
 	<? include_once('header.php'); ?>
 
+	<style>
+		#mobile_menu {
+	        display: none;
+	    }
+	</style>
 
 	<div class="main">
 
