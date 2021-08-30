@@ -33,6 +33,12 @@
 		include_once('header.php');
 	?>
 
+	<style>
+		nav {
+			display: none;
+		}
+	</style>
+
 	<div class="main">
 
 		<div class="container">

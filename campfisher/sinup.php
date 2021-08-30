@@ -34,7 +34,7 @@
 	<? include_once('header.php'); ?>
 
 	<style>
-		#mobile_menu {
+		nav {
 	        display: none;
 	    }
 	</style>

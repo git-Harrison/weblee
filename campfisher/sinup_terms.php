@@ -30,9 +30,9 @@
 	<? include_once('header.php'); ?>
 
 	<style>
-		#mobile_menu {
-	        display: none;
-	    }
+		nav .nav_center {
+			display: none;
+		}
 	</style>
 
 	<div class="main">

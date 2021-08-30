@@ -1,4 +1,10 @@
+# cd /index.php
 
+# vi .htaccess
+
+deny from all
+
+allow from 211.111.25.13 106.101.131.68
 
 SETEnvIf Remote_Addr 41.142.213.75 AllowCountry
 SetEnvIf GEOIP_COUNTRY_CODE GH BlockCountry
