@@ -1,3 +1,5 @@
+
+
 SETEnvIf Remote_Addr 41.142.213.75 AllowCountry
 SetEnvIf GEOIP_COUNTRY_CODE GH BlockCountry
 SetEnvIf GEOIP_COUNTRY_CODE GA BlockCountry

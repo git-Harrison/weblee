@@ -195,6 +195,30 @@
     </div>
 </nav>
 
+<div class="bottom_nav">
+    <div class="b_nav_L">
+        <a href="" id="mobile_menu">
+            <img src="https://www.stylekorean.com/shop/images/nav_bottom/menu.png" alt="">
+        </a>
+        <a href="">
+            <img src="https://www.stylekorean.com/shop/images/nav_bottom/search.png" alt="">
+        </a>
+    </div>
+    <div class="home">
+        <a href="">
+            <img src="https://s.pstatic.net/static/www/m-new/uit/2021/bg_greendot_icon_animation.png" alt="home_menu">
+        </a>
+    </div>
+    <div class="b_nav_R">
+        <a href="">
+            <img src="https://www.stylekorean.com/shop/images/nav_bottom/my.png" alt="">
+        </a>
+        <a href="">
+            <img src="https://www.stylekorean.com//shop/images/nav_bottom/Cart.png" alt="">
+        </a>
+    </div>
+</div>
+
 <div class="category_wrap">
 	<div class="nav_all_category">
 		<div class="m_cg_top">
@@ -273,10 +297,6 @@
 	<div class="category_bg"></div>
 </div>
 
-<div id="mobile_menu" class="icon-wrap">
-    <div id="mobile_menu_icon" class="icon"></div>
-</div>
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script>
     $(document).ready(function(){
@@ -295,10 +315,7 @@
         });
 
         $('#mobile_menu').click(function(){
-            $(this).toggleClass('active')
-            $('#mobile_menu_icon').toggleClass("active");
             $('nav').toggleClass('on');
-            $('body').toggleClass('hidden');
 
             if ($(this).hasClass('active')) {
                 $('.category_wrap, .category_bg').addClass('active');
@@ -328,7 +345,7 @@
 
             if (nowScrollTop > 130) {
                 if(wheelDelta() == 'down'){
-                    $('header, nav').addClass('fixed');
+                    $('header, nav, .bottom_nav').addClass('fixed');
                     if (width <= 768) {
                         $('.nav_all_category').addClass('top');
                     }else {
@@ -339,7 +356,8 @@
                 }
 
                 if(wheelDelta() == 'up'){
-                    $('header, nav, .category_wrap').removeClass('fixed');
+
+                    $('header, nav, .category_wrap, .bottom_nav').removeClass('fixed');
                 }
 
                 prevScrollTop = nowScrollTop;

@@ -1,5 +1,9 @@
 <?
 	include_once('db.php');
+
+	if (!$_SESSION['id']) {
+		echo ("<script>location.href='login.php';</script>");
+	}
 ?>
 <!DOCTYPE html>
 <html lang="en">

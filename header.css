@@ -434,7 +434,9 @@ nav.fixed {
 }
 
 .nav_right a:last-child {
+    float: left;
     padding-right: 0;
+    line-height: 35px;
 }
 
 .nav_right a:before {
@@ -454,6 +456,21 @@ nav.fixed {
 .nav_right a img {
     width: 100%;
     vertical-align: middle;
+}
+
+.top_search {
+    overflow: hidden;
+    float: left;
+    width: 180px;
+}
+.top_search fieldset {
+    float: left;
+}
+
+.top_search input[type="image"] {
+    float: left;
+    width: 20px;
+    margin-top: 10px;
 }
 
 .cart_count {
@@ -732,6 +749,21 @@ nav.fixed {
     margin-top: 109px;
 }
 
+.recent_box dd {
+    max-height: 275px;
+    overflow: auto;
+}
+.recent_box li {
+    line-height: 50px;
+}
+.recent_box li:last-child {
+    border-bottom: 0;
+}
+
+.bottom_nav {
+    display: none;
+}
+
 @media screen and (max-width: 1280px) {
     .nav_left,
     .nav_right {
@@ -741,6 +773,7 @@ nav.fixed {
     .pc_category {
         width: 1100px;
     }
+
 }
 
 @media screen and (max-width: 1110px) {
@@ -824,6 +857,91 @@ nav.fixed {
 }
 
 @media screen and (max-width: 768px) {
+    .bottom_nav {
+        display: block;
+    }
+    .bottom_nav {
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+    }
+    
+    .bottom_nav .b_nav_L,
+    .bottom_nav .b_nav_R {
+        display: flex;
+        justify-content: center;
+        width: 43%;
+        background-color: #fff;
+        border-top: 1px solid #f7f7f7;
+    }
+
+    .bottom_nav .b_nav_L a,
+    .bottom_nav .b_nav_R a {
+        position: relative;
+        display: inline-block;
+        width: calc(50% - 30px);
+        height: 50px;
+        margin: 0 10px
+    }
+    .bottom_nav .b_nav_L a img,
+    .bottom_nav .b_nav_R a img {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        display: inline-block;
+        width: 50px;
+    }
+
+    .b_nav_L {
+        border-radius: 8px 18px 0 0;
+        text-align: left;
+        border-right: 1px solid #f7f7f7;
+    }
+
+    .b_nav_R {
+        border-radius: 18px 8px 0 0;
+        text-align: right;
+        border-left: 1px solid #f7f7f7;
+    }
+
+    .home {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        width: 15%;
+        height: 50px;
+        background-color: #fff;
+        border-radius: 26px 26px 0 0;
+    } 
+    .home a {
+        display: block;
+        position: absolute;
+        left: 50%;
+        top: 30%;
+        transform: translate(-50%,-50%);   
+        width: 50px;
+        height: 50px;
+        background-color: #fff;
+        border-radius: 50%;
+        box-shadow: 0 2px 12px 0 rgb(0 0 0 / 17%);
+    }
+
+    .home a img {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);   
+        display: block;
+        width: 40px;
+    }
+    
     body.hidden_menu {
         overflow: hidden;
     }
@@ -907,6 +1025,19 @@ nav.fixed {
         display: none;
     }
 
+    .top_search form {
+        display: none;
+    }
+
+    .top_search fieldset {
+        float: right;
+        margin-right: 2px;
+    }
+    .top_search input[type="image"] {
+        width: 22px;
+        margin-top: 9px;
+    }
+
     .cart_count {
         top: 7px;
     }
@@ -980,6 +1111,45 @@ nav.fixed {
     .open_btn {
         display: block;
     }
+
+    .icon_banner {
+        overflow-x: scroll;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    .icon_banner::-webkit-scrollbar {
+        display: none; 
+    }
+    .icon_banner ul {
+        display: flex;
+        flex-wrap: nowrap;
+        width: max-content;
+    }
+    .icon_banner ul li {
+        width: 58px;
+        margin-right: 8px;
+    }
+    .icon_banner ul li:last-child {
+        margin-right: 0;
+    }
+    .icon_banner ul li a {
+        display: block;
+    }
+    .icon_banner ul li a img {
+        display: block;
+        width: 40px;
+        height: 40px;
+        margin: 0 auto;
+    }
+    .icon_banner ul li a span {
+        display: block;
+        padding: 2px 0 4px;
+        font-size: 10px;
+        text-align: center;
+        letter-spacing: 0;
+        color: #333;
+    }
+
 
 }
 
