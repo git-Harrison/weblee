@@ -197,7 +197,7 @@
 
 <div class="bottom_nav">
     <div class="b_nav_L">
-        <a href="" id="mobile_menu">
+        <a href="#" id="mobile_menu">
             <img src="https://www.stylekorean.com/shop/images/nav_bottom/menu.png" alt="">
         </a>
         <a href="">
@@ -221,6 +221,10 @@
 
 <div class="category_wrap">
 	<div class="nav_all_category">
+        <div class="m_category_title">
+            <h1>카테고리</h1>
+            <svg id="close" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </div>
 		<div class="m_cg_top">
             <?php 
 
@@ -259,10 +263,6 @@
 					</a>
 				</li>
 			</ul>
-		</div>
-		<div class="pc_category">
-			<div class="cg_tab"></div>
-			<div class="cg_tab"></div>
 		</div>
 		<div class="m_cg_menu sns">
 			<ul>
@@ -315,13 +315,11 @@
         });
 
         $('#mobile_menu').click(function(){
-            $('nav').toggleClass('on');
+            $('.category_wrap').addClass("active");
+        });
 
-            if ($(this).hasClass('active')) {
-                $('.category_wrap, .category_bg').addClass('active');
-            }else {
-                $('.category_wrap, .category_bg').removeClass('active');
-            }
+        $('#close').click(function(){
+            $('.category_wrap').removeClass("active");
         });
 
         // 카테고리 백그라운드 클릭

@@ -414,23 +414,6 @@ nav.fixed .nav_center li .sub_nav {
     transition: all 0.4s ease;
 }
 
-.pc_category {
-    display: flex;
-    width: 1280px;
-    height: 340px;
-    padding: 20px 0;
-    margin: 0 auto;
-}
-
-.pc_category .cg_tab {
-    width: 50%;
-    background-color: #333;
-}
-
-.pc_category .cg_tab:last-child {
-    background-color: #666;
-}
-
 .m_cg_top {
     display: none;
     width: 100%;
@@ -558,6 +541,10 @@ nav.fixed .nav_center li .sub_nav {
     display: none;
 }
 
+.m_category_title {
+    display: none;
+}
+
 @media screen and (max-width: 1280px) {
     .nav_left,
     .nav_right {
@@ -672,7 +659,6 @@ nav.fixed .nav_center li .sub_nav {
 
     nav.fixed .nav_center {
         top: 0;
-        background-color: #000;
         transition: all 0.4s ease;
     }
 
@@ -739,15 +725,41 @@ nav.fixed .nav_center li .sub_nav {
         display: none;
     }
 
-    .category_wrap.active .nav_all_category {
-        overflow-y: auto;
-        z-index: 9999;
+    .category_wrap .nav_all_category {
+        left: -100%;
         top: 0;
         height: 100%;
+        transition: all 0.1s ease;
+    }
+
+    .category_wrap.active .nav_all_category {
+        overflow-y: auto;
+        z-index: 99999999999;
+        left: 0;
+        top: 0;
+        transition: all 0.2s ease;
     }
 
     .category_wrap.active.fixed .nav_all_category.top {
-        top: 0;
+        left: 0;
+    }
+
+    .m_category_title {
+        position: relative;
+        display: block;
+        width: 94%;
+        margin: 0 auto;
+    }
+
+    .m_category_title h1 {
+        padding-top: 8px;
+    }
+
+    .m_category_title svg {
+        position: absolute;
+        right: 0;
+        top: 10px;
+        width: 30px;
     }
 
     .pc_category {
@@ -789,7 +801,7 @@ nav.fixed .nav_center li .sub_nav {
     .bottom_nav .b_nav_R {
         display: flex;
         justify-content: center;
-        width: 43%;
+        width: calc(50% - 25px);
         background-color: #fff;
         border-top: 1px solid #f7f7f7;
     }
@@ -829,7 +841,7 @@ nav.fixed .nav_center li .sub_nav {
         left: 50%;
         top: 50%;
         transform: translate(-50%,-50%);
-        width: 15%;
+        width: 50px;
         height: 50px;
         background-color: #fff;
         border-radius: 26px 26px 0 0;
