@@ -34,7 +34,8 @@
 	<? include_once('header.php'); ?>
 
 	<style>
-		nav {
+		nav,
+		.side_icon_menu {
 	        display: none;
 	    }
 	</style>
