@@ -34,6 +34,7 @@
 		gtag('js', new Date());
 
 		gtag('config', 'G-Q33C7E9XM2');
+
 	</script>
 
 	<script>

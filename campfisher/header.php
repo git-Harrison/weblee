@@ -213,7 +213,7 @@
         <a href="">
             <img src="https://www.stylekorean.com/shop/images/nav_bottom/my.png" alt="">
         </a>
-        <a href="">
+        <a>
             <img src="https://www.stylekorean.com//shop/images/nav_bottom/Cart.png" alt="">
         </a>
     </div>
@@ -295,6 +295,86 @@
 		</div>
 	</div>
 	<div class="category_bg"></div>
+
+    <!-- 최근 본 상품 -->
+    <div class="recent_item">
+        <div class="sub_header">
+            <div class="top_container">
+                <img src="https://img.icons8.com/ios/50/000000/close-window.png" id="recent_item_close" alt="닫기버튼">
+                <h2>최근 본 상품</h2>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="recent_list_util">
+            <p>* 최근 본 상품은 <strong>최대 30일</strong>간 보관됩니다.</p>
+        </div>
+        <div class="totalbox">
+            <p>전체<span>1</span>개</p>
+            <button>전체삭제</button>
+        </div>
+        <div class="top_container">
+            <ul class="recent_item_list">
+                <li>
+                    <a href="">
+                        <div class="item_detail">
+                            <img src="https://d3i908zd4kzakt.cloudfront.net/data/item/1590998015/thumb-66eI7Iqk7YGs_280x280.jpg" alt="최근본상품이미지">
+                            <div class="item_detail_text">
+                                <span class="recent_item_brand"></span>
+                                <span class="recent_item_name">그린티 밸런싱 스킨케어 세트 EX</span>
+                                <span class="recent_item_discount"><strong>22%</strong><span>37,800원</span></span>
+                                <span class="recent_item_price">24,900원</span>
+                                <div class="flags">
+                                    <span class="flag sale">세일</span>
+                                    <span class="flag best">베스트</span>
+                                </div>
+                            </div>
+                            <img src="https://img.icons8.com/ios/50/000000/delete-sign.png" class="close">
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <div class="item_detail">
+                            <img src="https://d3i908zd4kzakt.cloudfront.net/data/item/1508479814/thumb-7JuM7JuM7KeE7KCV7J206647KeA7Lu3_7JuQ67O4_280x280.jpg" alt="최근본상품이미지">
+                            <div class="item_detail_text">
+                                <span class="recent_item_brand"></span>
+                                <span class="recent_item_name">블루베리 리밸런싱 5.5 클렌저 100mL</span>
+                                <span class="recent_item_discount"><strong>22%</strong><span>37,800원</span></span>
+                                <span class="recent_item_price">4,480원</span>
+                            </div>
+                            <img src="https://img.icons8.com/ios/50/000000/delete-sign.png" class="close">
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <div class="item_detail">
+                            <img src="https://d3i908zd4kzakt.cloudfront.net/data/item/1568616109/thumb-drcica_280x280.jpg" alt="최근본상품이미지">
+                            <div class="item_detail_text">
+                                <span class="recent_item_brand">이니스프리</span>
+                                <span class="recent_item_name">그린티 씨드 크림 50ml</span>
+                                <span class="recent_item_discount"><strong>22%</strong><span>37,800원</span></span>
+                                <span class="recent_item_price">14,610원</span>
+                                <div class="flags">
+                                    <span class="flag sale">세일</span>
+                                    <span class="flag best">베스트</span>
+                                </div>
+                            </div>
+                            <img src="https://img.icons8.com/ios/50/000000/delete-sign.png" class="close">
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="side_icon_menu">
+    <div id="recent_item">
+        <img src="https://www.joyjasu.co.kr/m/img/mypage_icon02.png" alt="최근본상품아이콘">
+    </div>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -326,6 +406,15 @@
         $('.category_bg').click(function(){
             $(this).removeClass('active');
             $('#pc_menu, #pc_menu_icon, .category_wrap').removeClass('active');
+        });
+
+        $('#recent_item').on('click', function(){
+            $('.recent_item').addClass('active');
+            $('body').css('overflow','hidden');
+        });
+        $('#recent_item_close').on('click', function(){
+            $('.recent_item').removeClass('active');
+            $('body').css('overflow','visible');
         });
 
         // 스크롤 이벤트
