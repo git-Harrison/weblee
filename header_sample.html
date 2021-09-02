@@ -546,9 +546,8 @@
 	    		<img src="https://img.icons8.com/ios/50/000000/close-window.png" id="recent_item_close" alt="닫기버튼">
 	    		<h2>최근 본 상품</h2>
 	    	</div>
+	    	<hr>
     	</div>
-
-    	<hr>
 
     	<div class="recent_list_util">
     		<p>* 최근 본 상품은 <strong>최대 30일</strong>간 보관됩니다.</p>
@@ -705,9 +704,14 @@
 			});
 
 
-			$('#recent_item_close').on('click', function(){
-				$('.recent_item').removeClass('active');
-			});
+			$('#recent_item').on('click', function(){
+	            $('.recent_item').addClass('active');
+	            $('body').css('overflow','hidden');
+	        });
+	        $('#recent_item_close').on('click', function(){
+	            $('.recent_item').removeClass('active');
+	            $('body').css('overflow','visible');
+	        });
 				
 
 			// 스크롤 이벤트

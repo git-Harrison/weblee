@@ -47,7 +47,7 @@
 			<div class="sinup">
 				<form method="post" action="login_check.php">
 					<a href="" title="쇼핑몰로고">
-	                    <img src="assets/images/logo.png" class="logo_img" alt="로고이미지">
+	                    <img src="assets/images/logo.pngdddd" class="logo_img" alt="로고이미지">
 	                </a>
 					<div class="input_box">
 						<div>

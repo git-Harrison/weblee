@@ -823,7 +823,7 @@ nav.fixed .nav_center li .sub_nav {
         justify-content: center;
         width: calc(50% - 25px);
         background-color: #fff;
-        border-top: 1px solid #f7f7f7;
+        border-top: 1px solid #ebebeb;
     }
 
     .bottom_nav .b_nav_L a,
