@@ -33,13 +33,6 @@
 		include_once('header.php');
 	?>
 
-	<style>
-		nav,
-		.side_icon_menu {
-			display: none;
-		}
-	</style>
-
 	<div class="main">
 
 		<div class="container">

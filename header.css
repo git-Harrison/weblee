@@ -1269,7 +1269,15 @@ nav.fixed {
         width: 100%;
     }
     .item_detail_text {
+        position: relative;
         width: calc(100% - 145px);
+    }
+    .item_text_pos {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
     }
     .item_detail_text span {
         display: inline-block;

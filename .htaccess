@@ -6,8 +6,7 @@
 
 deny from all
 
-allow from 211.111.25.165
-
+allow from 211.111.25.165 106.101.131.68 117.111.28.86
 
 
 <files db.php>

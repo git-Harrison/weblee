@@ -14,7 +14,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width"/>
 	<meta property="og:image" content="kakaoimage.jpg"> 
-	<title>BlackBeen</title>
+	<title>블랙빈메모장</title>
 
 	<!-- 파비콘 -->
 	<link rel=" shortcut icon" href="https://weblee.kr/eun/eun1.jpg">
@@ -27,6 +27,12 @@
 
 </head>
 <body>
+
+<style>
+    a.home {
+        display: none !important;
+    }
+</style>
 
 	<?php include_once('header.php')?>
 	
