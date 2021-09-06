@@ -321,13 +321,11 @@
                         <div class="item_detail">
                             <img src="https://d3i908zd4kzakt.cloudfront.net/data/item/1590998015/thumb-66eI7Iqk7YGs_280x280.jpg" alt="최근본상품이미지">
                             <div class="item_detail_text">
-                                <span class="recent_item_brand"></span>
-                                <span class="recent_item_name">그린티 밸런싱 스킨케어 세트 EX</span>
-                                <span class="recent_item_discount"><strong>22%</strong><span>37,800원</span></span>
-                                <span class="recent_item_price">24,900원</span>
-                                <div class="flags">
-                                    <span class="flag sale">세일</span>
-                                    <span class="flag best">베스트</span>
+                                <div class="item_text_pos">
+                                    <span class="recent_item_brand">이니스프리</span>
+                                    <span class="recent_item_name">그린티 밸런싱 스킨케어 세트 EX</span>
+                                    <span class="recent_item_discount"><strong>22%</strong><span>37,800원</span></span>
+                                    <span class="recent_item_price">24,900원</span>
                                 </div>
                             </div>
                             <img src="https://img.icons8.com/ios/50/000000/delete-sign.png" class="close">
@@ -339,10 +337,12 @@
                         <div class="item_detail">
                             <img src="https://d3i908zd4kzakt.cloudfront.net/data/item/1508479814/thumb-7JuM7JuM7KeE7KCV7J206647KeA7Lu3_7JuQ67O4_280x280.jpg" alt="최근본상품이미지">
                             <div class="item_detail_text">
-                                <span class="recent_item_brand"></span>
-                                <span class="recent_item_name">블루베리 리밸런싱 5.5 클렌저 100mL</span>
-                                <span class="recent_item_discount"><strong>22%</strong><span>37,800원</span></span>
-                                <span class="recent_item_price">4,480원</span>
+                                <div class="item_text_pos">
+                                    <span class="recent_item_brand">이니스프리</span>
+                                    <span class="recent_item_name">블루베리 리밸런싱 5.5 클렌저 100mL</span>
+                                    <span class="recent_item_discount"><strong>22%</strong><span>37,800원</span></span>
+                                    <span class="recent_item_price">4,480원</span>
+                                </div>
                             </div>
                             <img src="https://img.icons8.com/ios/50/000000/delete-sign.png" class="close">
                         </div>
@@ -353,13 +353,15 @@
                         <div class="item_detail">
                             <img src="https://d3i908zd4kzakt.cloudfront.net/data/item/1568616109/thumb-drcica_280x280.jpg" alt="최근본상품이미지">
                             <div class="item_detail_text">
-                                <span class="recent_item_brand">이니스프리</span>
-                                <span class="recent_item_name">그린티 씨드 크림 50ml</span>
-                                <span class="recent_item_discount"><strong>22%</strong><span>37,800원</span></span>
-                                <span class="recent_item_price">14,610원</span>
-                                <div class="flags">
-                                    <span class="flag sale">세일</span>
-                                    <span class="flag best">베스트</span>
+                                <div class="item_text_pos">
+                                    <span class="recent_item_brand">이니스프리</span>
+                                    <span class="recent_item_name">그린티 씨드 크림 50ml</span>
+                                    <span class="recent_item_discount"><strong>22%</strong><span>37,800원</span></span>
+                                    <span class="recent_item_price">14,610원</span>
+                                    <div class="flags">
+                                        <span class="flag sale">세일</span>
+                                        <span class="flag best">베스트</span>
+                                    </div>
                                 </div>
                             </div>
                             <img src="https://img.icons8.com/ios/50/000000/delete-sign.png" class="close">
