@@ -34,14 +34,17 @@
     display: none;
 }
 
-.slick-next {}
+.slick-next {
+}
 
-.slick-prev {}
+.slick-prev {
+}
 
 
 img.pc_banner {
     display: block;
 }
+
 img.m_banner {
     display: none;
 }
@@ -218,6 +221,69 @@ img.m_banner {
     font-weight: 300;
 }
 
+/* 인스타그램 API CSS */
+#instagram {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.instagram_item {
+    width: 20%;
+}
+
+.instagram_item > a {
+    display: block;
+    width: 100%;
+    padding-top: 100%;
+    position: relative;
+    background: no-repeat center center;
+    background-size: cover;
+}
+
+.instagram_item > a:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #000000;
+    background: rgba(0, 0, 0, .8);
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .8) 100%);
+    background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .8) 100%);
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .8) 100%);
+    z-index: 1;
+    opacity: 0;
+    -webkit-transition: opacity .55s cubic-bezier(.215, .61, .355, 1);
+    transition: opacity .55s cubic-bezier(.215, .61, .355, 1);
+}
+
+.instagram_item p {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: calc(100% - 20px);
+    padding: 0 10px;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: left;
+    color: #fff;
+    transform: translateY(-50%);
+    z-index: 2;
+    opacity: 0;
+    -webkit-transition: opacity .55s cubic-bezier(.215, .61, .355, 1);
+    transition: opacity .55s cubic-bezier(.215, .61, .355, 1);
+}
+
+.instagram_item > a:hover:before {
+    opacity: 1;
+}
+
+.instagram_item > a:hover p {
+    opacity: 1;
+}
+
 @media screen and (max-width: 1280px) {
     .container {
         width: 94%;
@@ -230,10 +296,11 @@ img.m_banner {
 }
 
 @media screen and (max-width: 1024px) {
-	img.pc_banner {
+    img.pc_banner {
         display: none;
     }
-	img.m_banner {
+
+    img.m_banner {
         display: block;
     }
 
@@ -322,6 +389,10 @@ img.m_banner {
     .sec_title.long:before,
     .sec_title.long:after {
         width: 16%;
+    }
+
+    .instagram_item p {
+        display: none;
     }
 }
 

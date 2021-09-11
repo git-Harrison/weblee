@@ -1,10 +1,12 @@
-# cd /index.php
+# cd /home/sos/public_html
+
+
 
 # vi .htaccess
 
 deny from all
 
-allow from 211.111.25.13 117.111.28.86 106.101.131.68
+allow from 211.111.25.165 106.101.131.68 117.111.28.86
 
 
 <files db.php>

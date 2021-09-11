@@ -204,6 +204,20 @@
 			</div>
 		</section>
 
+        <section>
+            <div class="container">
+                <div class="sec_title">
+                    <h1>Instagram</h1>
+                </div>
+
+                <div id="instagram"></div>
+
+                <div class="more_btn">
+                    <a href="https://www.instagram.com/h_campfisher/" target="_blank">더보기</a>
+                </div>
+
+            </div>
+        </section>
 
 	</div>
 
@@ -268,6 +282,68 @@
 		});
 
 	</script>
+
+    <script>
+
+        var token = "IGQVJXR3BUdVR1Q0MzTTlxckpPalp0OWRXaWo3NGhUTEtKR05FNXpQTUZAfSTNpVUJsYTk3MWNkUm9HeEVnTTltZAVNzWE0tX19CVUd5R3RuXzdjUXk5aE5rUV9PMlpjRnNPVE9McDFYU2ZAORC1Bc0tKRQZDZD";
+
+        /*
+            발급된 토큰은 장기 실행 액세스 토큰으로 60일간 사용이 가능합니다.
+            https://developers.facebook.com/docs/instagram-basic-display-api/guides/long-lived-access-tokens
+
+            발급된 토큰은 만료일(60일)이내에 refresh_access_token혹은, 페이스북 개발자 센터내의 토큰 재발급을 통해 연장을 해주어야합니다.
+            https://developers.facebook.com/docs/instagram-basic-display-api/reference/refresh_access_token
+        */
+
+        $.ajax({
+            type: "GET",
+            dataType: "jsonp",
+            cache: false,
+            url: "https://graph.instagram.com/me/media?access_token=" + token + "&fields=id,caption,media_type,media_url,thumbnail_url,permalink",
+            success: function(response) {
+                console.log(response);
+                if (response.data != undefined && response.data.length > 0) {
+                    for(i = 0; i < 10; i++){
+                        if(response.data[i]){
+                            var item = response.data[i];
+                            var image_url = "";
+                            var post = "";
+
+                            if(item.media_type === "VIDEO"){
+                                image_url = item.thumbnail_url;
+                            }else{
+                                image_url = item.media_url;
+                            }
+
+                            post += '<div class="instagram_item instagram_item'+i+'">';
+                            post += '<a href="'+ item.permalink +'" target="_blank" rel="noopener noreferrer" style="background-image: url(' + image_url + ');">';
+                            post += '<p>'+ item.caption +'</p>';
+                            post += '</a>';
+                            post += '</div>';
+
+                            $('#instagram').append(post);
+                        }else{
+                            // if no curent item
+                            show_fallback('#insta-item-'+i)
+                        }
+                    }
+                }else{
+                    // if api error
+                    show_fallback('.instagram-item')
+                }
+            },
+            error :function(){
+                // if http error
+                show_fallback('.instagram-item')
+            }
+
+        });
+
+        function show_fallback(el){
+            $(el).addClass('loaded fallback');
+        }
+
+    </script>
 </body>
 </html>
 

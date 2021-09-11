@@ -823,7 +823,7 @@ nav.fixed .nav_center li .sub_nav {
         justify-content: center;
         width: calc(50% - 25px);
         background-color: #fff;
-        border-top: 1px solid #f7f7f7;
+        border-top: 1px solid #ebebeb;
     }
 
     .bottom_nav .b_nav_L a,
@@ -1022,12 +1022,19 @@ nav.fixed .nav_center li .sub_nav {
     }
 
     .item_detail_text {
+        position: relative;
         width: calc(100% - 145px);
+    }
+    .item_text_pos {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
     }
 
     .item_detail_text span {
         display: inline-block;
-
     }
 
     .recent_item_brand {

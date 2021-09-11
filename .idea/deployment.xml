@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="PublishConfigData" serverName="weblee" remoteFilesAllowedToDisappearOnAutoupload="false">
+=======
+  <component name="PublishConfigData" serverName="weblee" preserveTimestamps="false" remoteFilesAllowedToDisappearOnAutoupload="false" autoUploadExternalChanges="true" showAutoUploadSettingsWarning="false">
+>>>>>>> 87c521bd8caa88a0dd9d753358760cf93d450070
     <serverData>
       <paths name="weblee">
         <serverdata>
           <mappings>
+<<<<<<< HEAD
             <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+=======
+            <mapping deploy="/html" local="$PROJECT_DIR$" web="/" />
+>>>>>>> 87c521bd8caa88a0dd9d753358760cf93d450070
           </mappings>
           <excludedPaths>
             <excludedPath path="/" />
