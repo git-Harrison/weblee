@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+/* reset */
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+textarea,
+p,
+blockquote,
+th,
+td,
+input,
+select,
+textarea,
+button {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+dl,
+ul,
+ol,
+li {
+    list-style: none
+}
+
+blockquote,
+q {
+    quotes: none
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none
+}
+
+input,
+select,
+textarea,
+button {
+    vertical-align: middle;
+    outline: none;
+}
+
+button {
+    border: 0 none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.1s ease-in-out;
+}
+
+body,
+th,
+td,
+input,
+select,
+textarea,
+button {
+    font-size: 12px;
+    line-height: 1.5;
+    color: #333
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    outline: none;
+}
+
+a:active,
+a:hover {
+    text-decoration: none;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+var {
+    font-style: normal;
+    font-weight: normal
+}
+
+.slider_wrap{overflow:hidden; position:relative; display:block; margin:0 auto; box-sizing:border-box;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    -webkit-touch-callout:none;
+    -khtml-user-select:none;
+    -ms-touch-action:pan-y;
+    touch-action:pan-y;
+    -webkit-tap-highlight-color:transparent;
+}
+.slick-slider{overflow:hidden; position:relative; display:block; margin:0 auto; box-sizing:border-box; text-align:center;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    -webkit-touch-callout:none;
+    -khtml-user-select:none;
+    -ms-touch-action:pan-y;
+    touch-action:pan-y;
+    -webkit-tap-highlight-color:transparent;
+}
+.slick-slider .slick-list{display:block; overflow:hidden; position:relative; margin:0; padding:0;}
+.slick-slider .slick-track, .slider_wrap .slick-list{
+    -webkit-transform:translate3d(0, 0, 0);
+    -moz-transform:translate3d(0, 0, 0);
+    -ms-transform:translate3d(0, 0, 0);
+    -o-transform:translate3d(0, 0, 0);
+    transform:translate3d(0, 0, 0);
+}
+.slick-track{display:block; position:relative; top:0; left:0;}
+.slick-track:before,
+.slick-track:after{display:table; content:'';}
+.slick-track:after{clear:both;}
+.slick-loading .slick-track{visibility:hidden;}
+.slick-slide{display:none; float:left; height:100%; min-height:1px;}
+[dir='rtl'] .slick-slide{float:right;}
+/*.slick-slide img{display:block; position:static !important; top:0px !important;}*/
+.slick-slide.slick-loading img{display:none;}
+.slick-slide.dragging img{pointer-events:none;}
+.slick-slide{display:block;}
+.slick-loading .slick-slide{visibility:hidden;}
+.slick-vertical .slick-slide{display:block; height:auto; border:1px solid transparent;}
+.slick-arrow.slick-hidden{display:none;}
+.slick-prev,
+.slick-next{font-size:0; line-height:0; position:absolute; top:45%; display:block; width:27px; height:44px; padding:0; cursor:pointer; z-index:10; background-repeat:no-repeat;
+    -webkit-transform:translate(0, -45%);
+    -ms-transform:translate(0, -45%);
+    transform:translate(0, -45%);
+}
+.slick-prev{left:25px; right:auto;}
+.slick-next{left:auto; right:25px;}
+.slick-dots{display:block; position:absolute; bottom:30px; width:100%; margin:0; padding:0; text-align:center;}
+.slick-dots li{display:inline-block; position:relative; margin:0 5px; padding:0; cursor:pointer;}
+.slick-dots li button{display:block; padding:5px; font-size:0; line-height:0; cursor:pointer; border:0; outline:none; opacity:0.75;}
+.slick-dots li.slick-active button{opacity:1;}
+.slick-dots li button{
+    background:#cfcfcf;
+    border-radius:100%;
+    padding:4px;
+    margin: 0 6px;
+}
+.slick-dots li.slick-active button{
+    background:#333;
+}
+
+nav {
+    z-index: 1;
+    position: fixed;
+    top: 50%;
+    right: 0;
+    width: 100px;
+    text-align: center;
+}
+.nav_menu ul li {
+
+}
+.nav_menu ul li a {
+    display: block;
+    padding: 7px 5px;
+    text-align: center;
+}
+nav > div {
+    text-align: center;
+}

@@ -1,0 +1,287 @@
+/* 폰트 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Poppins:wght@100;200;300;400;500;700&display=swap');
+
+/* 리셋 */
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+textarea,
+p,
+blockquote,
+th,
+td,
+input,
+select,
+textarea,
+button {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+dl,
+ul,
+ol,
+li {
+    list-style: none
+}
+
+blockquote,
+q {
+    quotes: none
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none
+}
+
+input,
+select,
+textarea,
+button {
+    vertical-align: middle;
+    outline: none;
+}
+
+button {
+    border: 0 none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.1s ease-in-out;
+}
+
+body,
+th,
+td,
+input,
+select,
+textarea,
+button {
+    font-size: 12px;
+    line-height: 1.5;
+    color: #333
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    outline: none;
+}
+
+a:active,
+a:hover {
+    text-decoration: none;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+var {
+    font-style: normal;
+    font-weight: normal
+}
+
+/* slick 슬라이드 CSS */
+.slick-slider .slick-list img {
+    width: 100%;
+}
+.slick-dots{display:block; position:absolute; bottom:30px; width:100%; margin:0; padding:0; text-align:center;}
+.slick-dots li{display:inline-block; position:relative; margin:0 5px; padding:0; cursor:pointer;}
+.slick-dots li button{display:block; padding:5px; font-size:0; line-height:0; cursor:pointer; border:0; outline:none; opacity:0.75;}
+.slick-dots li.slick-active button{opacity:1;}
+.slick-dots li button{
+    background:#cfcfcf;
+    border-radius:100%;
+    padding:4px;
+    margin: 0 6px;
+}
+.slick-dots li.slick-active button{
+    background:#333;
+}
+
+
+/******** 국내 사이트 공통 CSS ********/
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+/* 상단 헤더 CSS */
+#header {
+    z-index: 1;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+#header:before {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: #fff;
+    transition: all 0.6s ease-in-out;
+    -webkit-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+    -ms-transition: all 0.6s ease-in-out;
+}
+
+#header.top:before {
+    width: 100%;
+    transition: all 0.6s ease-in-out;
+    -webkit-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+    -ms-transition: all 0.6s ease-in-out;
+}
+
+.header_container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+header {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    height: 70px;
+}
+
+header > div {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.logo img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.gnb_center {
+    width: 650px;
+    text-align: center;
+}
+
+.gnb_center ul {
+    display: flex;
+}
+
+.gnb_center ul li {
+    margin: 0 20px;
+}
+
+.gnb_center ul li a {
+    font-size: 14px;
+    color: #000;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.gnb_right ul {
+    display: flex;
+    justify-content: end;
+}
+
+.gnb_right ul li {
+
+}
+
+.gnb_right ul li + li {
+    margin-left: 20px;
+}
+
+.gnb_right ul li a {
+    font-size: 14px;
+    color: #000;
+    letter-spacing: 0;
+    font-weight: 300;
+}
+
+.gnb_right ul li a.gnb_icon {
+    line-height: 4px;
+}
+
+.gnb_right ul li a.lang {
+    padding-right: 15px;
+    background: url(https://www.tirtir.co.kr/img/lang-bg.png) no-repeat right center;
+    background-size: 9px 6px;
+    cursor: pointer;
+}
+
+.gnb_right ul li a img {
+    vertical-align: middle;
+}
+
+/* 우측 고정 네비 */
+nav {
+    z-index: 1;
+    position: fixed;
+    top: 38%;
+    right: 0;
+    width: 100px;
+    text-align: center;
+    font-size: 14px;
+}
+.nav_menu {
+    padding: 26px 10px;
+    background-color: #fff;
+}
+.nav_menu ul li a {
+    display: block;
+    padding: 7px 5px;
+    text-align: center;
+}
+.nav_menu ul li.login {
+    line-height: 10px;
+    margin-bottom: 20px;
+}
+.nav_menu ul li a.gray {
+    background-color: #f2f2f2;
+}
+.nav_menu ul li a.scroll_top_btn img {
+    width: 40px;
+}
+.nav_icon_image {
+    margin-top: 10px;
+}
+
+/* 컨텐츠 타이틀 */
+.section_title {
+    margin-bottom: 90px;
+    color: #000;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    text-align: center;
+}
