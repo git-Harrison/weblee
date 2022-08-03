@@ -23,7 +23,7 @@
 	</script>
 
 </head>
-<body class="sub html">
+<body class="sub html" oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
 
 	<? include_once('../header.php'); ?>
 

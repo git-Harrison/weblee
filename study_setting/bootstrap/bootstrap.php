@@ -25,7 +25,7 @@
 	</script>
 	
 </head>
-<body class="sub coding">
+<body class="sub coding" oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
 
 	<? include_once('../header.php'); ?>
 
@@ -186,7 +186,7 @@
 		</main>
 
 	</div>
-	
+
 	<script src="../assets/js/jquery-3.4.1.js"></script>
 	<script src="../assets/js/common.js"></script>
 </body>

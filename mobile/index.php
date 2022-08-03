@@ -22,7 +22,7 @@
 	</script>
 
 </head>
-<body id="change_bg">
+<body id="change_bg" oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
 
 	<div class="wrap">
 		

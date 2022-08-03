@@ -393,6 +393,74 @@ pre .flex_tag.text {
     background-color: #ff0000;
 }
 
+.homework_btn {
+    z-index: 1;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    padding: 10px;
+    background-color: #ff0000;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+
+.homework_form {
+    display: none;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    padding: 24px;
+    background-color: #fff;
+}
+
+.homework_form h3 {
+    margin-bottom: 6px;
+}
+
+.homework_form input,
+.homework_form textarea {
+    border: 1px solid #333;
+    display: block;
+    width: calc(100% - 32px);
+    padding: 8px 16px;
+    resize: none;
+}
+
+.submit_btn {
+    display: block;
+    width: 40% !important;
+    margin: 16px auto;
+    padding: 12px 0;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all .2s ease;
+    border: 1px solid #000;
+}
+.submit_btn:hover {
+    background-color: #ef0000;
+    color: #fff;
+    border-color: #ef0000;
+    transition: all .2s ease;
+}
+
+.form_bg {
+    display: none;
+    z-index: 1;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+}
+
 
 
 
@@ -440,5 +508,13 @@ pre .flex_tag.text {
     }
     span.code_ps {
         white-space: initial;
+    }
+    .homework_form {
+        width: calc(100% - 48px);
+    }
+    .submit_btn {
+        background-color: #ef0000;
+        color: #fff;
+        border: 1px solid #ef0000 !important;
     }
 }

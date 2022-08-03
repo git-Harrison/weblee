@@ -10,7 +10,7 @@
 
 		$host = 'localhost';
 		$user = 'weblee';
-		$pw = 'dlwogns7662!';
+		$pw = 'leejaehun94!';
 		$dbName = 'weblee';
 		$mysqli = new mysqli($host, $user, $pw, $dbName);
 

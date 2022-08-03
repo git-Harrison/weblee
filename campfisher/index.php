@@ -215,6 +215,11 @@
 
 	</div>
 
+    <div style="position: fixed; bottom: 0; left: 0; ">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3684998563812597"
+                crossorigin="anonymous"></script>
+    </div>
+
 
 	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 	<script src="https://kenwheeler.github.io/slick/slick/slick.js"></script>

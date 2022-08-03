@@ -25,7 +25,7 @@
 	</script>
 	
 </head>
-<body class="sub coding">
+<body class="sub coding" oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
 
 	<? include_once('../header.php'); ?>
 
@@ -44,8 +44,10 @@
 				<div class="list">
 					<ul>
 						<li>
-							준비중입니다.
-							<!-- <a href="site_list/blade&soul/nc.html">블레이드 & 소울 - <span>사이트 이동하기</span></a> -->
+							 <a href="/campfisher/index.php">CampFisher (개인) <strong style="color: #ff0000;">진행중</strong> - <span>사이트 이동하기</span></a>
+                            <p>DB연동 + 로그인 + 회원가입 + 로그아웃 기능</p>
+                            <p>반응형 웹</p>
+                            <p>php + javascript + Jquery + HTML5 + CSS3</p>
 						</li>
 					</ul>
 				</div>

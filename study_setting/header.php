@@ -1,7 +1,3 @@
-<!-- 폰트 -->
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;900&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;900&display=swap" rel="stylesheet">
-
 <div class="nav_icon_wrap">
 	<div id="nav_icon">
 		<span></span>
@@ -52,6 +48,11 @@
 			</li>
 		</ul>
 	</div>
+</div>
+
+<div style="position: fixed; bottom: 0; left: 0; ">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3684998563812597"
+            crossorigin="anonymous"></script>
 </div>
 
 <script>

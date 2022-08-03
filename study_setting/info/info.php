@@ -26,7 +26,7 @@
 	</script>
 	
 </head>
-<body class="sub info">
+<body class="sub info" oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
 
 	<? include_once('../header.php'); ?>
 

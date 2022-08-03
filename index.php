@@ -14,7 +14,6 @@
 
 	<!-- 웹 폰트 -->
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
 
@@ -50,7 +49,7 @@
  	</script>
 
 </head>
-<body>
+<body oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
 
 	<? include_once('header.php'); ?>
 
@@ -298,7 +297,7 @@
 					<div class="map"></div>
 					<div class="mail_send_form">
 						<h2>피드백 문의</h2>
-					    <form class="gform" method="POST" data-email="wognsl305@naver.com" action="https://script.google.com/macros/s/AKfycbxZl4zj1MIOahRvkI3GIFg05S9ziv4pmB_aeSA1/exec">
+<!--					    <form class="gform" method="POST" data-email="wognsl305@naver.com" action="https://script.google.com/macros/s/AKfycbxZl4zj1MIOahRvkI3GIFg05S9ziv4pmB_aeSA1/exec">-->
 						    <div class="form-elements">
 								<fieldset class="pure-group">
 									<label for="name"></label>
@@ -326,7 +325,7 @@
 									<input id="honeypot" name="honeypot" type="text" name="honeypot" value="" style="display: none;">
 								</fieldset>
 
-								<button class="button-success pure-button button-xlarge">
+								<button class="button-success pure-button button-xlarge" id="email_form">
 								<i class="fa fa-paper-plane"></i>SEND MESSAGE</button>
 						    </div>
 							<div style="display:none" class="thankyou_message">
@@ -339,14 +338,14 @@
 								보내기 버튼을 누른 후 3초 정도의 시간이 소요됩니다.<br><br>
 								It will take about 3 seconds after pressing the Send button.
 							</p>
-						</form>
+<!--						</form>-->
 					</div>
 					<div class="our">
 						<div class="our_box">
 							<h4>주소</h4>
 							<div>
-								경기도 수원시<br>
-								인근역 - 수원시청역,수원역
+								경기도 남양주시<br>
+								인근역 - 도농역, 구리역
 							</div>
 						</div>
 						<div class="our_box">
@@ -378,16 +377,22 @@
 		
 	</main>
 
+    <div style="position: fixed; bottom: 0; left: 0; ">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3684998563812597"
+                crossorigin="anonymous"></script>
+    </div>
+
 	<? include_once('footer.php'); ?>
 	
 	<!-- 스크립트 -->
-	<script data-cfasync="false" type="text/javascript"
-	src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+<!--	<script data-cfasync="false" type="text/javascript"-->
+<!--	src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>-->
 	<script src="assets/js/jquery-1.12.4.js"></script>
 	<script src="assets/js/jquery-ui-1.12.1.min.js"></script>
 	<script src="assets/js/jquery.fullPage.js"></script>
 	<script src="assets/js/index.js"></script>
 	<script src="assets/js/slider.js"></script>
-	
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3684998563812597"
+            crossorigin="anonymous"></script>
 </body>
 </html>

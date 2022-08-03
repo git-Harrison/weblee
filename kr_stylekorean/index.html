@@ -48,7 +48,80 @@
                 <div class="gnb_center">
                     <ul>
                         <li><a href="">Brand</a></li>
-                        <li><a href="">Product</a></li>
+                        <li id="pro_menu_open">
+                            <a href="">Product</a>
+                            <div class="pro_menu_row">
+                                <div class="pro_menu_container">
+                                    <div class="pro_menu">
+                                        <ul>
+                                            <li class="pro_menu_list">
+                                                <div>
+                                                    <h4>피부고민별</h4>
+                                                    <a href="">수분/보습</a>
+                                                    <a href="">탄력/주름개선</a>
+                                                    <a href="">트러블/민감성</a>
+                                                    <a href="">모공/피지</a>
+                                                    <a href="">미백/각질</a>
+                                                    <a href="">진정/수딩</a>
+                                                    <a href="">기미/잡티</a>
+                                                </div>
+                                            </li>
+                                            <li class="pro_menu_list">
+                                                <div>
+                                                    <h4>스킨케어</h4>
+                                                    <a href="">토너/에멀전</a>
+                                                    <a href="">에센스/앰플/오일</a>
+                                                    <a href="">크림</a>
+                                                    <a href="">아이케어</a>
+                                                    <a href="">미스트</a>
+                                                    <a href="">팩/패드</a>
+                                                </div>
+                                            </li>
+                                            <li class="pro_menu_list">
+                                                <div>
+                                                    <h4>썬케어</h4>
+                                                </div>
+                                                <div>
+                                                    <h4>클렌징</h4>
+                                                    <a href="">폼클렌징</a>
+                                                    <a href="">워터/버블</a>
+                                                    <a href="">크림/오일</a>
+                                                    <a href="">리무버/티슈</a>
+                                                    <a href="">필링/스크럽</a>
+                                                    <a href="">치약</a>
+                                                </div>
+                                            </li>
+                                            <li class="pro_menu_list">
+                                                <div>
+                                                    <h4>메이크업</h4>
+                                                    <a href="">베이스 메이크업</a>
+                                                    <a href="">아이 메이크업</a>
+                                                    <a href="">립 메이크업</a>
+                                                    <a href="">컨투어링</a>
+                                                </div>
+                                            </li>
+                                            <li class="pro_menu_list">
+                                                <div>
+                                                    <h4>미용소품</h4>
+                                                </div>
+                                                <div>
+                                                    <h4>바디 & 헤어</h4>
+                                                    <a href="">베이스 메이크업</a>
+                                                    <a href="">아이 메이크업</a>
+                                                    <a href="">립 메이크업</a>
+                                                    <a href="">컨투어링</a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="pro_menu_img">
+                                        <a href="">
+                                            <img src="https://rl83fqqxk.toastcdn.net/data/skin/front/moment/img/banner/df2b214fb84a8fb7d8948444e3c424b6_48800.jpg" alt="메뉴이미지">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
                         <li><a href="">Review</a></li>
                         <li><a href="">Event</a></li>
                         <li><a href="">Membership</a></li>
@@ -71,7 +144,7 @@
         </div>
     </div>
 
-    <div id="main_banner">
+    <div id="main_banner" style="background-color: #efefef">
         <div class="banner">
             <div>
                 <a href="">
@@ -626,6 +699,12 @@
 
 <script>
     $('document').ready(function () {
+
+        $('#header').hover(function(){
+            $(this).addClass('hover');
+        }, function() {
+            $(this).removeClass('hover');
+        });
 
         function detectTop() {
             var scrollTop = $(window).scrollTop();

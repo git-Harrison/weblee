@@ -25,7 +25,7 @@
 	</script>
 
 </head>
-<body>
+<body oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
 
 	<? include_once('header.php'); ?>
 
@@ -99,7 +99,7 @@
 							<h2>FLEX</h2>
 							<p>CSS - display:flex 상세 내용</p>
 							<div class="tag">
-								<span>#display #flex #CSS3 #flexible box</span>
+								<span>#flex #CSS3 #flexible box</span>
 							</div>
 						</a>
 					</div>
@@ -164,6 +164,16 @@
 						</a>
 					</div>
 
+                    <div class="list_item html" title="html">
+                        <a href="entitycode/entitycode.php">
+                            <h2>Entity Code</h2>
+                            <p>Entity Code 레퍼런스</p>
+                            <div class="tag">
+                                <span>#엔티티코드</span><span>#UTF-8</span><span>#W3C</span><span>#Entity Code</span>
+                            </div>
+                        </a>
+                    </div>
+
 				</div>
 
 			</div>
@@ -174,6 +184,7 @@
 	<? include_once('footer.php'); ?>
 
 	<script>
+        
 		$('#nav_icon').click(function(){
 
 			$(this).toggleClass('open');
