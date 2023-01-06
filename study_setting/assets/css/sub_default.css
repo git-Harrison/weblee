@@ -51,6 +51,27 @@ body.coding .list table thead {
     border-color: #c8edf5;
 }
 
+body.script {
+    background-color: #dcdcdc;
+}
+
+body.script .list p {
+    background-color: #d2d2d2;
+}
+
+body.script .list table {
+    background-color: #d2d2d2;
+}
+
+body.script .list table thead {
+    border-color: #787878;
+}
+
+body.script .list code {
+    color: #323232;
+}
+
+
 .list .ps {
     width: 80%;
     padding: 2% 10%;

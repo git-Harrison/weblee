@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width"/>
 	<meta name="author" content="weblee">
-	<meta name="keywords" content="display,flex,display:flex,css,웹퍼블리셔,퍼블리셔,웹표준,웹접근성,크로스브라우징,프런트엔드,Front-end,leehun,web developer,publisher,html5,css3,markup,javascript,jquery,php,jsp">
+	<meta name="keywords" content="display flex,display,flex,display:flex,css,웹퍼블리셔,퍼블리셔,웹표준,웹접근성,크로스브라우징,프런트엔드,Front-end,leehun,web developer,publisher,html5,css3,markup,javascript,jquery,php,jsp">
 	<title>WebLee</title>
 
 	<!-- 파비콘 -->
@@ -23,6 +23,9 @@
 
 		gtag('config', 'G-Q33C7E9XM2');
 	</script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3684998563812597"
+            crossorigin="anonymous"></script>
 </head>
 	<body class="sub css flex" oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
 

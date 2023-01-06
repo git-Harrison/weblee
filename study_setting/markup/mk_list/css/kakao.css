@@ -1,7 +1,12 @@
+@font-face {
+    font-family: 'kakaoBig';
+    src: url('https://weblee.kr/study_setting/assets/font/YoonGothicPro750.woff2');
+}
+
 /* reset */
 body {
     position: relative;
-    font-family: 'Roboto', 'Noto Sans KR',  sans-serif;
+    font-family: kakaoBig, sans-serif;
 }
 
 body,
@@ -28,7 +33,7 @@ button,
 figure {
     margin: 0;
     padding: 0;
-    -webkit-tap-highlight-color : rgba(0,0,0,0);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 em,
@@ -89,7 +94,35 @@ img {
     vertical-align: middle;
     border: none;
     max-width: 100%;
-    -webkit-tap-highlight-color : rgba(0,0,0,0);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+:root[color-theme='light'] {
+    --background: #fff;
+    --boxColor: #333;
+    --contColor: #fff;
+    transition: all .2s ease-in-out;
+}
+
+:root[color-theme='dark'] {
+    --background: #333;
+    --boxColor: #fff;
+    --contColor: #222224;
+    transition: all .2s ease-in-out;
+}
+
+a {
+    color: var(--boxColor);
+}
+
+html {
+    background: var(--background);
+}
+
+.themed {
+    display: block;
+    background: var(--background);
+    color: var(--boxColor);
 }
 
 button {
@@ -97,6 +130,90 @@ button {
 }
 
 header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: var(--baseBackground);
+}
+
+.header {
+    overflow: hidden;
+    text-align: center;
+}
+
+.container {
+    width: 1296px;
+    margin: 0 auto;
+}
+
+.hd_l {
+    float: left;
+    line-height: 72px;
+}
+
+.hd_l img {
+    max-width: 74px;
+}
+
+.hd_c {
+    display: inline-block;
+}
+
+.hd_nav {
+    display: inline-block;
+    margin-left: -74px;
+}
+
+.hd_nav_list {
+    display: inline-block;
+}
+
+.hd_nav_list a {
+    display: block;
+    line-height: 72px;
+    padding: 0 28px;
+    font-size: 15px;
+    color: var(--boxColor);
+    font-weight: 700;
+    letter-spacing: -.5px;
+}
+
+.hd_r {
+    float: right;
+    line-height: 72px;
+}
+
+.main {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 168px;
+}
+
+.half_box {
+    width: 660px;
+    margin: 0px -18px;
+}
+
+.half {
+    padding: 0 18px;
+}
+
+.big_cont {
+    border-radius: 14px;
+    background-color: var(--contColor);
+    box-shadow: 4px 12px 30px 6px rgb(0 0 0 / 9%);
+}
+
+.big_cont:hover {
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    box-shadow: 4px 12px 20px 6 pxrgba(0, 0, 0, .18);
+}
+
+.big_cont.sticky {
+    position: static;
 }

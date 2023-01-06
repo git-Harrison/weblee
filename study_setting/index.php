@@ -23,7 +23,9 @@
 
 		gtag('config', 'G-Q33C7E9XM2');
 	</script>
-
+    
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3684998563812597"
+            crossorigin="anonymous"></script>
 </head>
 <body oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
 
@@ -44,8 +46,10 @@
 				<div class="filter_button">
 					<div class="scroll_btn">
 						<button class="button is-checked" data-filter="*">ALL</button>
+                        <button class="button" data-filter=".swift">SWIFT</button>
 						<button class="button" data-filter=".html">HTML</button>
 						<button class="button" data-filter=".css">CSS</button>
+                        <button class="button" data-filter=".script">SCRIPT</button>
 						<button class="button" data-filter=".coding">CODING</button>
 						<button class="button" data-filter=".info">INFO</button>
 						<button class="button" data-filter=".timetable">TIME TABLE</button>
@@ -53,6 +57,16 @@
 				</div>
 
 				<div class="list">
+
+                    <div class="list_item swift" title="swift">
+                        <a href="ios/swift_define.php">
+                            <h2>IOS App Dev</h2>
+                            <p>Swift 정의</p>
+                            <div class="tag">
+                                <span>#ios #swift #swiftUI #codeing #App #Apple</span>
+                            </div>
+                        </a>
+                    </div>
 
 					<div class="list_item info" title="info">
 						<a href="info/info.php">
@@ -67,7 +81,7 @@
 					<div class="list_item html" title="html">
 						<a href="html/html.php">
 							<h2>HTML</h2>
-							<p>HTML 레퍼런스</p>
+							<p>HTML Reference</p>
 							<div class="tag">
 								<span>#html</span><span>#자료</span>
 							</div>
@@ -77,7 +91,7 @@
 					<div class="list_item html" title="html">
 						<a href="emmet/emmet.php">
 							<h2>EMMET</h2>
-							<p>EMMET 레퍼런스</p>
+							<p>EMMET Reference</p>
 							<div class="tag">
 								<span>#EMMET</span><span>#단축키</span><span>#태그</span>
 							</div>
@@ -87,7 +101,7 @@
 					<div class="list_item css" title="css">
 						<a href="css/css.php">
 							<h2>CSS</h2>
-							<p>CSS 레퍼런스</p>
+							<p>CSS Reference</p>
 							<div class="tag">
 								<span>#css</span><span>#자료</span>
 							</div>
@@ -167,7 +181,17 @@
                     <div class="list_item html" title="html">
                         <a href="entitycode/entitycode.php">
                             <h2>Entity Code</h2>
-                            <p>Entity Code 레퍼런스</p>
+                            <p>Entity Code Reference</p>
+                            <div class="tag">
+                                <span>#엔티티코드</span><span>#UTF-8</span><span>#W3C</span><span>#Entity Code</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="list_item script" title="script">
+                        <a href="jQuery/jquery.php">
+                            <h2>jQuery</h2>
+                            <p>jQuery Reference</p>
                             <div class="tag">
                                 <span>#엔티티코드</span><span>#UTF-8</span><span>#W3C</span><span>#Entity Code</span>
                             </div>

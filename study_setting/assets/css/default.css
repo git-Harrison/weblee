@@ -26,6 +26,9 @@ main .filter_button button:hover {
     transition: background 0.4s ease;
     background: rgba(0, 0, 0, 0.8);
 }
+main .filter_button button[data-filter*=".swift"]:hover {
+    color: #fff;
+}
 
 main .filter_button button:hover:nth-child(1) {
     color: #fff;
@@ -53,6 +56,10 @@ main .filter_button button[data-filter*=".timetable"] {
 
 main .filter_button button[data-filter*=".coding"] {
     color: #01d4ff;
+}
+
+main .filter_button button[data-filter*=".script"] {
+    color: #bebebe;
 }
 
 main .filter_button button.is-checked {
@@ -85,6 +92,10 @@ main .list .list_item:hover {
     box-shadow: 0 0 2rem rgb(12 12 12 / 70%);
 }
 
+main .list .list_item[title~="swift"] {
+    background: linear-gradient(#fbcd40, #ff352a);
+}
+
 main .list .list_item[title~="html"] {
     background-color: #ff9b73;
 }
@@ -103,6 +114,10 @@ main .list .list_item[title~="timetable"] {
 
 main .list .list_item[title~="coding"] {
     background-color: #01d4ff;
+}
+
+main .list .list_item[title~="script"] {
+    background-color: #bebebe;
 }
 
 main .list .list_item a {

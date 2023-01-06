@@ -24,6 +24,9 @@
 		gtag('config', 'G-Q33C7E9XM2');
 	</script>
 
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3684998563812597"
+            crossorigin="anonymous"></script>
+
 </head>
 <body class="sub html" oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
 
