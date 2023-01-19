@@ -2,11 +2,7 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-<<<<<<< HEAD
-      <webServer id="79245b10-037a-4b26-8043-339e07064056" name="weblee" url="http://112.175.184.12">
-=======
       <webServer id="3a365589-9a83-41e2-9919-aafbc0e783fd" name="weblee" url="http://www.weblee.kr">
->>>>>>> 87c521bd8caa88a0dd9d753358760cf93d450070
         <fileTransfer host="112.175.184.12" port="21">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />

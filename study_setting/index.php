@@ -6,7 +6,7 @@
 	<meta name="author" content="weblee">
 	<meta name="keywords" content="웹 퍼블리셔,퍼블리셔,웹 표준,웹 접근성,크로스브라우징,프런트엔드,Front-end,leehun,web developer,publisher,html5,css3,markup,javascript,jquery,php,jsp">
 	<title>WebLee</title>
-	
+
 	<!-- 파비콘 -->
 	<link rel=" shortcut icon" href="https://weblee.kr/study_setting/assets/images/favicon.png">
 
@@ -23,11 +23,11 @@
 
 		gtag('config', 'G-Q33C7E9XM2');
 	</script>
-    
+
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3684998563812597"
             crossorigin="anonymous"></script>
 </head>
-<body oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
+<body onselectstart="return false" ondragstart="return false">
 
 	<? include_once('header.php'); ?>
 
@@ -35,14 +35,14 @@
 
 		<header>
 			<div class="title">
-				<h1>STUDY MAIN SITE</h1>
+				<h1>STUDY MAINddd SITE</h1>
 				<p>References</p>
 			</div>
 		</header>
 
 		<main>
 			<div class="container">
-				
+
 				<div class="filter_button">
 					<div class="scroll_btn">
 						<button class="button is-checked" data-filter="*">ALL</button>
@@ -58,6 +58,16 @@
 
 				<div class="list">
 
+                    <div class="list_item css" title="css">
+                        <a href="css/css_reset.php">
+                            <h2>RESET</h2>
+                            <p>reset css</p>
+                            <div class="tag">
+                                <span>#css #css3 #reset #Gogle #Apple #naver #kakao</span>
+                            </div>
+                        </a>
+                    </div>
+
                     <div class="list_item swift" title="swift">
                         <a href="ios/swift_define.php">
                             <h2>IOS App Dev</h2>
@@ -67,6 +77,8 @@
                             </div>
                         </a>
                     </div>
+
+
 
 					<div class="list_item info" title="info">
 						<a href="info/info.php">
@@ -137,7 +149,7 @@
 							</div>
 						</a>
 					</div>
-					
+
 					<div class="list_item coding" title="coding">
 						<a href="bootstrap/bootstrap.php">
 							<h2>Bootstrap</h2>
@@ -208,7 +220,7 @@
 	<? include_once('footer.php'); ?>
 
 	<script>
-        
+
 		$('#nav_icon').click(function(){
 
 			$(this).toggleClass('open');

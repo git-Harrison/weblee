@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>클릭</title>
+</head>
+<body>
+<style>
+    button {
+        display: block;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 150px;
+        height: 80px;
+        color: #fff;
+        border: 0;
+        font-size: 18px;
+        cursor: pointer;
+        background: url("./nife.png") no-repeat;
+        background-size: contain;
+    }
+    .dd {
+        position: absolute;
+        left: 50%;
+        top: 40%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 46px;
+    }
+</style>
+    <button type="button" onclick='count("plus")'></button>
+
+    <div class="dd">
+        클릭횟수 : <span id='result'>0</span>
+    </div>
+
+
+
+    <script>
+        function count(type)  {
+            // 결과를 표시할 element
+            const resultElement = document.getElementById('result');
+
+            // 현재 화면에 표시된 값
+            let number = resultElement.innerText;
+
+            // 더하기/빼기
+            if(type === 'plus') {
+                number = parseInt(number) + 1;
+            }
+            // 결과 출력
+            resultElement.innerText = number;
+        }
+    </script>
+</body>
+</html>

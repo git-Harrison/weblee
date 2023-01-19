@@ -1,3 +1,22 @@
+<?php
+
+//$dbHost = 'localhost';
+//$dbUser = 'weblee';
+//$dbPass  = 'leejaehun94!';
+//$dbName  = 'weblee';
+//$dbChar = "utf8";
+//
+//$pdo = new PDO("mysql:host={$dbHost};dbname={$dbName};charset={$dbChar}", $dbUser, $dbPass);
+//
+//$stmt = $pdo->prepare("SELECT * FROM eun WHERE id = :id");
+//$stmt->bindValue(":id", "1");
+//$stmt->execute();
+//$row = $stmt->fetch();
+//
+//print_r($row);
+
+?>
+
 <div class="nav_icon_wrap">
 	<div id="nav_icon">
 		<span></span>
@@ -50,14 +69,4 @@
 	</div>
 </div>
 
-<script>
-	
-	// document.addEventListener('scroll', function() {
-	// 	var currentScrollValue = document.documentElement.scrollTop;
-	//     if (currentScrollValue > 100) {
-	//     	document.getElementById('nav').classList.add('on');
-	//     }else {
-	//     	document.getElementById('nav').classList.remove('on');
-	//     }
-	// });
-</script>
+<script src="assets/js/test.js"></script>
