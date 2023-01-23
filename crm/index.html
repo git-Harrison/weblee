@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <div class="wrap">
+        <!-- 사이드 바 -->
+        <div class="side_bar">
+            <button type="button" class="side_bar_toggle" onclick="ToggleSideBar()"><<</button>
+        </div>
+        <!-- //사이드 바 -->
+
+        <!-- 상단 네비 -->
+        <div class="top_nav">
+            <nav class="d_flex justify_content_between">
+                <div></div>
+                <div class="change_mode">
+                    <div>
+                        <input type="checkbox" id="toggle_darkmode">
+                        <label for="toggle_darkmode"></label>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- //상단 네비 -->
+
+        <!-- 컨텐츠 -->
+        <div class="content_page">
+            <article class="content_title">
+                <div class="d_flex justify_content_between">
+                    <div class="d_flex align_items_center justify_content_between">
+                        <h4>고객 리스트</h4>
+                    </div>
+                    <from>
+                        <div class="product_search">
+                            <input type="text" class="form_control" id="" placeholder="Search Product">
+                        </div>
+                    </from>
+                </div>
+            </article>
+            <article>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>
+                                <input type="checkbox">
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+        </div>
+        <!-- //컨텐츠 -->
+    </div>
+
+    <script src="src/js/common.js"></script>
+    <script src="src/js/sidebar.js"></script>
+</body>
+</html>

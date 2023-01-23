@@ -1,0 +1,21 @@
+.sidebar_on {
+    .content_page {
+        margin-left: 0;
+        transition: all .3s ease-in-out
+    }
+}
+
+.content_page {
+    overflow: hidden;
+    margin-left: 260px;
+    padding: 100px 15px 0;
+    min-height: 100vh;
+    background-color: var(--content-gage-color);
+    transition: all .3s ease-in-out
+}
+
+.content_title {
+    h4 {
+        font-size: 1.563rem;
+    }
+}
