@@ -300,7 +300,7 @@
 					<div class="map"></div>
 					<div class="mail_send_form">
 						<h2>피드백 문의</h2>
-					    <form class="gform" method="POST" action="https://script.google.com/macros/s/AKfycbxZl4zj1MIOahRvkI3GIFg05S9ziv4pmB_aeSA1/exec">
+<!--					    <form class="gform" method="POST" action="https://script.google.com/macros/s/AKfycbxZl4zj1MIOahRvkI3GIFg05S9ziv4pmB_aeSA1/exec">-->
 						    <div class="form-elements">
 								<fieldset class="pure-group">
 									<label for="name"></label>
@@ -336,7 +336,7 @@
 								보내기 버튼을 누른 후 3초 정도의 시간이 소요됩니다.<br><br>
 								It will take about 3 seconds after pressing the Send button.
 							</p>
-						</form>
+<!--						</form>-->
 					</div>
 					<div class="our">
 						<div class="our_box">
