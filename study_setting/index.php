@@ -35,7 +35,7 @@
 
 		<header>
 			<div class="title">
-				<h1>STUDY MAINddd SITE</h1>
+				<h1>STUDY MAIN SITE</h1>
 				<p>References</p>
 			</div>
 		</header>
